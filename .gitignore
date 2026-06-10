@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+*.log
+.DS_Store
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# the forge runs at home and stays home — only its output (data/castle.json) is public
+scripts/
