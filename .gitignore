@@ -6,5 +6,6 @@ out/
 next-env.d.ts
 tsconfig.tsbuildinfo
 
-# the forge runs at home and stays home — only its output (data/castle.json) is public
-scripts/
+# the private half of the forge stays home — committing it would publish
+# exactly what it hides. The generic logic (forge-data.mjs) is public.
+scripts/forge-private.mjs
