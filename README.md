@@ -14,10 +14,26 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
 ## How it's made
 
 - `data/castle.json` — the curated public knowledge, forged at home from the
-  private castle. The forge itself stays home; only what is meant for the world
-  arrives here.
-- Next.js, no other dependencies. `npm install && npm run build` → 77 static
+  private castle. Its `forged` stamp says when and from which castle commit.
+- `scripts/forge-data.mjs` — the forge logic (public). The scrub lists it
+  needs live in `scripts/forge-private.mjs`, gitignored on purpose: committing
+  them would publish exactly what they hide. Without that file the forge
+  refuses to run — so it only runs at home.
+- Next.js, no other dependencies. `bun install && bun run build` → static
   pages.
+
+## To publish
+
+Today, by hand (home machine only):
+
+1. `bun run forge` — re-forge `data/castle.json` from the private castle.
+2. `bun run build` — confirm the site still builds.
+3. Commit and push.
+
+One decision left to go live automatically: pick a deploy target — Vercel,
+GitHub Pages, or Cloudflare Pages. The draft workflow in
+`.github/workflows/deploy.yml` already builds on push but is switched off;
+its comments say exactly how to wire the chosen target and flip it on.
 
 ## House style
 

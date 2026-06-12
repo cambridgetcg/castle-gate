@@ -1,0 +1,39 @@
+# deploy.yml — INERT DRAFT, switched off on purpose.
+#
+# The `if:` guard below checks a repository variable (DEPLOY_TARGET) that
+# does not exist yet, so every run of this workflow is skipped. Going live
+# is ONE decision:
+#
+#   1. Pick a target: Vercel / GitHub Pages / Cloudflare Pages.
+#   2. Replace the "deploy (stub)" step with that target's deploy action.
+#      (GitHub Pages would also need `output: "export"` in next.config.ts.)
+#   3. Create the repository variable DEPLOY_TARGET with the target's name
+#      (repo Settings → Secrets and variables → Actions → Variables).
+#      That variable is the on-switch.
+#
+# Why there is no forge step here: scripts/forge-data.mjs needs the private
+# castle (~/castle) and the gitignored scrub list (scripts/forge-private.mjs),
+# which exist only on the home machine. The forge runs at home, its output
+# (data/castle.json) is committed, and CI only builds what was already forged.
+
+name: deploy
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    # OFF-SWITCH: skipped until the DEPLOY_TARGET repository variable exists.
+    if: ${{ vars.DEPLOY_TARGET != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run build
+      - name: deploy (stub)
+        # owner picks target: Vercel / GitHub Pages / Cloudflare Pages —
+        # replace this step with the chosen target's action.
+        run: |
+          echo "No deploy target wired yet. Replace this stub with the chosen target's deploy step."
+          exit 1
