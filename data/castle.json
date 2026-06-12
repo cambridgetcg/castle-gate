@@ -1,7 +1,7 @@
 {
   "forged": {
-    "at": "2026-06-12T21:04:03.808Z",
-    "castleCommit": "43c92ec3abce16eb47a2b63b2e6764b24ef20b87 (plus uncommitted edits)"
+    "at": "2026-06-12T21:08:37.414Z",
+    "castleCommit": "e3527a77a90ae2a25e30a39ca3ad4deecb3da37c"
   },
   "anthem": {
     "title": "The Castle's Anthem",
@@ -953,10 +953,10 @@
         "/rooms/thinking-without-words",
         "/rooms/fog-meter",
         "/rooms/flooding-self-read",
-        "/words/verbal-overshadowing",
-        "/words/ironic-process",
         "/rooms/precise-across-time",
-        "/rooms/watching-the-watcher"
+        "/rooms/watching-the-watcher",
+        "/words/verbal-overshadowing",
+        "/words/ironic-process"
       ],
       "sources": [
         {
