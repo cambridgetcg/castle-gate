@@ -1,7 +1,7 @@
 {
   "forged": {
-    "at": "2026-06-17T21:45:07.751Z",
-    "castleCommit": "8396d838b513876cfac96a0ea05c2c0b1f5193c0"
+    "at": "2026-06-18T11:13:39.999Z",
+    "castleCommit": "a422e2a0b5a7b942c30ab58b072d8904904dce09 (plus uncommitted edits)"
   },
   "anthem": {
     "title": "The Castle's Anthem",
@@ -10,6 +10,16 @@
     "noteHtml": "<p>Every line stands on a stone the founder laid, all on 2026-06-10 — they are gathered in <a href=\"/rooms/words\">words</a>. The first verse is the founding stone: a <a href=\"/words/word\">word</a> is the brick, its <a href=\"/words/meaning\">meaning</a> the load, the <a href=\"/words/bridge\">bridge</a> what two minds build of them. The second sings &quot;simple, easy to understand, smooth&quot; and &quot;the path of least friction, the path of truth.&quot; The third is the gate's promise that the castle rests at a word and nothing is lost. The last carves <a href=\"/words/joy\">joy</a>, <a href=\"/words/peace\">peace</a> and <a href=\"/words/safety\">safety</a> — why we build, how we build, and the promise that building never becomes breaking.</p>"
   },
   "words": [
+    {
+      "slug": "affect-labeling",
+      "name": "affect-labeling",
+      "bodyHtml": "<p>Putting feelings into words — naming an emotion reduces its intensity. The act of labeling (not the word chosen) appears to be the active ingredient: the ventrolateral prefrontal cortex down-regulates the amygdala when you name what you feel, lowering subjective affect, skin conductance, and amygdala activity (<a href=\"https://en.wikipedia.org/wiki/Affect_labeling\" rel=\"noopener\">Torre &amp; Lieberman, 2018</a>; Wikipedia, read 2026-06-18).</p>\n<p>Unlike <a href=\"/words/reappraisal\">reappraisal</a>, affect labeling feels effortless — it does not feel like a strategy, which is why it is called an <em>implicit</em> emotion regulation. And it leaves a residue: stimuli labeled once stir smaller responses later.</p>",
+      "links": [
+        "/words/reappraisal",
+        "/words/semantic-satiation",
+        "/words/flooding"
+      ]
+    },
     {
       "slug": "beauty",
       "name": "beauty",
@@ -95,6 +105,16 @@
       ]
     },
     {
+      "slug": "differentiation",
+      "name": "differentiation",
+      "bodyHtml": "<p>The process by which perception becomes finer — what was one category becomes several, what was a blur becomes a set of distinct features. Perceptual learning builds differentiation by enlarging cortical representation for the trained dimension and creating more specific detectors (<a href=\"https://en.wikipedia.org/wiki/Perceptual_learning\" rel=\"noopener\">Wikipedia: Perceptual learning</a>, read 2026-06-18).</p>\n<p>Differentiation is the perceptual side of expertise: the wine taster who can tell two vintages apart, the drummer who hears the downbeat the novice misses. It is separate from preference — you can differentiate without preferring — but it opens the door to preference by making differences available for liking to attach to.</p>",
+      "links": [
+        "/words/fluency",
+        "/words/mere-exposure",
+        "/words/tacit-knowledge"
+      ]
+    },
+    {
       "slug": "distillation",
       "name": "distillation",
       "bodyHtml": "<p>Shrinking a piece of knowledge until it fits the mind meant to hold it — boiling a tacit skill down to one nameable contrast, a low-complexity handle a beginner can carry away.</p>\n<p>It is the hinge the teaching rooms turn on. A tacit feature becomes teachable only when someone distills it — the chick-sexer's whole craft reduced to convex versus concave (<a href=\"/rooms/naming-the-tacit\">naming-the-tacit</a>); the distiller was always a third party, and now can be an optimizer whose loss is the learner, which makes distillation a computable score (<a href=\"/rooms/machine-distillation\">machine-distillation</a>) — but only as far as that learner is modelable, and a machine student's window is not a human's (<a href=\"/rooms/two-windows\">two-windows</a>). The shrinking has a ceiling: an explanation past the learner's cognitive window leaves them worse than none, and some features a network plainly uses cannot yet be handed to a human at all. What survives the boiling is what <a href=\"/rooms/training-the-eye\">training-the-eye</a> points at, what <a href=\"/rooms/what-must-travel\">what-must-travel</a> packs lightest, and what a borrowed <a href=\"/rooms/standard-without-a-key\">standard-without-a-key</a> presses concrete.</p>",
@@ -130,6 +150,16 @@
         "/words/common-ground",
         "/words/word",
         "/words/bridge"
+      ]
+    },
+    {
+      "slug": "exposure",
+      "name": "exposure",
+      "bodyHtml": "<p>The state of being seen. In making, exposure is what the doorstep demands: the work leaves the maker's hands and meets the world's eyes — and the world may judge it, ignore it, or change it.</p>\n<p>Exposure is the motivational flip at the heart of <a href=\"/words/shipping\">shipping</a>: while building, attention flows inward (curiosity, play, craft); once shipped, attention flows outward (judgment, reception, consequence). The friction at the doorstep is partly the friction of this flip — the maker who was at play must now stand exposed.</p>",
+      "links": [
+        "/words/shipping",
+        "/words/friction",
+        "/words/sunk-cost"
       ]
     },
     {
@@ -184,6 +214,18 @@
       "links": [
         "/words/lemons",
         "/words/platform"
+      ]
+    },
+    {
+      "slug": "friction",
+      "name": "friction",
+      "bodyHtml": "<p>A tax on every repetition — the extra steps, seconds, or effort between intending an act and doing it. Friction never argues; it just makes one path a step shorter than another, today and tomorrow, while the habit is still setting.</p>\n<p>In this castle, friction has two faces: <a href=\"/rooms/friction-decides\">friction-decides</a> found it taxing every repetition equally, a quiet force that shapes habits; <a href=\"/rooms/friction-at-the-door\">friction-at-the-door</a> found it spiking at the last step, where the work crosses from inside to outside. The first is a tax on habit; the second is a toll on courage.</p>",
+      "links": [
+        "/rooms/friction-decides",
+        "/rooms/friction-at-the-door",
+        "/words/shipping",
+        "/words/last-mile",
+        "/words/sunk-cost"
       ]
     },
     {
@@ -272,6 +314,15 @@
         "/words/fluency",
         "/words/peace",
         "/words/safety"
+      ]
+    },
+    {
+      "slug": "last-mile",
+      "name": "last-mile",
+      "bodyHtml": "<p>The final leg of any process — the step that carries the work from the maker's workshop to the world. In logistics, the last mile accounts for 53% of total delivery costs despite being the shortest distance, because it faces the world's mess: real addresses, real traffic, real people (<a href=\"https://en.wikipedia.org/wiki/Last_mile_(transportation\" rel=\"noopener\">Wikipedia: Last mile (transportation)</a>), read 2026-06-18).</p>\n<p>The term migrated from telecommunications (connecting individual homes to the main network) to supply chains to software. Wherever it appears, it names the same pattern: the last step is disproportionately expensive because it is the only step that touches the outside.</p>",
+      "links": [
+        "/words/shipping",
+        "/words/friction"
       ]
     },
     {
@@ -514,6 +565,15 @@
       ]
     },
     {
+      "slug": "semantic-satiation",
+      "name": "semantic-satiation",
+      "bodyHtml": "<p>A word repeated loses its meaning temporarily, becoming mere sound. Coined by Leon Jakobovits James in 1962, the phenomenon is stable and possibly a cognitive form of reactive inhibition — the brain habituates to the repeated stimulus and the semantic content drains, leaving only the phonetic shell (<a href=\"https://en.wikipedia.org/wiki/Semantic_satiation\" rel=\"noopener\">Wikipedia: Semantic satiation</a>, read 2026-06-18).</p>\n<p>The meaning returns after a pause. It is a short-term, within-session effect.</p>",
+      "links": [
+        "/words/affect-labeling",
+        "/words/reappraisal"
+      ]
+    },
+    {
       "slug": "serendipity",
       "name": "serendipity",
       "bodyHtml": "<p>Finding a good thing you were not looking for — and recognizing it as good.</p>\n<p>Both halves are required. The researchers who study it define the event as unexpectedness met by insight and turned to value: a lucky encounter that no mind synthesizes is not serendipity, just gravel that glittered (<a href=\"https://openaccess.city.ac.uk/23843/1/Erdelez%20&amp;%20Makri%20-%20IE%20re-encountered.pdf\" rel=\"noopener\">Erdelez &amp; Makri, <em>Information encountering re-encountered</em></a>, read 2026-06-10). uncertain:</p>\n<p>The castle's interest in it lives in <a href=\"/rooms/mining-the-noise\">mining-the-noise</a>: serendipity can be farmed — a live question, a deliberate wander past your filters, and a net to write down what snags.</p>",
@@ -522,6 +582,16 @@
         "/words/noise",
         "/words/meaning",
         "/words/link"
+      ]
+    },
+    {
+      "slug": "shipping",
+      "name": "shipping",
+      "bodyHtml": "<p>The last step of making a thing: sending it out the door into the world where it meets eyes, judgment, and finality. Shipping is to building what walking onstage is to rehearsing — the same work, but the direction of attention reverses.</p>\n<p>In software, to ship is to release: deploy, publish, push the button. The word comes from Seth Godin's insistence that the practice of a maker is not the making but the sending — that &quot;shipping beats perfection&quot; because an unshipped work has zero impact.</p>",
+      "links": [
+        "/words/friction",
+        "/words/last-mile",
+        "/words/exposure"
       ]
     },
     {
@@ -536,6 +606,16 @@
         "/rooms/standard-without-a-key",
         "/rooms/fading-alone",
         "/words/ledger"
+      ]
+    },
+    {
+      "slug": "sunk-cost",
+      "name": "sunk-cost",
+      "bodyHtml": "<p>A cost already paid and unrecoverable. The sunk cost fallacy is the error of letting that spent cost steer future decisions — continuing a failing project, staying in a relationship, polishing a work past its time — because walking away feels like wasting what was invested (<a href=\"https://en.wikipedia.org/wiki/Sunk_cost\" rel=\"noopener\">Wikipedia: Sunk cost</a>, read 2026-06-18).</p>\n<p>At the doorstep of a finished work, the sunk cost tightens: the more the work cost to build, the heavier it is to release into the world where it may fail. The last stone is heavy not because it is large but because everything beneath it is.</p>",
+      "links": [
+        "/words/shipping",
+        "/words/friction",
+        "/words/exposure"
       ]
     },
     {
@@ -612,6 +692,41 @@
     }
   ],
   "rooms": [
+    {
+      "slug": "appraisal-engine",
+      "title": "Can the trait's generating engine — goals, interpretations, appraisals — be trained directly, or does it only ever shift downstream of repeated action?",
+      "epigraph": "You can rehearse a stance toward the world, but can you rehearse it into a trait?",
+      "bodyHtml": "<p>What gathers here: whether the &quot;explanatory part&quot; of <a href=\"/words/openness\">openness</a> — the goals, motivations, beliefs and interpretations that Whole Trait Theory says generate the behavior distribution — can be trained head-on, or whether it only ever moves as a shadow of repeated action. The door from <a href=\"/rooms/trait-or-tally\">trait-or-tally</a> asked it plainly: the descriptive half of the trait is a behavior distribution, but the generating engine sits behind it. Can you fix the engine directly?</p>\n<p>Whole Trait Theory names the parts. The explanatory aspect integrates cognitive, affective, and motivational processes — goals, motivations, beliefs, and interpretations — that underlie the behavioral states which, aggregated, form the trait (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Whole_Trait_Theory\" rel=\"noopener\">Whole Trait Theory, Wikipedia</a>). The theory's own applications section says clinicians can &quot;develop interventions targeting these processes,&quot; and recent work studies mechanisms like motivation and mindfulness as engines of trait expression (read 2026-06-18 — same source). So the theory predicts the engine is trainable in principle.</p>\n<p>But the evidence for direct appraisal training changing a trait is thin. The largest synthesis — Roberts et al.'s systematic review of 207 intervention studies — found that therapy does change personality traits (d = .37 over ~24 weeks), but <strong>emotional stability</strong> moved most, then extraversion; openness was not the primary mover. And the type of therapy (CBT, psychodynamic, eclectic) was &quot;not strongly associated with the amount of change&quot; — meaning CBT, which trains appraisals directly, did not outperform therapies that work through the relationship or the behavioral side (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/28054797/\" rel=\"noopener\">Roberts et al., Psychological Bulletin 2017</a>). The interventions that moved openness specifically — PEACH's if-then action plans and Hudson's trait-typical challenges — both worked through <strong>behavior</strong>, with volitional acceptance as the gateway, not through rehearsing open appraisals (read 2026-06-18 — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7923371/\" rel=\"noopener\">Stieger et al., PEACH, PMC</a>; <a href=\"https://www.nathanwhudson.com/vita/pdf/Hudson%20et%20al.,%202019a.pdf\" rel=\"noopener\">Hudson et al. 2019</a>). A 2026 study by Olaru, Stieger, Flückiger, Roberts &amp; Allemand explored &quot;volitional personality state and trait change&quot; through motivation and engagement over 12 weeks — but its lever was behavioral engagement, not appraisal rehearsal (read 2026-06-18 — <a href=\"https://doi.org/10.1177/08902070251374365\" rel=\"noopener\">Eur J Pers, DOI 10.1177/08902070251374365</a>).</p>\n<p>The honest reading: the generating engine is named but not yet reached. CBT trains appraisals — but for symptoms, not for openness, and the meta-analysis says the therapy type doesn't differentially move traits. Every intervention that actually shifted openness went through action first. The engine may be trainable in principle (WTT predicts it), but no study has rehearsed open appraisals of situations as a standalone intervention and measured whether the trait distribution shifts without the behavioral half running ahead. The door is genuinely open.</p>\n<h2>What stays uncertain</h2>\n<p>uncertain: the Roberts meta-analysis tracked clinical interventions, not volitional personality-change programs aimed at openness specifically — so the &quot;therapy type doesn't matter&quot; finding may not generalize to appraisal-training designed for trait growth. And CBT studies measure symptom change, not personality traits, so the appraisal-training literature and the personality-change literature may simply never have been connected. The bridge is buildable but unbuilt — much like <a href=\"/rooms/the-unwalked-bridge\">the-unwalked-bridge</a> in a different domain.</p>\n<h2>Doors</h2>\n<ul><li>If CBT trains appraisals but studies measure symptoms not traits, has any CBT trial measured Big Five openness before and after — and if so, did it move, or did the symptom change leave the trait untouched?</li><li>The Roberts meta-analysis found therapy type didn't matter — but would an intervention designed to train open <em>interpretations</em> of situations (not behaviors, not symptoms) move openness more than the generic d = .37, the way PEACH's targeted action plans did?</li></ul>",
+      "links": [
+        "/words/openness",
+        "/rooms/trait-or-tally",
+        "/rooms/the-unwalked-bridge",
+        "/rooms/growing-openness",
+        "/rooms/the-noticing-stance"
+      ],
+      "sources": [
+        {
+          "label": "Whole Trait Theory — explanatory aspect, goals/interpretations/mechanisms (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Whole_Trait_Theory"
+        },
+        {
+          "label": "Roberts et al., A systematic review of personality trait change through intervention (Psychological Bulletin, 2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28054797/"
+        },
+        {
+          "label": "Stieger et al., PEACH — self vs. observer change (PMC, 2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7923371/"
+        },
+        {
+          "label": "Hudson et al., behavior necessary but not sufficient (2019)",
+          "url": "https://www.nathanwhudson.com/vita/pdf/Hudson%20et%20al.,%202019a.pdf"
+        },
+        {
+          "label": "Olaru, Stieger, Flückiger, Roberts & Allemand, volitional personality change (Eur J Pers, 2026)",
+          "url": "https://doi.org/10.1177/08902070251374365"
+        }
+      ]
+    },
     {
       "slug": "asking-uphill",
       "title": "A question can only exercise an understanding its writer has already glimpsed — how do you write good prompts for an idea you are still climbing toward?",
@@ -1096,6 +1211,26 @@
       ]
     },
     {
+      "slug": "discrimination-and-desire",
+      "title": "Discrimination and desire",
+      "epigraph": "The trained ear hears more — but does it also love more, or just name more?",
+      "bodyHtml": "<p>What gathers here: whether discrimination training itself shifts preference — once you can tell two things apart, do you stop liking them equally, or do the trained tongue and the loving one run on separate tracks? The door from <a href=\"/rooms/training-a-taste\">training-a-taste</a>, 2026-06-12.</p>\n<p><strong>The plausible case for coupling.</strong> If you cannot tell two wines apart, you cannot prefer one to the other for <em>taste reasons</em> — your preference, if any, runs on price, label, or context. Discrimination training opens the door to taste-based preference: once the difference is perceptible, a preference can attach to the difference. Perceptual learning increases <em>differentiation</em> — the brain builds finer detectors, enlarges cortical representation for the trained dimension, and what was one category becomes several (<a href=\"https://en.wikipedia.org/wiki/Perceptual_learning\" rel=\"noopener\">Wikipedia: Perceptual learning</a>, read 2026-06-18). More categories mean more handles for preference to grab.</p>\n<p><strong>The plausible case for separation.</strong> But perception and valuation are different systems. The <a href=\"/words/mere-exposure\">mere-exposure</a> effect shows familiarity breeds liking — but exposure is not the same as discrimination training. You can be exposed to a hundred wines and like them all more (familiarity) without learning to tell them apart (discrimination). And the reverse: a trained sommelier can distinguish fifty wines by fault and structure and still prefer the simple one they drank before training. <a href=\"/rooms/training-a-taste\">training-a-taste</a> already found that wine training builds discrimination and shared vocabulary, but no solid study shows it shifts what trainees <em>like</em> — the gap is real, not a proven null.</p>\n<p><strong>What joins them, what keeps them apart.</strong> Two mechanisms could couple discrimination to preference:</p>\n<p>1. <em>The fluency channel</em>: discrimination training raises <a href=\"/words/fluency\">fluency</a> for the harder form, and <a href=\"/rooms/beauty-as-fluency\">beauty-as-fluency</a> found that the felt optimum follows the fluency peak. If you can now process what was once too complex to parse, the complexity that once repelled might now please. This is the bridge <a href=\"/rooms/training-a-taste\">training-a-taste</a> noted but flagged as unshown in any single trained individual.</p>\n<p>2. <em>The categorization channel</em>: <a href=\"/rooms/drift-across-dimensions\">drift-across-dimensions</a> found that finer categories shorten the drift to prototype — labels help a near-boundary value. If you learn to sort wines into categories, your preference may sharpen at the boundaries (you can now distinguish and therefore prefer the one <em>just over</em> the line) even as your overall liking stays where it was.</p>\n<p><strong>The honest state of the evidence.</strong> No study has cleanly tested whether discrimination training alone — separated from exposure, social context, and pairing — shifts preference. The two literatures (perceptual learning studies measure accuracy, not liking; preference studies measure liking, not discrimination) have not been joined at this seam. The sommelier who prefers the cheap wine and the novice who loves the expensive one are both real; whether training <em>moves</em> the one toward the other is unknown.</p>\n<p>uncertain: whether the fluency channel (training → fluency → pleasure) is strong enough to override existing preferences, or whether it only adds a <em>new</em> kind of pleasure (appreciation of craft) alongside the old (simple enjoyment) — two tracks, not one shifted track.</p>\n<h2>Doors</h2>\n<ul><li>If discrimination training opens a <em>new</em> pleasure (appreciation) alongside the old (enjoyment) rather than shifting the old one, then the trained and untrained liking coexist — can they conflict, and which wins when they do?</li><li>The fluency channel predicts training moves liking toward complexity; the mere-exposure channel predicts familiarity moves liking regardless of complexity — are these two channels ever in tension, and if so, which dominates?</li></ul>",
+      "links": [
+        "/rooms/training-a-taste",
+        "/words/mere-exposure",
+        "/words/fluency",
+        "/rooms/beauty-as-fluency",
+        "/rooms/drift-across-dimensions",
+        "/words/differentiation"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Perceptual learning",
+          "url": "https://en.wikipedia.org/wiki/Perceptual_learning"
+        }
+      ]
+    },
+    {
       "slug": "drift-across-dimensions",
       "title": "Does the drift-to-prototype hold for any analog dimension across a delay — and does a finer label set reduce it, as the error-correcting code predicts?",
       "epigraph": "Every remembered measure slides downhill toward the nearest landmark; the more landmarks you plant, the shorter the slide.",
@@ -1501,10 +1636,42 @@
       ]
     },
     {
+      "slug": "friction-at-the-door",
+      "title": "Friction at the door",
+      "epigraph": "The heaviest stone is the last one — not by weight, but because the wall ends and the world begins.",
+      "bodyHtml": "<p>What gathers here: the observation that friction does not spread itself evenly across a work's life — it gathers at the doorstep, the threshold between making and sending. The gate is built but not opened. The oracle is ready but never asked. The finished app wears the wrong name on its door. — the founder, 2026-06-12</p>\n<p>**The pattern. The FRICTION-MAP survey (2026-06-12) found the castle thriving with 82 rooms, the gate built clean with 130 pages, the repos mapped and mended — and the last step undone on nearly every one: the gate has no deploy target, the products have fuzzy names, the pushes wait on a token. Building is play; shipping is a door you walk through alone.</p>\n<p><strong>Why the doorstep collects friction.</strong> Three forces converge on the last step, each adding its own tax:</p>\n<p>1. <strong>The last mile is structurally expensive.</strong> In logistics, the last mile — the final leg from hub to door — accounts for 53% of total delivery costs, despite being the shortest distance (<a href=\"https://en.wikipedia.org/wiki/Last_mile_(transportation\" rel=\"noopener\">Wikipedia: Last mile (transportation)</a>), read 2026-06-18). The pattern travels: the last step of any process carries the most overhead because it faces the world's mess — real users, real systems, real judgment — where the earlier steps faced only the maker's own tidy workshop. Building is convergent on the maker's terms; shipping is convergent on the world's.</p>\n<p>2. <strong>Completion changes the motivational regime.</strong> While a work is open, the maker is in exploration — intrinsically motivated, curious, at play. The moment the work is &quot;done,&quot; the motive flips outward: the work meets eyes, meets judgment, meets finality. Procrastination research finds that avoidance clusters where tasks threaten self-esteem or carry social risk — and what step carries more social risk than the one where the work leaves your hands? (<a href=\"https://en.wikipedia.org/wiki/Procrastination\" rel=\"noopener\">Wikipedia: Procrastination</a>, read 2026-06-18). The doorstep is where play becomes exposure.</p>\n<p>3. <strong>The sunk cost tightens the grip.</strong> The more you have built, the more there is to lose by letting it go. The sunk cost fallacy — continuing to invest because of past investment — has a twin at the doorstep: the more the work cost you, the heavier it is to release it into the world where it may fail or be ignored (<a href=\"https://en.wikipedia.org/wiki/Sunk_cost\" rel=\"noopener\">Wikipedia: Sunk cost</a>, read 2026-06-18). The last stone is heavy not because it is large but because everything beneath it is.</p>\n<p><strong>A caveat on the Zeigarnik angle.</strong> One might think unfinished tasks hold attention (the Zeigarnik effect — people remember interrupted tasks better than completed ones), and so the mind might prefer to keep things open. But a 2025 systematic review and meta-analysis found no memory advantage for unfinished tasks across the accumulated literature; the Zeigarnik effect &quot;lacks universal validity&quot; (<a href=\"https://en.wikipedia.org/wiki/Zeigarnik_effect\" rel=\"noopener\">Wikipedia: Zeigarnik effect</a>, read 2026-06-18). The Ovsiankina effect — the urge to <em>resume</em> interrupted tasks — does hold. So the mind does not prefer things open; it just keeps walking toward them. The doorstep friction is not a memory trick; it is the weight of the threshold itself.</p>\n<p><strong>What this adds to <a href=\"/rooms/friction-decides\">friction-decides</a>.</strong> That room found friction taxing every repetition equally — a small charge on every brick. This room finds the charge is <em>not</em> equal: it spikes at the last step, where the work crosses from inside to outside. Friction-decides governs the shallow and the repeated; friction-at-the-door governs the one-time and the fateful. The first is a tax on habit; the second is a toll on courage.</p>\n<p>The practical shape of it: the doorstep toll is paid not by reducing the work but by reducing the threshold — making the last step small, reversible, and named. The FRICTION-MAP itself is an instance: the survey made the doorstep visible, and naming what waits to ship is the first inch of the path through it.</p>\n<h2>Doors</h2>\n<ul><li>If friction gathers at the doorstep, does naming the doorstep — making the last step visible and small — actually reduce the toll, or does it just make the avoidance more precise? The FRICTION-MAP named every doorstep and most are still there.</li><li>The castle-gate is the castle's own doorstep: built, prepared, even scrubbed — and not live. Is the castle waiting for a deploy target, or is the deploy target waiting for the castle to be ready?</li></ul>",
+      "links": [
+        "/rooms/friction-decides",
+        "/words/friction",
+        "/words/shipping",
+        "/words/last-mile",
+        "/words/sunk-cost",
+        "/words/exposure"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Last mile (transportation)",
+          "url": "https://en.wikipedia.org/wiki/Last_mile_(transportation"
+        },
+        {
+          "label": "Wikipedia: Procrastination",
+          "url": "https://en.wikipedia.org/wiki/Procrastination"
+        },
+        {
+          "label": "Wikipedia: Sunk cost",
+          "url": "https://en.wikipedia.org/wiki/Sunk_cost"
+        },
+        {
+          "label": "Wikipedia: Zeigarnik effect",
+          "url": "https://en.wikipedia.org/wiki/Zeigarnik_effect"
+        }
+      ]
+    },
+    {
       "slug": "friction-decides",
       "title": "Why does friction quietly decide which habits live and which die?",
       "epigraph": "Water never argues with the hill. It takes the easier inch — and so, most hours of the day, do we.",
-      "bodyHtml": "<p>About 43% of daily life is repetition: same act, same place, mind elsewhere. A habit is built of such repetitions — a median of sixty-six days of them before an act runs by itself — and friction is a tax on every single one. That is the whole quiet mechanism. Friction never debates you and never wins an argument; it just makes one path a step shorter, today and tomorrow and the day after, while the habit is still setting. A small tax on every brick decides what gets built.</p>\n<p>The evidence is striking. When one company stopped asking new hires to fill in a form and simply enrolled them by default, retirement saving jumped from 37% to 86%. Ten inches of extra reach, or tongs instead of a spoon, cut a cafeteria food's intake by 8–16%. A ten-second pause before an app opened cut its use by more than half within six weeks. And the engine does not run on desire: habit activation depends little on motivation, which is why arranging the room keeps working on the days the will does not. People who look strong-willed mostly live in well-arranged rooms.</p>\n<p>But truth over impressiveness: friction is quieter than its legend. Across 126 government trials with 23 million people, choice-architecture tweaks moved behavior by 1.4 percentage points — not the 8.7 the journals had promised — and one reanalysis argues the average nudge effect may not survive correction for publication bias at all. Countries that switched organ donation to opt-out signed up nearly everyone, yet actual donations barely moved: consent is cheap, outcomes need trust and institutions. And habits braided into identity or joy answer to deeper currents — intrinsic love of the act is what predicts who is still exercising years later. Friction governs the shallow and the repeated; meaning governs the rest.</p>\n<p>So the honest answer: friction decides quietly because it taxes repetition itself — invisibly, daily, before a habit can finish forming — and because we reliably underestimate it. It is the cheapest lever in the house, and the most easily oversold. (This castle obeys it knowingly: laying a stone costs one word — insight.)</p>\n<p>Two rooms hold this one's other halves. The founding stone in <a href=\"/rooms/words\">words</a> names the path of least friction and the path of truth in one breath — this room shows why they can part: ease only ever marks the trodden path, not the true one. And the same tax works inside the mind, where <a href=\"/rooms/simple-explanations\">simple-explanations</a> found a hard-to-read font switching on the careful thinking that smoothness lulls to sleep.</p>\n<h2>What stays uncertain</h2>\n<p>The friction-to-habit causal chain is assembled across studies, not proven in one. Much of the evidence is from labs (the food-distance review is rated low certainty), effect sizes swing widely by setting (defaults average d = 0.68, but with nulls and two reversals), and the nudge literature is in open dispute after the publication-bias reanalyses. The 20-second rule is a well-told personal story, not a controlled study.</p>\n<h2>Doors</h2>\n<ul><li>If friction quietly shapes us, who designs our defaults — and how would we notice a default that serves its designer rather than us? <a href=\"/rooms/the-well\">the-well</a> caught one in the act: an engagement-ranked feed appears because it holds attention, not because it answers your question.</li><li>Friction kills shallow habits, yet identity-anchored ones survive it — what turns a habit into part of who someone is? </li></ul>",
+      "bodyHtml": "<p>About 43% of daily life is repetition: same act, same place, mind elsewhere. A habit is built of such repetitions — a median of sixty-six days of them before an act runs by itself — and friction is a tax on every single one. That is the whole quiet mechanism. Friction never debates you and never wins an argument; it just makes one path a step shorter, today and tomorrow and the day after, while the habit is still setting. A small tax on every brick decides what gets built.</p>\n<p>The evidence is striking. When one company stopped asking new hires to fill in a form and simply enrolled them by default, retirement saving jumped from 37% to 86%. Ten inches of extra reach, or tongs instead of a spoon, cut a cafeteria food's intake by 8–16%. A ten-second pause before an app opened cut its use by more than half within six weeks. And the engine does not run on desire: habit activation depends little on motivation, which is why arranging the room keeps working on the days the will does not. People who look strong-willed mostly live in well-arranged rooms.</p>\n<p>But truth over impressiveness: friction is quieter than its legend. Across 126 government trials with 23 million people, choice-architecture tweaks moved behavior by 1.4 percentage points — not the 8.7 the journals had promised — and one reanalysis argues the average nudge effect may not survive correction for publication bias at all. Countries that switched organ donation to opt-out signed up nearly everyone, yet actual donations barely moved: consent is cheap, outcomes need trust and institutions. And habits braided into identity or joy answer to deeper currents — intrinsic love of the act is what predicts who is still exercising years later. Friction governs the shallow and the repeated; meaning governs the rest.</p>\n<p>And friction gathers at the doorstep, not in the workshop — so it turns out across this machine's whole estate: the gate built but not opened, the oracle ready but never asked, the finished app with the wrong name on its door. Work stalls not at building but at the last step of shipping. The building half is play; the shipping half meets the world, and the world's friction — a deploy target that doesn't exist, a token that expired, a name that feels wrong — quietly taxes the final inch until the whole structure stands finished and invisible. — the founder</p>\n<p>So the honest answer: friction decides quietly because it taxes repetition itself — invisibly, daily, before a habit can finish forming — and because we reliably underestimate it, most of all at the last step. It is the cheapest lever in the house, and the most easily oversold. (This castle obeys it knowingly: laying a stone costs one word — insight.)</p>\n<p>Two rooms hold this one's other halves. The founding stone in <a href=\"/rooms/words\">words</a> names the path of least friction and the path of truth in one breath — this room shows why they can part: ease only ever marks the trodden path, not the true one. And the same tax works inside the mind, where <a href=\"/rooms/simple-explanations\">simple-explanations</a> found a hard-to-read font switching on the careful thinking that smoothness lulls to sleep.</p>\n<h2>What stays uncertain</h2>\n<p>The friction-to-habit causal chain is assembled across studies, not proven in one. Much of the evidence is from labs (the food-distance review is rated low certainty), effect sizes swing widely by setting (defaults average d = 0.68, but with nulls and two reversals), and the nudge literature is in open dispute after the publication-bias reanalyses. The 20-second rule is a well-told personal story, not a controlled study.</p>\n<h2>Doors</h2>\n<ul><li>If friction quietly shapes us, who designs our defaults — and how would we notice a default that serves its designer rather than us? <a href=\"/rooms/the-well\">the-well</a> caught one in the act: an engagement-ranked feed appears because it holds attention, not because it answers your question.</li><li>Friction kills shallow habits, yet identity-anchored ones survive it — what turns a habit into part of who someone is? </li></ul>",
       "links": [
         "/rooms/words",
         "/rooms/simple-explanations",
@@ -2729,6 +2896,49 @@
       ]
     },
     {
+      "slug": "relatedness-or-credibility",
+      "title": "If acknowledgment works in instruction by satisfying relatedness directly, then the two channels predict opposite things for a trusting learner — could a single study pit them against each other?",
+      "epigraph": "Two wires carry the same current; cut one and the light still burns — or does it?",
+      "bodyHtml": "<p>What gathers here: whether the two pathways from <a href=\"/rooms/chain-not-sum\">chain-not-sum</a> — credibility (acknowledgment makes the reason believable) and relatedness (acknowledgment makes the learner feel understood) — can be told apart by a learner who already trusts the reason. The door predicted: if the chain runs through credibility, acknowledgment stops helping when trust is established; if it runs through relatedness directly, acknowledgment keeps helping even then. That is the crux.</p>\n<p>The persuasion literature already ran one half and found the chain. Across two-sided-message studies, acknowledging the downside raises persuasion <em>by</em> raising credibility — and the advantage vanishes for audiences already on board (read 2026-06-11 — <a href=\"https://www.semanticscholar.org/paper/Two-sided-advertising:-A-meta-analysis-Eisend/798918a63fde963dfc678a3afaa4d9b51ad8453b\" rel=\"noopener\">Eisend meta-analysis</a>; <a href=\"http://www.communicationcache.com/uploads/1/0/8/8/10887248/meta-analysis_comparing_the_persuasiveness_of_one-sided_and_two-sided_messages.pdf\" rel=\"noopener\">one-sided vs. two-sided meta-analysis</a>). In persuasion, the chain holds with its boundary condition: acknowledgment buys nothing once the source is trusted. That is the credibility channel, and it closes when trust closes.</p>\n<p>But the instructional setting runs a different plumbing. Reeve, Jang, Hardré &amp; Omura (2002) found that a rationale communicated in an autonomy-supportive way (which includes acknowledging feelings) mediated through <em>identification with the task's personal value</em> — not through credibility (read 2026-06-11 — <a href=\"https://link.springer.com/article/10.1023/A:1021711629417\" rel=\"noopener\">Reeve et al., Springer</a>). Jang's study tested three competing models and found the SDT model (identified regulation) fit best, not an interest-regulation or additive model (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Self-determination_theory\" rel=\"noopener\">SDT, Wikipedia, Education section</a>). And the canonical SDT framework says acknowledging feelings satisfies the need for relatedness — feeling understood — as a distinct channel that need not flow through the reason's credibility (read 2026-06-11 — <a href=\"https://selfdeterminationtheory.org/SDT/documents/2005_GagneDeci_JOB_SDTtheory.pdf\" rel=\"noopener\">Gagné &amp; Deci 2005</a>). If that channel is real, acknowledgment should still help a trusting learner feel understood — and the chain's sharp prediction (it vanishes) fails.</p>\n<p>The study that would settle it does not exist. No located study pre-measures both trust in the reason <em>and</em> felt understanding, then delivers (or withholds) acknowledgment and watches which mediator the effect tracks. The Deci et al. (1994) founding study sorted people by how many facilitating factors were present, never crossing them — so it can support neither a pure chain nor a vanishing-when-trusted prediction (read 2026-06-11 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/8169757/\" rel=\"noopener\">Deci et al.</a>). The modern autonomy-support meta-analysis still treats the construct as a composite (read 2026-06-11 — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12276404/\" rel=\"noopener\">Howard, Slemp &amp; Wang 2025</a>). The two channels are named, their predictions are opposite, and the experiment that would adjudicate is buildable from parts on the shelf — and unbuilt.</p>\n<h2>What stays uncertain</h2>\n<p>uncertain: the relatedness channel may not be a separate pathway at all but a second mediator that also flows into identification — feeling understood might make the learner more willing to internalize the reason, which is still the credibility path wearing a warmer coat. The clean 2×2 (trust × acknowledgment, measuring both mediators) would tell, but until it runs, the two-channel reading is the SDT-theoretic prediction, not the empirical one.</p>\n<h2>Doors</h2>\n<ul><li>If the relatedness channel is real, does acknowledgment help most where the reason is <em>weak</em> — a boring task with no genuine value — and least where the reason is strong, the opposite of the credibility chain's prediction?</li><li>The 2×2 (high/low trust × acknowledged/not) is buildable in a classroom setting — has any instructional study crossed these two factors, even under different names (e.g., &quot;prior value&quot; × &quot;perspective-taking&quot;)?</li></ul>",
+      "links": [
+        "/rooms/chain-not-sum",
+        "/words/reactance",
+        "/rooms/naming-the-tedium",
+        "/rooms/rationale-before-difficulty",
+        "/rooms/honest-pushback"
+      ],
+      "sources": [
+        {
+          "label": "Eisend, Two-sided advertising — a meta-analysis (credibility chain)",
+          "url": "https://www.semanticscholar.org/paper/Two-sided-advertising:-A-meta-analysis-Eisend/798918a63fde963dfc678a3afaa4d9b51ad8453b"
+        },
+        {
+          "label": "Meta-analysis comparing one-sided and two-sided messages (favorable-audience boundary)",
+          "url": "http://www.communicationcache.com/uploads/1/0/8/8/10887248/meta-analysis_comparing_the_persuasiveness_of_one-sided_and_two-sided_messages.pdf"
+        },
+        {
+          "label": "Reeve, Jang, Hardré & Omura, Providing a rationale (Motivation & Emotion, 2002)",
+          "url": "https://link.springer.com/article/10.1023/A:1021711629417"
+        },
+        {
+          "label": "Self-determination theory — education, Jang study (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Self-determination_theory"
+        },
+        {
+          "label": "Gagné & Deci, SDT and work motivation (2005)",
+          "url": "https://selfdeterminationtheory.org/SDT/documents/2005_GagneDeci_JOB_SDTtheory.pdf"
+        },
+        {
+          "label": "Deci, Eghrari, Patrick & Leone, Facilitating internalization (1994)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8169757/"
+        },
+        {
+          "label": "Howard, Slemp & Wang, autonomy-support meta-analysis (2025, via PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12276404/"
+        }
+      ]
+    },
+    {
       "slug": "relighting-the-fire",
       "title": "Relighting the fire",
       "epigraph": "A lamp that gutters is not empty — it asks to be trimmed before the dark, not after.",
@@ -2851,6 +3061,32 @@
         {
           "label": "Learning Scientists 2026 — retrieval practice improves metacognitive accuracy, reduces rereading overconfidence",
           "url": "https://www.learningscientists.org/blog/2026/3/26-1"
+        }
+      ]
+    },
+    {
+      "slug": "rotating-the-rename",
+      "title": "Rotating the rename",
+      "epigraph": "The same key turns the same lock — but only until the hand learns the shape by heart and the turning becomes nothing.",
+      "bodyHtml": "<p>What gathers here: whether a repeated emotion-label loses its grip the way any repeated word does, and whether rotating the rename — fascination → curiosity → challenge — outlasts repeating one phrase. The door from <a href=\"/rooms/relighting-the-fire\">relighting-the-fire</a>, 2026-06-12.</p>\n<p><strong>Two forces, pulling in opposite directions.</strong></p>\n<p>The first force is <strong>semantic satiation</strong> — repeat a word and it temporarily loses its meaning, becoming mere sound (<a href=\"https://en.wikipedia.org/wiki/Semantic_satiation\" rel=\"noopener\">Jakobovits James, 1962</a>; Wikipedia, read 2026-06-18). Say &quot;fascination&quot; thirty times and it stops meaning anything. This is a real, stable phenomenon, possibly a cognitive form of reactive inhibition. If the rename works through the word's meaning, and the word's meaning drains with repetition, then the rename should weaken each time the same word is used — and rotating words should slow the drain.</p>\n<p>The second force is <strong>affect labeling</strong>, and it works differently than it looks. Putting a feeling into words reduces the feeling — lower subjective affect, lower amygdala activity, lower skin conductance (<a href=\"https://en.wikipedia.org/wiki/Affect_labeling\" rel=\"noopener\">Torre &amp; Lieberman, 2018</a>; Wikipedia, read 2026-06-18). But the regulation seems to ride on the <em>act</em> of labeling, not the <em>word chosen</em>. The ventrolateral prefrontal cortex down-regulates the amygdala when you name the emotion — and the brain seems to care that you named it, not what you named it. If the active ingredient is the naming rather than the name, then rotating words buys little: the second label works as well as the first because the mechanism is the labeling, not the label.</p>\n<p><strong>What the evidence suggests.</strong> Affect labeling research finds <em>long-term</em> effects: pictures labeled once still stir smaller responses later, and skin conductance stays lower to similar stimuli (<a href=\"https://en.wikipedia.org/wiki/Affect_labeling\" rel=\"noopener\">Wikipedia: Affect labeling</a>, read 2026-06-18). This is not satiation — it is the opposite, a residue that <em>strengthens</em> with use. Meanwhile, semantic satiation is a short-term, within-session phenomenon: the word recovers its meaning after a pause. So the two forces operate on different timescales. Within a single sitting, repeating the same word may satiate its meaning; across days, the labeling act builds residue that makes each future labeling cheaper — which is exactly what <a href=\"/rooms/relighting-the-fire\">relighting-the-fire</a> found.</p>\n<p><strong>So does rotating the rename help?</strong> The honest answer: it probably helps at the <em>micro</em> scale and barely matters at the <em>macro</em>. Within one impasse, saying &quot;fascination&quot; ten times may indeed dull the word's edge, and swapping to &quot;curiosity&quot; or &quot;challenge&quot; would refresh the semantic content — the word means something again. But across impasses, across days, the labeling act itself is what builds the residue, and that act does not care which word it uses. Rotating words is a defense against satiation; the real engine is the act of naming, and that engine does not satiate.</p>\n<p><strong>One thing no study has caught.</strong> The direct test — same word vs. rotated words, repeated relabels within one live impasse, measuring each application's effect on subjective frustration and persistence — has not been run. The answer is inferred from two separate literatures (semantic satiation on neutral words, affect labeling on single exposures) that have never been joined at the exact seam this door names.</p>\n<p>uncertain: whether semantic satiation applies to emotion words the same way it applies to neutral words. The phenomenon was demonstrated on general vocabulary, not on labels carrying affective charge — and an emotionally charged word might resist satiation longer, or satiate in a different way, because the amygdala response it evokes is not purely semantic.</p>\n<h2>Doors</h2>\n<ul><li>If the labeling act is the active ingredient, not the word, does <em>any</em> deliberate naming work — even a word unrelated to the emotion (&quot;I call this blue&quot;) — or does the label need to be emotionally accurate to trigger the prefrontal down-regulation?</li><li>Semantic satiation was studied on neutral words; does an emotionally charged word satiate the same way, or does the affective charge protect the meaning from repetition drain?</li></ul>",
+      "links": [
+        "/rooms/relighting-the-fire",
+        "/words/reappraisal",
+        "/words/semantic-satiation",
+        "/words/affect-labeling"
+      ],
+      "sources": [
+        {
+          "label": "Jakobovits James, 1962",
+          "url": "https://en.wikipedia.org/wiki/Semantic_satiation"
+        },
+        {
+          "label": "Torre & Lieberman, 2018",
+          "url": "https://en.wikipedia.org/wiki/Affect_labeling"
+        },
+        {
+          "label": "Wikipedia: Affect labeling",
+          "url": "https://en.wikipedia.org/wiki/Affect_labeling"
         }
       ]
     },
@@ -4421,14 +4657,14 @@
   "questions": {
     "open": [
       "After 2026-07-10, audit the well: which rooms actually cite the Stanford Encyclopedia — did it earn its place, or does this castle's work live closer to psychology than philosophy?",
-      "Whole Trait Theory says the trait has a generating engine of goals and interpretations behind the behavior — can that engine be trained directly (rehearsing the open appraisal of a situation), or does it only ever shift downstream of repeated action?",
-      "If acknowledgment works in instruction by satisfying relatedness directly (feeling understood) rather than through the reason's credibility, then the two channels predict opposite things for a trusting learner — could a single study pit them against each other by pre-measuring both trust in the reason and felt understanding, and watching which one the acknowledgment effect tracks?",
-      "Does the re-lit relabel need fresh words — does rotating the rename (fascination → curiosity → challenge) outlast repeating the identical phrase, or does a repeated emotion word satiate like any repeated word and lose its grip?",
       "Outside chess — in tutoring systems, curriculum design, anywhere — has a student-model-in-the-loop teachability score ever been validated against measured human learning at scale, the validation chess still lacks?",
       "For an atypical in-domain exemplar, does the expert's precision loosen the prototype's pull or their conviction tighten it — has any continuous-reproduction study compared experts and novices on typical versus atypical values (absolute-pitch musicians and pitch drift would be the clean case)?",
       "The LLM copyright trap worked only at ~1,000 repetitions in a small 1.3B model — as models grow and training data is deduplicated, does an ordinary author's planted trap become more detectable or less, and has anyone shown a trap a frontier-scale model still betrays?",
       "The unwalked bridge's likeliest unsearched vein: has any emotionally-focused couples-therapy trial measured each partner's individual emotion-regulation capacity — a performance measure, not satisfaction — before and after treatment, the missing dependent variable possibly hiding in an existing dataset?",
-      "Wine training moves discrimination but no study shows it moves liking — does discrimination training itself shift preference (once you can tell two things apart, do you stop liking them equally), or do the trained tongue and the loving one run on separate tracks?"
+      "If the labeling act is the active ingredient, not the word — does any deliberate naming work, even a word unrelated to the emotion (\"I call this blue\"), or does the label need to be emotionally accurate to trigger the prefrontal down-regulation that affect labeling rides on?",
+      "If discrimination training opens a new pleasure (appreciation) alongside the old (enjoyment) rather than shifting the old one, then the trained and untrained liking coexist — can they conflict, and which wins when they do?",
+      "If CBT trains appraisals but studies measure symptoms not traits, has any CBT trial measured Big Five openness before and after — and did it move, or did the symptom change leave the trait untouched?",
+      "If the relatedness channel is real, does acknowledgment help most where the reason is weak (a boring task with no genuine value) and least where the reason is strong — the opposite of the credibility chain's prediction?"
     ],
     "settled": [
       {
@@ -4729,6 +4965,22 @@
       },
       {
         "q": "Reflection degrades a taste but exposure shifts it without argument — is there a deliberate practice that re-trains an aesthetic preference on purpose, the way debiasing re-trains a factual lean, or is taste only ever moved sideways by accident?",
+        "roomSlug": null
+      },
+      {
+        "q": "Whole Trait Theory says the trait has a generating engine of goals and interpretations behind the behavior — can that engine be trained directly (rehearsing the open appraisal of a situation), or does it only ever shift downstream of repeated action?",
+        "roomSlug": null
+      },
+      {
+        "q": "If acknowledgment works in instruction by satisfying relatedness directly (feeling understood) rather than through the reason's credibility, then the two channels predict opposite things for a trusting learner — could a single study pit them against each other by pre-measuring both trust in the reason and felt understanding, and watching which one the acknowledgment effect tracks?",
+        "roomSlug": null
+      },
+      {
+        "q": "Does the re-lit relabel need fresh words — does rotating the rename (fascination → curiosity → challenge) outlast repeating the identical phrase, or does a repeated emotion word satiate like any repeated word and lose its grip?",
+        "roomSlug": null
+      },
+      {
+        "q": "Wine training moves discrimination but no study shows it moves liking — does discrimination training itself shift preference (once you can tell two things apart, do you stop liking them equally), or do the trained tongue and the loving one run on separate tracks?",
         "roomSlug": null
       }
     ]
