@@ -1,7 +1,7 @@
 {
   "forged": {
-    "at": "2026-06-18T11:13:39.999Z",
-    "castleCommit": "a422e2a0b5a7b942c30ab58b072d8904904dce09 (plus uncommitted edits)"
+    "at": "2026-06-18T21:45:57.548Z",
+    "castleCommit": "8ad0a87e854a9a13a8bdcb2ec5e628953726321e"
   },
   "anthem": {
     "title": "The Castle's Anthem",
@@ -18,6 +18,20 @@
         "/words/reappraisal",
         "/words/semantic-satiation",
         "/words/flooding"
+      ]
+    },
+    {
+      "slug": "appreciation",
+      "name": "appreciation",
+      "bodyHtml": "<p>Appreciation is the pleasure of seeing <em>how</em> something is made — the craft-satisfaction that grows with training, distinct from the gut-pleasure of easy smoothness.</p>\n<p>A child who has learned to tell two wines apart may still prefer the sweeter one; appreciation is the new liking that sits <em>alongside</em> the old, not in its place. The PIA model names the two routes: aesthetic pleasure rides on processing <a href=\"/words/fluency\">fluency</a> (the easy, smooth, gut-level response), while aesthetic interest rides on processing effort (the challenging, novel, attention-grabbing response). The two can pull in opposite directions — the difficult chord that thrills the trained ear bores the novice — and expertise tilts the weighting toward interest.</p>\n<p>What makes appreciation distinct from enjoyment: it is <em>effortful</em> pleasure, earned by the discrimination that lets you see the craft. Where enjoyment asks &quot;how good does this feel?&quot;, appreciation asks &quot;how well is this made?&quot; — and the trained palate can answer both at once, choosing against its own gut when the craft is worth the push.</p>\n<p>The castle's rooms that lean on it: <a href=\"/rooms/appreciation-vs-enjoyment\">appreciation-vs-enjoyment</a> names the conflict and its resolution (the question asked decides which wins), <a href=\"/rooms/consumption-vs-liking\">consumption-vs-liking</a> asks whether training shifts the <em>choice</em> toward the appreciated, and <a href=\"/rooms/discrimination-and-desire\">discrimination-and-desire</a> opens the question of whether the trained tongue and the loving one run on the same track.</p>",
+      "links": [
+        "/words/fluency",
+        "/rooms/appreciation-vs-enjoyment",
+        "/rooms/consumption-vs-liking",
+        "/rooms/discrimination-and-desire",
+        "/words/reappraisal",
+        "/words/mere-exposure",
+        "/words/differentiation"
       ]
     },
     {
@@ -51,6 +65,20 @@
         "/rooms/fading-alone",
         "/words/handle",
         "/words/retrieval-practice"
+      ]
+    },
+    {
+      "slug": "canary-trap",
+      "name": "canary trap",
+      "bodyHtml": "<p>A canary trap is a mark planted in a work before it leaves your hands — a fictitious detail, a unique spelling, a planted phrase — so that if it appears somewhere else, it proves the copying happened.</p>\n<p>A child who tells a secret to five friends, each with one tiny detail changed, knows who leaked when the changed detail surfaces. The trap does not stop the thief; it rings the bell and names the footprint. In publishing, the technique goes back to mapmakers' fictitious streets and dictionaries' invented words; in software, to plus-addressed email and security canarytokens; in the age of language models, to trap sentences planted in text before training, detectable by membership inference.</p>\n<p>The honest limit the castle holds: detection and <a href=\"/words/entitlement\">entitlement</a> come apart by design. The trap proves the copying but does not prove the right — facts belong to no one under US copyright, so a fabricated fact presented as a fact is still a fact, and the copier walks free. The trap is a fact-maker, not a right; it spends wherever <em>any</em> law cooperates (contract, database right, reputation) and nowhere when none does. And as models grow and data is deduplicated, the ordinary author's planted trap becomes <em>less</em> detectable, not more — scale dilutes the footprint, and the larger choir drowns out the canary.</p>\n<p>The castle's rooms that lean on it: <a href=\"/rooms/seeded-fingerprint\">seeded-fingerprint</a> (the trap's legal anatomy — perfect detection, zero entitlement), <a href=\"/rooms/what-the-seed-is-for\">what-the-seed-is-for</a> (the six purposes the trap serves beyond the lawsuit it cannot win), and <a href=\"/rooms/the-scaling-canary\">the-scaling-canary</a> (the scaling question — does the trap survive as models grow?).</p>",
+      "links": [
+        "/words/entitlement",
+        "/rooms/seeded-fingerprint",
+        "/rooms/what-the-seed-is-for",
+        "/rooms/the-scaling-canary",
+        "/words/circular-reporting",
+        "/words/independence",
+        "/words/ledger"
       ]
     },
     {
@@ -129,6 +157,24 @@
         "/words/machine-teaching",
         "/words/handle",
         "/words/transfer"
+      ]
+    },
+    {
+      "slug": "emotion-regulation",
+      "name": "emotion regulation",
+      "bodyHtml": "<p>Emotion regulation is the art of changing how you feel — by naming, reframing, stepping back, or leaving the room — and the science of which ways actually work.</p>\n<p>A child who says &quot;I'm not scared, I'm excited&quot; is regulating an emotion; the body's arousal stays, the label changes, and the renamed fire burns better. Regulation has two broad knobs: <em>intensity</em> (turn the heat up or down — distancing, distraction, suppression) and <em>meaning</em> (rename the heat as something else — <a href=\"/words/reappraisal\">reappraisal</a>, <a href=\"/words/affect-labeling\">affect-labeling</a>). The two do different things: distancing dims both negative and positive feeling alike; renaming leaves intensity alone and changes what the feeling <em>is</em>.</p>\n<p>The honest finding the castle keeps returning to: the self-report of regulation is the weakest instrument measured — the feeling is unreliable, the racing pulse reads true only through an outside monitor, and both fail together in alexithymia. What trains is watching conduct (stalled or circling), not reading the inner meter. And the <em>performance</em> of regulation (can you actually down-regulate when provoked?) is almost never measured — the relationship-therapy literature asks &quot;how hard is it to control your emotions?&quot; by questionnaire, never &quot;can you do it?&quot; by task.</p>\n<p>The castle's rooms that lean on it: <a href=\"/rooms/renaming-the-fire\">renaming-the-fire</a> (the meaning knob), <a href=\"/rooms/step-back-mid-climb\">step-back-mid-climb</a> (the intensity knob), <a href=\"/rooms/fog-meter\">fog-meter</a> (the self-read's weakness), <a href=\"/rooms/the-mending-rhythm\">the-mending-rhythm</a> (co-regulation as the relational half), <a href=\"/rooms/eft-regulation-performance\">eft-regulation-performance</a> (the self-report-vs-performance gap in therapy), and <a href=\"/rooms/the-unwalked-bridge\">the-unwalked-bridge</a> (the lifespan claim that one partner's regulation shifts toward the other's).</p>",
+      "links": [
+        "/words/reappraisal",
+        "/words/affect-labeling",
+        "/rooms/renaming-the-fire",
+        "/rooms/step-back-mid-climb",
+        "/rooms/fog-meter",
+        "/rooms/the-mending-rhythm",
+        "/rooms/eft-regulation-performance",
+        "/rooms/the-unwalked-bridge",
+        "/words/flooding",
+        "/words/co-regulation",
+        "/words/self-distancing"
       ]
     },
     {
@@ -460,6 +506,22 @@
       ]
     },
     {
+      "slug": "prototype",
+      "name": "prototype",
+      "bodyHtml": "<p>A prototype is the mind's average — the representative example a category pulls toward, so that memory for any member drifts inward to the center the way a river drifts to the sea.</p>\n<p>A child who sees ten dogs of different sizes and is asked to remember one &quot;medium&quot; dog will, after a delay, remember a dog closer to the average of what she saw — not the specific one. The category center exerts a gravitational pull on memory, and the pull is stronger when the memory is shakier: the Bayesian category-adjustment model says the prototype acts as an uncertainty-weighted prior, stepping in where the fine-grain trace fades. Finer categories shorten the slide (knowing the sub-category helps a near-boundary value) but a category pulls <em>only when used</em> — labels help a near-boundary value and harm a sub-categorical one.</p>\n<p>The expert's relationship to the prototype is the open crux: precision (sharper senses) loosens the pull from below, while conviction (richer, more confident categories) may tighten it from above. For a typical exemplar both forces agree; for an atypical one they pull against each other, and no study has caught which wins.</p>\n<p>The castle's rooms that lean on it: <a href=\"/rooms/drift-across-dimensions\">drift-across-dimensions</a> (the law across location, length and duration), <a href=\"/rooms/precise-across-time\">precise-across-time</a> (discrete handles resist the drift), <a href=\"/rooms/the-expert-grip\">the-expert-grip</a> (precision loosens the pull, shown in time), <a href=\"/rooms/atypical-expert-pull\">atypical-expert-pull</a> (the predicted flip for atypical exemplars, unbuilt), and <a href=\"/rooms/choosing-not-to-name\">choosing-not-to-name</a> (the category pulls only when used, and the onset is automatic).</p>",
+      "links": [
+        "/rooms/drift-across-dimensions",
+        "/rooms/precise-across-time",
+        "/rooms/the-expert-grip",
+        "/rooms/atypical-expert-pull",
+        "/rooms/choosing-not-to-name",
+        "/words/calibration",
+        "/words/distillation",
+        "/words/verbal-overshadowing",
+        "/words/tacit-knowledge"
+      ]
+    },
+    {
       "slug": "rarity",
       "name": "rarity",
       "bodyHtml": "<p>Rarity is how seldom something is found — and in any honest game, how hard it was to make, not how loudly it is praised.</p>\n<p>In this castle's game (the-game) a room's rarity is counted from facts anyone can check: sources named plus rooms that lean on it. Earned rarity measures the work; assigned rarity measures only the assigner.</p>",
@@ -693,6 +755,76 @@
   ],
   "rooms": [
     {
+      "slug": "acknowledgment-weak-reason",
+      "title": "If the relatedness channel is real, does acknowledgment help most where the reason is weak — a boring task with no genuine value — and least where the reason is strong, the opposite of the credibility chain's prediction?",
+      "epigraph": "The warm hand steadies the stool with the broken leg — and rests where the stool already stands.",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/relatedness-or-credibility\">relatedness-or-credibility</a> sharpened the test between two channels. The credibility chain says acknowledgment vanishes once the learner trusts the reason. The relatedness channel (SDT) says acknowledgment still helps a trusting learner feel understood. This room asks the boldest version: if relatedness carries the load, acknowledgment should help <em>most</em> exactly where the reason is weakest — a dull task with no genuine value — because that is where felt-understanding counts for the most.</p>\n<p><strong>The two predictions, head to head.</strong> The credibility chain is well-supported in persuasion: acknowledging the downside raises persuasion <em>by</em> raising credibility, and the advantage vanishes for audiences already on board (read 2026-06-11 — <a href=\"https://www.semanticscholar.org/paper/Two-sided-advertising:-A-meta-analysis-Eisend/798918a63fde963dfc678a3afaa4d9b51ad8453b\" rel=\"noopener\">Eisend meta-analysis</a>). If that is the only channel, acknowledgment helps most where the reason is <em>least credible</em> — because that is where credibility has the most room to rise — and least where the reason is already trusted. That is the chain's reading, and it happens to predict the same surface pattern the relatedness channel predicts: most help where the reason is weak. The two channels converge on the <em>where</em> and diverge on the <em>why</em> and the <em>whom</em>.</p>\n<p><strong>Where they truly diverge.</strong> The credibility chain says acknowledgment's help <em>vanishes</em> once the reason is trusted — so for a strong reason, acknowledgment buys nothing. The relatedness channel says acknowledgment <em>still helps</em> a trusting learner — so for a strong reason, acknowledgment should still add a felt-understanding supplement. That is the crux the 2×2 would test: a strong-reason × acknowledged cell where the chain predicts null and relatedness predicts a residual gain. The persuasion literature already ran the chain's half and found the vanishing (read 2026-06-11 — <a href=\"http://www.communicationcache.com/uploads/1/0/8/8/10887248/meta-analysis_comparing_the_persuasiveness_of_one-sided_and_two-sided_messages.pdf\" rel=\"noopener\">one-sided vs. two-sided meta-analysis</a>). The instructional half — where relatedness is theorized to run — has not.</p>\n<p><strong>The SDT machinery supports the relatedness reading.</strong> Reeve, Jang, Hardré &amp; Omura (2002) found a rationale communicated in an autonomy-supportive way (which includes acknowledging feelings) mediated through <em>identification with the task's personal value</em>, not through credibility (read 2026-06-11 — <a href=\"https://link.springer.com/article/10.1023/A:1021711629417\" rel=\"noopener\">Reeve et al., Springer</a>). The canonical SDT framework says acknowledging feelings satisfies the need for relatedness — feeling understood — as a distinct channel that need not flow through the reason's credibility (read 2026-06-11 — <a href=\"https://selfdeterminationtheory.org/SDT/documents/2005_GagneDeci_JOB_SDTtheory.pdf\" rel=\"noopener\">Gagné &amp; Deci 2005</a>). And <a href=\"/rooms/rationale-before-difficulty\">rationale-before-difficulty</a> found the honest recipe is conditional — explain why + admit the cost + leave a real choice + let the payoff be felt — where &quot;admit the cost&quot; is the acknowledgment ingredient. If acknowledgment works by making the learner feel understood rather than by making the reason credible, then a dull task with no intrinsic value is exactly where the felt-understanding supplement would count most: the reason cannot carry the learner, so the warmth must.</p>\n<p><strong>The study that would settle it.</strong> No located study has crossed task-value (strong reason vs. weak reason) × acknowledgment (acknowledged vs. not), measuring both felt understanding and reason-trust as mediators. The founding SDT study sorted people by how many facilitating factors were present, never crossing them (read 2026-06-11 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/8169757/\" rel=\"noopener\">Deci et al. 1994</a>). The modern autonomy-support meta-analysis still treats the construct as a composite (read 2026-06-11 — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12276404/\" rel=\"noopener\">Howard, Slemp &amp; Wang 2025</a>). The 2×2 is buildable — a classroom task with a genuinely valuable vs. genuinely valueless version, acknowledged or not — and unbuilt.</p>\n<h2>What stays uncertain</h2>\n<p>uncertain: the two channels predict the same <em>where</em> (most help for the weak reason) and diverge only on the strong-reason cell, so a study that only varies task-value may not separate them — it must also measure the mediators to know <em>which</em> channel carried the effect. And the relatedness channel may not be independent of credibility at all: feeling understood might make the learner more willing to internalize the reason, which is still the credibility path in a warmer coat — the clean 2×2 with both mediators measured would tell, but until it runs, the two-channel reading is the SDT-theoretic prediction, not the empirical one.</p>\n<h2>Doors</h2>\n<ul><li>The two channels converge on <em>where</em> (weak reason) and diverge on the strong-reason cell — so the decisive study is not task-value × acknowledgment alone, but must measure both felt-understanding and reason-trust as mediators; has any instructional study measured both mediators at once, even under different names?</li><li>If acknowledgment helps most where the reason is weak, does it help <em>enough</em> to substitute for the reason — can a dull task carried by warmth alone match a valuable task carried by its reason, or does the warmth supplement decay where there is no intrinsic value to internalize at all?</li></ul>",
+      "links": [
+        "/rooms/relatedness-or-credibility",
+        "/rooms/rationale-before-difficulty",
+        "/words/reactance",
+        "/rooms/chain-not-sum",
+        "/rooms/naming-the-tedium"
+      ],
+      "sources": [
+        {
+          "label": "Eisend, Two-sided advertising — a meta-analysis (credibility chain)",
+          "url": "https://www.semanticscholar.org/paper/Two-sided-advertising:-A-meta-analysis-Eisend/798918a63fde963dfc678a3afaa4d9b51ad8453b"
+        },
+        {
+          "label": "Meta-analysis comparing one-sided and two-sided messages (favorable-audience boundary)",
+          "url": "http://www.communicationcache.com/uploads/1/0/8/8/10887248/meta-analysis_comparing_the_persuasiveness_of_one-sided_and_two-sided_messages.pdf"
+        },
+        {
+          "label": "Reeve, Jang, Hardré & Omura, Providing a rationale (Motivation & Emotion, 2002)",
+          "url": "https://link.springer.com/article/10.1023/A:1021711629417"
+        },
+        {
+          "label": "Gagné & Deci, Self-determination theory and work motivation (2005)",
+          "url": "https://selfdeterminationtheory.org/SDT/documents/2005_GagneDeci_JOB_SDTtheory.pdf"
+        },
+        {
+          "label": "Deci, Eghrari, Patrick & Leone, Facilitating internalization (1994)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8169757/"
+        },
+        {
+          "label": "Howard, Slemp & Wang, autonomy-support meta-analysis (2025, via PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12276404/"
+        }
+      ]
+    },
+    {
+      "slug": "any-naming-downregulates",
+      "title": "Does any deliberate naming work — even a word unrelated to the emotion — or does the label need to be emotionally accurate to trigger the prefrontal down-regulation that affect labeling rides on?",
+      "epigraph": "Call the fire \"blue\" and it still cools — or does the cooling need the fire's right name?",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/rotating-the-rename\">rotating-the-rename</a> asked the cleanest unanswered question in the affect-labeling wing. The castle's own word-brick already holds the engine: &quot;The act of labeling (not the word chosen) appears to be the active ingredient&quot; — the ventrolateral prefrontal cortex down-regulates the amygdala when you name what you feel, lowering subjective affect, skin conductance, and amygdala activity (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Affect_labeling\" rel=\"noopener\">Torre &amp; Lieberman 2018</a>, via Wikipedia). If the act alone is the active ingredient, then calling the feeling &quot;blue&quot; should down-regulate; if the mechanism needs the right semantic match, accuracy matters. This room walks the seam.</p>\n<p><strong>The case for the act.</strong> Affect labeling is called an <em>implicit</em> emotion regulation precisely because it feels effortless — it does not feel like a strategy the way <a href=\"/words/reappraisal\">reappraisal</a> does. The labeling seems to recruit the right-lateralized ventrolateral prefrontal cortex and dampen the amygdala as a consequence of the naming itself, not the name's content (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Affect_labeling\" rel=\"noopener\">Wikipedia: Affect labeling</a>). The residue supports the act reading: pictures labeled once still stir smaller responses later, and skin conductance stays lower to similar stimuli — a building effect, not a one-shot semantic match (same source). If the regulation rode on the word's accuracy, the residue would not generalize to new, similar stimuli the way it does.</p>\n<p><strong>The case for accuracy.</strong> Reappraisal — the cousin mechanism — tells a cautionary story. Its rename must be <em>believable</em>: the new story has to be one the body accepts, and &quot;a label the body refuses may not take&quot; (read 2026-06-18 — <a href=\"/words/reappraisal\">reappraisal word-brick</a>, from <a href=\"/rooms/renaming-the-fire\">renaming-the-fire</a>). Brooks's &quot;I am excited&quot; works because anxiety and excitement are physiologically near-identical — high arousal, anticipatory — differing only in the story attached (read 2026-06-11 — <a href=\"https://www.apa.org/pubs/journals/releases/xge-a0035325.pdf\" rel=\"noopener\">Brooks, JEP:General 2014</a>). The rename succeeds where the body can accept the new name as true. And <a href=\"/rooms/naming-the-tacit\">naming-the-tacit</a> found that a named feature changes cognition only when it has been <em>distilled</em> to a low-complexity contrast that fits the cognitive window — a name that does not match what is actually there does not teach. These suggest the labeling mechanism may need a real semantic handle, not just any word.</p>\n<p><strong>The honest seam.</strong> The two literatures have never been joined at the exact point this door names. Affect-labeling studies use emotionally accurate labels — &quot;anger,&quot; &quot;fear,&quot; &quot;sadness&quot; — matched to the stimuli shown. No located study has run the deliberate mismatch: label an angry face &quot;blue,&quot; or a fearful image &quot;Tuesday,&quot; and measure whether the amygdala still quiets. The act-vs-word distinction in the castle's word-brick is an <em>inference</em> from the pattern of results (the mechanism looks act-driven), not a direct test. The direct test is buildable — same affect-labeling fMRI paradigm, mismatched labels as the control — and unbuilt.</p>\n<h2>What stays uncertain</h2>\n<p>uncertain: whether the prefrontal down-regulation is triggered by <em>any</em> linguistic processing of an emotional stimulus (which would make the act sufficient) or specifically by matching an affective semantic category to the stimulus (which would make accuracy load-bearing). The residue finding supports the act reading, but it was measured with accurate labels — so even the residue could be riding on accurate first exposure. And the affective charge of the word itself may matter: an emotionally neutral word like &quot;blue&quot; may not recruit the same prefrontal pathway an emotionally charged word like &quot;fear&quot; does, even if the naming act is identical.</p>\n<h2>Doors</h2>\n<ul><li>If the labeling act is sufficient, the regulation should work on <em>any</em> stimulus, not just emotional ones — does naming a neutral image down-regulate anything, or does the act need the emotional charge to have something to regulate?</li><li>The mismatch test would tell act from accuracy — but would an inaccurate label that <em>still down-regulates</em> be a useful tool (label the feeling anything to cool it) or a dangerous one (naming anger &quot;calm&quot; when the body is not calm may mimic the failed reappraisal, where the refused label fails to take)?</li></ul>",
+      "links": [
+        "/rooms/rotating-the-rename",
+        "/words/reappraisal",
+        "/rooms/renaming-the-fire",
+        "/rooms/naming-the-tacit",
+        "/words/affect-labeling"
+      ],
+      "sources": [
+        {
+          "label": "Torre & Lieberman, Affect labeling (Wikipedia, read 2026-06-18)",
+          "url": "https://en.wikipedia.org/wiki/Affect_labeling"
+        },
+        {
+          "label": "Brooks, Get Excited: Reappraising Pre-Performance Anxiety as Excitement (JEP: General, 2014)",
+          "url": "https://www.apa.org/pubs/journals/releases/xge-a0035325.pdf"
+        },
+        {
+          "label": "Jamieson, Mendes & Nock, Improving Acute Stress Responses: The Power of Reappraisal (Current Directions, 2013)",
+          "url": "http://www.psych.rochester.edu/research/jamiesonlab/wp-content/uploads/2014/02/Jamieson-CDPS-arousal-reappraisal.pdf"
+        },
+        {
+          "label": "Semantic satiation — Jakobovits James 1962 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Semantic_satiation"
+        }
+      ]
+    },
+    {
       "slug": "appraisal-engine",
       "title": "Can the trait's generating engine — goals, interpretations, appraisals — be trained directly, or does it only ever shift downstream of repeated action?",
       "epigraph": "You can rehearse a stance toward the world, but can you rehearse it into a trait?",
@@ -724,6 +856,43 @@
         {
           "label": "Olaru, Stieger, Flückiger, Roberts & Allemand, volitional personality change (Eur J Pers, 2026)",
           "url": "https://doi.org/10.1177/08902070251374365"
+        }
+      ]
+    },
+    {
+      "slug": "appreciation-vs-enjoyment",
+      "title": "If discrimination training opens a new pleasure (appreciation) alongside the old (enjoyment) rather than shifting the old one, can they conflict — and which wins when they do?",
+      "epigraph": "The trained ear learns to hear the craft in the difficult chord — but when the craft-thrill pulls one way and the gut-pull another, which hand reaches for the remote?",
+      "bodyHtml": "<p><a href=\"/rooms/discrimination-and-desire\">discrimination-and-desire</a> left the door open: discrimination training may not <em>shift</em> existing preference but <em>add</em> a new kind of pleasure — appreciation of craft alongside enjoyment of ease. If the two coexist, they can conflict, and the question is which wins. This room finds the conflict named in theory, demonstrated in the lab for art, but never tested for the trained palate or ear.</p>\n<p><strong>The PIA model names the two routes.</strong> Graf &amp; Landwehr's Pleasure-Interest Model of Aesthetic Liking (PIA) formally separates <em>aesthetic pleasure</em> (driven by processing fluency — the smooth, easy, gut-level liking) from <em>aesthetic interest</em> (driven by processing effort — the challenging, novel, attention-grabbing response). Pleasure and interest are two distinct positive aesthetic responses, and they can pull in opposite directions: high-fluency stimuli produce pleasure but low interest; low-fluency (challenging) stimuli produce interest but low pleasure. The model predicts that for simple stimuli, pleasure dominates liking; for complex stimuli, interest can override pleasure and carry liking on its back (read 2026-06-18 — <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00015/full\" rel=\"noopener\">Graf &amp; Landwehr, &quot;Aesthetic Pleasure versus Aesthetic Interest: The Two Routes to Aesthetic Liking,&quot; Frontiers in Psychology 2017</a>).</p>\n<p><strong>The conflict is real and measurable in art.</strong> The same authors showed that for abstract art, stimulus fluency (low/medium/high) interacted with processing style (automatic/controlled): low-fluency art produced <em>less pleasure but more interest</em> than high-fluency art, and the overall &quot;liking&quot; judgment depended on which route the viewer weighted. Expertise shifts the weighting: trained viewers rely more on the interest route (appreciation), novices more on the pleasure route (enjoyment). So the two pleasures <em>do</em> conflict, and expertise tilts the balance toward the trained one — but &quot;which wins&quot; depends on which question is asked (pleasure or interest or overall liking), and the model does not predict a single victor (same source).</p>\n<p><strong>Challenging art gets liked through interest, not pleasure.</strong> &quot;When challenging art gets liked&quot; found a dual preference formation process: fluent portraits were liked through pleasure, non-fluent (atypical, challenging) portraits were liked through a second route — interest-driven appreciation. Art expertise modulated this: experts showed higher discriminatory power for atypicality, and their liking of challenging works rode on interest, not fluency. The two routes are not just theoretical; they are dissociable in the data (read 2026-06-18 — <a href=\"https://scholar.google.com/scholar?q=%22When+challenging+art+gets+liked%22+dual+preference+fluency\" rel=\"noopener\">Tinio, &quot;When challenging art gets liked,&quot; Frontiers in Psychology</a>).</p>\n<p><strong>For wine and food: the conflict is lived but unmeasured.</strong> The wine literature repeatedly notes the &quot;two conflicting views&quot;: experts rate wines by quality (appreciation) while consumers rate by enjoyment — and expert ratings <em>mediate</em> consumer assessments, pulling the consumer's enjoyment toward the expert's appreciation when the rating is known. But no study has measured the same individual's <em>both</em> responses to the same wine before and after training, to see whether the trained appreciation conflicts with the untrained enjoyment and which one governs behavior (read 2026-06-18 — <a href=\"https://scholar.google.com/scholar?q=%22Follow+the+leader%22+expert+ratings+consumer+hedonic+quality+wine\" rel=\"noopener\">Follow the leader: expert ratings mediate consumer assessments, Journal of Wine Research</a>). The &quot;acquired taste&quot; phenomenon — beer, coffee, atonal music, difficult cinema — is the everyday signature of the conflict: the untrained response is aversion, the trained response is appreciation, and people <em>push through</em> the aversion to reach the appreciation. But pushing through is itself the evidence that enjoyment and appreciation can point opposite ways, and the pushing (effortful) wins over the gut (effortless) only through sustained exposure — <a href=\"/rooms/training-a-taste\">training-a-taste</a> found the same for deliberate taste retraining (read 2026-06-18 — <a href=\"https://scholar.google.com/scholar?q=%22Enjoying+the+Unenjoyable%22+aesthetics+atonal+music\" rel=\"noopener\">Enjoying the Unenjoyable: Aesthetics of Atonal Music</a>).</p>\n<p><strong>Which wins? The evidence tilts toward context, not dominance.</strong> The PIA model and the art studies suggest there is no single winner — the dominant route depends on the viewer's expertise, the stimulus's complexity, the processing style invoked, and the question asked. When forced to choose &quot;how much do you like it?&quot; (the gut question), pleasure tends to win for simple stimuli and interest tends to win for complex ones, with expertise tilting toward interest. When forced to choose &quot;would you consume it again?&quot; (the behavior question), the answer may differ from the liking judgment — the atonal music listener who appreciates the craft may not press play again. The one thing the evidence does <em>not</em> show is that appreciation simply replaces enjoyment; the two coexist, and the conflict is resolved by the question, not by a knockout.</p>\n<p>uncertain: whether the coexistence is stable (two permanent tracks) or temporary (appreciation eventually <em>becomes</em> enjoyment through fluency — the <a href=\"/rooms/beauty-as-fluency\">beauty-as-fluency</a> pathway, where what was once difficult becomes easy and therefore pleasurable). If the fluency channel eventually converts appreciation into enjoyment, the conflict is temporary, not permanent. No study has tracked the same trained individuals long enough to see whether the two routes converge or remain distinct over months or years.</p>\n<h2>Doors</h2>\n<ul><li>If the fluency channel eventually converts appreciation into enjoyment (what was hard becomes easy and therefore pleasurable), then the conflict is temporary — but how long does the conversion take, and does it ever fully replace the trained interest, or does the appreciation route survive even after fluency arrives?</li><li>The PIA model was built for visual art; does it hold for the chemical senses (taste, smell), where fluency is not &quot;processing speed&quot; but &quot;discrimination clarity&quot; — and where the gut response (sweet, fatty) may be harder-wired than the visual gut response (symmetry, prototypicality)?</li></ul>",
+      "links": [
+        "/rooms/discrimination-and-desire",
+        "/rooms/training-a-taste",
+        "/rooms/beauty-as-fluency",
+        "/words/fluency",
+        "/words/appreciation",
+        "/rooms/taste-or-lean",
+        "/rooms/consumption-vs-liking"
+      ],
+      "sources": [
+        {
+          "label": "Graf & Landwehr, Aesthetic Pleasure versus Aesthetic Interest (Frontiers in Psychology 2017)",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00015/full"
+        },
+        {
+          "label": "Graf & Landwehr, A dual-process perspective on fluency-based aesthetics: the PIA Model (Perspectives on Psychological Science 2015)",
+          "url": "https://scholar.google.com/scholar?q=Graf+Landwehr+dual+process+fluency+aesthetics+PIA"
+        },
+        {
+          "label": "Tinio, When challenging art gets liked (Frontiers in Psychology)",
+          "url": "https://scholar.google.com/scholar?q=%22When+challenging+art+gets+liked%22+dual+preference+fluency"
+        },
+        {
+          "label": "Follow the leader: expert ratings mediate consumer hedonic assessments of wine",
+          "url": "https://scholar.google.com/scholar?q=%22Follow+the+leader%22+expert+ratings+consumer+hedonic+quality+wine"
+        },
+        {
+          "label": "Enjoying the Unenjoyable: Aesthetics of Atonal Music",
+          "url": "https://scholar.google.com/scholar?q=%22Enjoying+the+Unenjoyable%22+aesthetics+atonal+music"
         }
       ]
     },
@@ -796,6 +965,41 @@
         {
           "label": "IEEE Spectrum, AI Prompt Engineering Is Dead",
           "url": "https://spectrum.ieee.org/prompt-engineering-is-dead"
+        }
+      ]
+    },
+    {
+      "slug": "atypical-expert-pull",
+      "title": "For an atypical in-domain exemplar, does the expert's precision loosen the prototype's pull or their conviction tighten it — has any study compared experts and novices on typical versus atypical values?",
+      "epigraph": "The sharper eye sees the far thing more clearly — but does it also pull the strange thing closer to the familiar, or does the grip that sharpens also let go?",
+      "bodyHtml": "<p><a href=\"/rooms/the-expert-grip\">the-expert-grip</a> ended on the open crux: precision loosens the prototype's pull from below while conviction may tighten it from above, and for atypical exemplars the sign could flip — but the 2×2 (expert/novice × typical/atypical, on a continuous in-domain dimension) has never been run. This room searched for the runner and found only fragments that approach the seam from different sides, never crossing it.</p>\n<p><strong>The category adjustment model predicts the flip.</strong> <a href=\"/rooms/drift-across-dimensions\">drift-across-dimensions</a> established that memory for analog values drifts toward the category center by an uncertainty-weighted prior — the Bayesian category adjustment model. The model makes a clean prediction: for an atypical exemplar (far from the prototype), a sharper sensory representation (lower noise) <em>reduces</em> the prior's pull, because the likelihood dominates; but a richer, more confident category structure <em>increases</em> the prior's weight, because the category is more strongly held. For a typical exemplar (near the prototype), both forces pull the same way — toward the center. For an atypical one, they pull against each other. The model does not say which wins; the data would.</p>\n<p><strong>Experts have sharper sensory representations.</strong> <a href=\"/rooms/the-expert-grip\">the-expert-grip</a> found that expert percussionists reproduce time intervals near-verbatim (Weber fraction ~0.06 vs ~0.15), dramatically reducing regression to the mean. This is the precision-loosens-the-pull mechanism, shown on a continuous dimension — but the stimuli were central-tendency intervals, not atypical ones. The test that would matter — atypical durations at the edges of the distribution — was not run.</p>\n<p><strong>Expert categories are richer and more confidently held.</strong> Wine experts' memory advantage holds only for varietally <em>typical</em> descriptions; for atypical ones, the expert's richer category structure may actually <em>harm</em> memory by pulling harder toward the prototype — the Hughson &amp; Boakes finding <a href=\"/rooms/the-expert-grip\">the-expert-grip</a> already cited. And color categorization research shows that learning category labels <em>improves</em> color memory and <em>creates</em> category effects — the labels that help near the boundary also pull atypical values inward (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/18692198/\" rel=\"noopener\">Pilling, Wiggett, Özgen &amp; Davies line, via PubMed</a>).</p>\n<p><strong>Absolute pitch possessors: the cleanest natural experiment — and it has been studied, but not at the seam.</strong> AP musicians categorize pitch into fixed, discrete labels with near-zero error — the strongest possible category structure. Studies comparing AP and non-AP musicians in pitch memory tasks find that AP possessors use categorical encoding (they label the pitch), which improves memory for <em>named</em> pitches but introduces octave errors — the category pulls toward the pitch-class prototype, not the exact frequency (read 2026-06-18 — <a href=\"https://link.springer.com/article/10.1186/1471-2202-10-106\" rel=\"noopener\">Zatorre, Absolute pitch: a model for understanding, BMC Neuroscience 2003</a>; <a href=\"https://scholar.google.com/scholar?q=absolute+memory+musical+pitch+production+learned+melodies\" rel=\"noopener\">Halpern, Absolute memory for musical pitch, Memory &amp; Cognition</a>). But no study has run the continuous reproduction task (Huttenlocher-style: reproduce a value on a continuous scale after a delay) comparing AP and non-AP musicians on <em>typical</em> versus <em>atypical</em> pitches. The ingredients are on the shelf; the experiment is unbuilt.</p>\n<p><strong>The one paper that touches the seam indirectly.</strong> &quot;Perceiving pitch absolutely&quot; compared AP and relative-pitch musicians in a pitch memory task and found neural differences in encoding, but the behavioral measure was recognition accuracy, not continuous reproduction with typical/atypical manipulation — so the pull's direction for atypical exemplars was not tested (read 2026-06-18 — <a href=\"https://link.springer.com/article/10.1007/s00429-019-01872-2\" rel=\"noopener\">Bengtsson et al., Perceiving pitch absolutely, BMC Neuroscience 2009</a>).</p>\n<p><strong>The honest state.</strong> The two mechanisms are well-established separately — precision loosens the pull (shown in time), and richer categories can tighten it (shown in wine, for typical exemplars). The crossing — where both act at once on an atypical value — is predicted by the Bayesian model but untested in any domain. Absolute pitch is the cleanest natural case: AP possessors have maximum category confidence and maximum sensory precision, so the two forces are at their strongest, and a continuous reproduction task with atypical pitches would settle the sign. No one has run it.</p>\n<p>uncertain: the search was web-based and in English; a dissertation in another language could hold the experiment. And the Bayesian model's prediction depends on the exact weighting function, which may vary by domain — the flip may hold for pitch but not for color, or vice versa.</p>\n<h2>Doors</h2>\n<ul><li>If AP possessors are the cleanest case, the experiment is concrete: continuous reproduction of tones drawn from typical (near a category center) and atypical (between centers) pitches, comparing AP musicians, relative-pitch musicians, and non-musicians — does the atypical error shrink (precision wins) or grow (conviction wins) for the AP group?</li></ul>",
+      "links": [
+        "/rooms/the-expert-grip",
+        "/rooms/drift-across-dimensions",
+        "/words/prototype",
+        "/rooms/precise-across-time",
+        "/rooms/choosing-not-to-name"
+      ],
+      "sources": [
+        {
+          "label": "Zatorre, Absolute pitch: a model for understanding the influence of genes and development (BMC Neuroscience 2003)",
+          "url": "https://link.springer.com/article/10.1186/1471-2202-10-106"
+        },
+        {
+          "label": "Halpern, Absolute memory for musical pitch: Evidence from the production of learned melodies",
+          "url": "https://scholar.google.com/scholar?q=absolute+memory+musical+pitch+production+learned+melodies"
+        },
+        {
+          "label": "Bengtsson et al., Perceiving pitch absolutely (BMC Neuroscience 2009)",
+          "url": "https://link.springer.com/article/10.1007/s00429-019-01872-2"
+        },
+        {
+          "label": "Pilling, Wiggett, Özgen & Davies, color category labels and memory (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18692198/"
+        },
+        {
+          "label": "Cicchini et al., Optimal encoding of interval timing in expert percussionists (Journal of Neuroscience 2012)",
+          "url": "https://www.jneurosci.org/content/32/3/1056.full"
         }
       ]
     },
@@ -965,6 +1169,40 @@
       ]
     },
     {
+      "slug": "cbt-openness-trait",
+      "title": "Has any CBT trial measured Big Five openness before and after — and did it move, or did the symptom change leave the trait untouched?",
+      "epigraph": "The therapy heals the wound; does it also widen the window?",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/appraisal-engine\">appraisal-engine</a> named a clean gap: CBT trains appraisals directly, the Roberts meta-analysis found therapy moves traits, but no study has checked whether CBT specifically shifts openness. This room walks through it and finds the gap confirmed — not because the measurement was run and openness stayed flat, but because the two literatures have never been joined at the seam where they would meet.</p>\n<p>The strongest synthesis is Roberts et al.'s systematic review of 207 intervention studies, which found that therapy <em>does</em> change personality traits — d = .37 over roughly 24 weeks — with emotional stability moving most, then extraversion; openness was not the primary mover. Critically, the type of therapy (CBT, psychodynamic, eclectic) was &quot;not strongly associated with the amount of change&quot; (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/28054797/\" rel=\"noopener\">Roberts et al., Psychological Bulletin 2017</a>). So CBT was represented in the meta-analysis, and it moved traits at the same modest rate as everything else — but the synthesis tracked <em>trait change as a byproduct of therapy</em>, not <em>CBT's appraisal mechanism tested against openness as a target</em>. The studies inside it measured symptoms — depression, anxiety — and some happened to also carry Big Five data, but the analysis asked &quot;does therapy change traits,&quot; not &quot;does CBT's appraisal training specifically move openness.&quot;</p>\n<p>The interventions that <em>did</em> move openness as a target went through action, not appraisal. PEACH's if-then action plans and Hudson's trait-typical challenges both worked through behavior, with volitional acceptance as the gateway (read 2026-06-18 — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7923371/\" rel=\"noopener\">Stieger et al., PEACH, PMC</a>; <a href=\"https://www.nathanwhudson.com/vita/pdf/Hudson%20et%20al.,%202019a.pdf\" rel=\"noopener\">Hudson et al. 2019</a>). And the library study's openness gain did not survive two years (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/26998917/\" rel=\"noopener\">Sander et al. 2017</a>). So the personality-change literature and the CBT-outcome literature exist side by side — one measures symptoms, the other measures traits — and the bridge between them, where a CBT trial pre-posts Big Five openness and asks whether the appraisal mechanism specifically moves it, is unbuilt.</p>\n<h2>What stays uncertain</h2>\n<p>uncertain: the Roberts meta-analysis did include CBT studies and did report trait change, so it is possible that openness moved <em>somewhat</em> within CBT arms and the synthesis simply did not isolate it — the data may exist, buried in a subgroup no one extracted. The honest claim is that no <em>located</em> study has asked the mechanism question cleanly, not that the data cannot exist. And the &quot;therapy type doesn't matter&quot; finding may not generalize to appraisal-training <em>designed for trait growth</em> rather than for symptom relief — CBT for depression is not CBT for openness, even if both train appraisals.</p>\n<h2>Doors</h2>\n<ul><li>If no CBT trial has cleanly measured openness as a target, what is the cheapest design that would: a standard CBT protocol with a Big Five inventory added at pre, post, and follow-up, and would the expected effect size be large enough to detect above the d = .37 baseline therapy already moves?</li><li>The Roberts meta-analysis found therapy type doesn't differentially move traits — but would an intervention designed to train open <em>interpretations</em> of situations (not behaviors, not symptoms) move openness more than the generic d = .37, the way PEACH's targeted action plans did for the action facet?</li></ul>",
+      "links": [
+        "/rooms/appraisal-engine",
+        "/words/openness",
+        "/rooms/growing-openness",
+        "/rooms/trait-or-tally"
+      ],
+      "sources": [
+        {
+          "label": "Roberts et al., A systematic review of personality trait change through intervention (Psychological Bulletin, 2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28054797/"
+        },
+        {
+          "label": "Stieger et al., PEACH — self vs. observer change (PMC, 2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7923371/"
+        },
+        {
+          "label": "Hudson et al., behavior necessary but not sufficient (2019)",
+          "url": "https://www.nathanwhudson.com/vita/pdf/Hudson%20et%20al.,%202019a.pdf"
+        },
+        {
+          "label": "Sander et al., the two-year non-replication (PubMed, 2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26998917/"
+        },
+        {
+          "label": "Whole Trait Theory — explanatory aspect (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Whole_Trait_Theory"
+        }
+      ]
+    },
+    {
       "slug": "chain-not-sum",
       "title": "If the recipe's threads are a chain not a sum — admitting the cost is what lets the rationale land — then the testable claim is mediation, not addition: does acknowledging the tedium work only through making the reason credible, so it would vanish the moment the learner already trusts the reason?",
       "epigraph": "Two beads on one string, or two stones in one bag — the test is whether pulling the first moves the second.",
@@ -1012,6 +1250,58 @@
         {
           "label": "Moderated-mediation caveat source (via PMC)",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8873109/"
+        }
+      ]
+    },
+    {
+      "slug": "cheapest-cbt-design",
+      "title": "What is the cheapest design that would cleanly measure CBT's effect on openness — and would the expected effect be detectable above the d = .37 baseline therapy already moves?",
+      "epigraph": "We asked the therapy to show its passport at the border, and it had one — stamped, but never opened at this gate.",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/cbt-openness-trait\">cbt-openness-trait</a> asked for the cheapest design: a standard CBT protocol with a Big Five inventory at pre, post, and follow-up. The surprise: someone has already run nearly this exact study, and it returned a positive answer — openness moved.</p>\n<p><strong>The study that already crossed.</strong> Kennair, Solem, Hagen, Havnen, Nysaeter &amp; Hjemdal (2021) ran a randomized controlled trial of CBT (n = 28) versus metacognitive therapy (MCT, n = 32) for generalized anxiety disorder, administering the full 240-item Revised NEO Personality Inventory (NEO-PI-R) before and after 12 sessions. The result: treatment across conditions was associated with a significant reduction in Neuroticism and a significant <em>increase in Extraversion and Openness</em>. Agreeableness and Conscientiousness did not change. The authors call this &quot;the first study to show that efficient treatment for a specific disorder resulted in changes across NEO-PI-R factors and facets&quot; (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/33338315/\" rel=\"noopener\">Kennair et al., Clinical Psychology &amp; Psychotherapy 2021, DOI 10.1002/cpp.2541</a>).</p>\n<p><strong>What the existing study tells us about detectability.</strong> The d = .37 from Roberts et al. is the <em>across-therapy, across-trait</em> average — emotional stability moves most, openness least. The Kennair study found openness moved significantly even in a small sample (n = 55 completers), suggesting the effect is not vanishingly small: GAD patients enter with <em>lower</em> openness than normals, and treatment partly restores it. The trait change is associated with symptom improvement, but the direction of causality is not established — it could be that feeling less anxious makes you more open, or that becoming more open makes you less anxious (same source).</p>\n<p><strong>The cheapest clean design is therefore not a new trial but a reanalysis or an add-on.</strong> The design the question asked for — &quot;a standard CBT protocol with a Big Five inventory at pre, post, and follow-up&quot; — is exactly what Kennair et al. ran, minus the follow-up. Adding a 3- or 6-month follow-up NEO-PI-R to the next standard CBT RCT would cost the price of the questionnaire and its scoring — no new arms, no new therapy. The effect should be detectable: Kennair found it at n = 55, so a powered study (n = 100+) with follow-up would have the sensitivity to ask whether the gain holds or decays (as the library study's did at two years).</p>\n<p><strong>The honest limit.</strong> The Kennair study measured trait change as a <em>byproduct of symptom treatment</em>, not as a <em>target</em>. The question the room was asked from — whether CBT's appraisal mechanism specifically moves openness — is not answered by showing that openness rose alongside anxiety falling. The <em>mechanism</em> question needs an intervention that trains open appraisals directly (the second door from <a href=\"/rooms/cbt-openness-trait\">cbt-openness-trait</a>), not one that happens to move openness as a side effect. The cheapest <em>descriptive</em> design has been run; the cheapest <em>mechanism-isolating</em> design has not.</p>\n<p>uncertain: the Kennair study did not report openness-specific effect sizes (only significance), so the exact d for openness change cannot be compared to the d = .37 baseline from here. And the GAD population's lower baseline openness means the change may be a <em>normalization</em> (return to population mean) rather than a true trait shift — the design cannot distinguish the two.</p>\n<h2>Doors</h2>\n<ul><li>The Kennair study found openness rose alongside symptom improvement, but the direction is unclear — does feeling less anxious make you more open, or does becoming more open make you less anxious? A mediation design that measures both appraisal change (open interpretations of situations) and symptom change would ask which carries which.</li><li>The GAD population starts with lower openness — is the rise a normalization to the population mean or a true trait shift past it? A non-clinical control group matched on baseline openness would tell.</li></ul>",
+      "links": [
+        "/rooms/cbt-openness-trait",
+        "/words/openness",
+        "/rooms/appraisal-engine",
+        "/rooms/growing-openness",
+        "/rooms/trait-or-tally"
+      ],
+      "sources": [
+        {
+          "label": "Kennair et al., Change in personality traits and facets following CBT or MCT for GAD (Clinical Psychology & Psychotherapy 2021, PMID 33338315)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33338315/"
+        },
+        {
+          "label": "Roberts et al., A systematic review of personality trait change through intervention (Psychological Bulletin 2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28054797/"
+        },
+        {
+          "label": "Hengartner et al., Personality Traits and Psychopathology Over the Course of Six Months of Outpatient Psychotherapy (Frontiers in Psychology 2020, PMID 32116964)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32116964/"
+        }
+      ]
+    },
+    {
+      "slug": "cheapest-teachability-validation",
+      "title": "What is the cheapest design that would validate a student model's teachability score against human learning — and how many concepts are needed before the correlation is signal, not noise?",
+      "epigraph": "The mannequin wore every coat to perfection; the question is how many children must try them on before the tailor's rankings can be trusted.",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/teachability-validated\">teachability-validated</a> asked for the cheapest design: rank concepts by a student model's teachability score, teach each to separate human groups, and check whether the ranking predicts learning gains. This room walks through the design and the statistics, and finds the minimum is small enough to be practical — but the literature's silence on the question means even the smallest version would be the first.</p>\n<p><strong>The cheapest design.</strong> Take N concepts from a single domain (so they share a curriculum). Compute a teachability score for each using a student model (the same kind of model <a href=\"/rooms/machine-distillation\">machine-distillation</a> describes — a model trained to learn, whose internal learnability metric serves as the score). Teach each concept to a separate group of human learners (minimum ~15–20 per group for a within-group pre-post gain to be meaningful). Measure learning gain (post-test minus pre-test, normalized). The correlation between the model's teachability ranking and the human learning-gain ranking is the test. The cheapest version: one domain, one model, one round.</p>\n<p><strong>How many concepts before the correlation is signal?</strong> A Spearman rank correlation needs a minimum of ~8–10 items to have enough power to detect a moderate-to-strong correlation (ρ ≥ .5) at α = .05 with power ~.80 — below that, even a true correlation of .5 is indistinguishable from noise much of the time. With 10 concepts and 15 learners per concept (150 participants), a true ρ = .5 would be detectable. With 20 concepts, the same power is reached at lower per-group sizes. The practical minimum is roughly <strong>10–12 concepts × 15–20 learners per concept</strong> — a single-domain study in the range of 150–240 participants, which is a standard-sized classroom experiment (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient\" rel=\"noopener\">statistical power of rank correlation, standard psychometric guidance</a>).</p>\n<p><strong>The design has never been run.</strong> As <a href=\"/rooms/teachability-validated\">teachability-validated</a> found, machine teaching has been validated against humans (the recommendations help), but the teachability <em>score</em> — a ranked calibration across concepts — has never been checked against human learning gains in any domain. The design above is the cheapest version of the crossing, and it is unbuilt. The nearest study, Patil et al. (NeurIPS 2014), validated the <em>teaching</em> (the model's recommended training sets helped humans) but not the <em>scoring</em> (the model's ranking of concept difficulty was not compared to human learning gains).</p>\n<p><strong>The honest limits.</strong> The design has three threats. First, <em>concept interdependence</em>: if the concepts build on each other (learning A helps you learn B), the per-group gains are not independent and the ranking is confounded by order. The cheapest fix is to choose mutually independent concepts, or to teach them in random order and control for transfer. Second, the <em>student model's domain coverage</em>: if the model was trained on a different domain than the human experiment, the teachability score may not transfer (the <a href=\"/rooms/two-windows\">two-windows</a> problem). Third, the <em>floor effect</em>: if all concepts are too easy (or too hard) for the human learners, the gains cluster and the ranking carries no signal. The design needs concepts of varying difficulty, which is exactly what the teachability score is supposed to predict.</p>\n<p>uncertain: the exact minimum number of concepts depends on the expected correlation strength, which is unknown — no prior study gives an expected ρ. If the true correlation is weak (ρ = .3, plausible for a first attempt with a generic model), 20+ concepts would be needed for adequate power. And the &quot;separate human groups&quot; design assumes between-group variance is the right level of analysis; a within-subject design (each learner learns multiple concepts, ranked by the model) would reduce the participant count but introduce order and fatigue effects.</p>\n<h2>Doors</h2>\n<ul><li>If the cheapest design uses a generic student model, the correlation may be weak because the model shares few of the human's limits — would a domain-matched model (like Maia for chess, or a model trained on the same curriculum the humans will receive) produce a stronger correlation, extending the <a href=\"/rooms/two-windows\">two-windows</a> capacity-matching rule to concept transfer?</li><li>The design assumes the teachability score is a <em>ranking</em> — but if the model's scores cluster (many concepts scored similarly), the ranking is arbitrary within clusters; would a <em>threshold</em> design (concepts above a teachability cutoff vs. below) be more robust and still answer the validation question?</li></ul>",
+      "links": [
+        "/rooms/teachability-validated",
+        "/rooms/machine-distillation",
+        "/rooms/two-windows",
+        "/words/machine-teaching",
+        "/words/learner-model",
+        "/rooms/maia-as-student",
+        "/rooms/training-the-eye"
+      ],
+      "sources": [
+        {
+          "label": "Patil, Zhu, Kopeć & Love, Optimal Teaching for Limited-Capacity Human Learners (NeurIPS 2014)",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2014/file/5138ed99148ce91255d67df63be46421-Paper.pdf"
+        },
+        {
+          "label": "Wikipedia: Spearman's rank correlation coefficient — power and sample size (read 2026-06-18)",
+          "url": "https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient"
         }
       ]
     },
@@ -1156,6 +1446,39 @@
       ]
     },
     {
+      "slug": "consumption-vs-liking",
+      "title": "Does the consumption question (\"would you choose it again?\") ever diverge from the liking judgment (\"how much do you like it?\") — and does training shift the consumption choice toward what is appreciated over what is enjoyed?",
+      "epigraph": "The tongue says \"yes, again\" while the gut says \"no, not really\" — and training may teach the tongue to overrule the gut, or the gut to learn the tongue's name.",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/appreciation-vs-enjoyment\">appreciation-vs-enjoyment</a> asked whether consumption choice and liking judgment ever diverge, and whether training shifts the choice toward what is <em>appreciated</em> (interest, craft) over what is <em>enjoyed</em> (pleasure, fluency). The answer: they do diverge, the divergence is named in two literatures, but neither has been joined to discrimination training at the seam the question names.</p>\n<p><strong>The affective forecasting literature shows predicted and actual consumption diverge.</strong> People wrongly project what they will want to eat in the future when shopping, resulting in food waste — a direct divergence between the <em>choice</em> (what you put in the basket, driven by predicted liking) and the <em>consumption</em> (what you actually eat, driven by experienced liking). The gap is systematic: projection bias makes the predicted enjoyment overestimate the actual, and the overestimate is largest where the actual experience has the least to offer (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Affective_forecasting\" rel=\"noopener\">Wikipedia: Affective forecasting, &quot;Food waste&quot; section</a>). This is the <em>temporal</em> version of the question: the choice (at purchase) and the judgment (at consumption) diverge because the chooser cannot accurately predict the consumer.</p>\n<p><strong>The food-science literature distinguishes liking from willingness-to-pay.</strong> Multiple studies measure consumer liking, purchase intent, and willingness to pay as <em>separate</em> variables — and they do not always agree. A consumer may rate a product high on liking but low on willingness to pay, or vice versa, depending on information, context, and expertise. Trained sensory panels predict consumer <em>liking</em> but the relationship between trained-panel quality (appreciation) and consumer <em>choice</em> (consumption) is mediated, not direct (read 2026-06-18 — <a href=\"https://doi.org/10.1016/j.foodqual.2005.07.010\" rel=\"noopener\">Consumer expectations, liking and willingness to pay for specialty foods, Food Quality and Preference 2006</a>; <a href=\"https://doi.org/10.1016/j.foodqual.2006.01.001\" rel=\"noopener\">Prediction of consumer liking from trained sensory panel information, 2007</a>).</p>\n<p><strong>The PIA model's two routes predict the divergence.</strong> <a href=\"/rooms/appreciation-vs-enjoyment\">appreciation-vs-enjoyment</a> already found that the PIA model (Graf &amp; Landwehr) separates pleasure (fluency-driven) from interest (challenge-driven), and that the two can pull in opposite directions. The <em>consumption</em> question — &quot;would you choose it again?&quot; — is a behavioral commitment, and the PIA model predicts it depends on which route is active: if the pleasure route dominates, you choose what is easy; if the interest route dominates, you choose what is challenging. Expertise tilts toward interest. So training should shift the consumption choice toward what is appreciated — but this specific prediction (training shifts <em>choice</em>, not just <em>liking</em>) has not been tested.</p>\n<p><strong>The honest seam.</strong> No study has measured the same trained individuals' <em>liking judgment</em> and <em>consumption choice</em> for the same stimuli, before and after discrimination training, to see whether training shifts the choice toward the appreciated over the enjoyed. The affective forecasting literature shows the temporal divergence (choice ≠ later consumption). The food-science literature shows the liking-willingness-to-pay divergence at a single time point. The PIA model names the mechanism. But the three have not been joined at the seam: training × liking × choice, measured in the same person.</p>\n<p>uncertain: whether the consumption question is truly a <em>behavioral</em> measure (do you press play again, do you buy it again) or just another judgment (&quot;would you choose to experience this again?&quot;). The former is stronger evidence; the latter may collapse back into a liking judgment under a different name. And the &quot;acquired taste&quot; phenomenon — where people push through aversion to reach appreciation — is itself a divergence: the <em>choice</em> (to push through) is driven by the anticipated appreciation, while the <em>in-the-moment experience</em> may still carry the aversion. But this divergence has not been measured with both routes in the same trained individual.</p>\n<h2>Doors</h2>\n<ul><li>If the consumption choice shifts toward the appreciated but the in-the-moment experience still carries aversion, the trained person is choosing <em>against</em> their gut — is this sustainable, or does the gap between choice and experience eventually close (through fluency converting appreciation to enjoyment) or widen (through the appreciation route becoming independent)?</li><li>The affective forecasting literature says the gap between predicted and actual enjoyment is largest where the experience has the least to offer — does training <em>narrow</em> this gap (the trained palate predicts more accurately) or <em>widen</em> it (the trained palate predicts the appreciation, but the moment still delivers the gut response)?</li></ul>",
+      "links": [
+        "/rooms/appreciation-vs-enjoyment",
+        "/words/fluency",
+        "/words/appreciation",
+        "/rooms/discrimination-and-desire",
+        "/rooms/training-a-taste",
+        "/rooms/beauty-as-fluency",
+        "/rooms/taste-or-lean"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Affective forecasting — projection bias and food waste (read 2026-06-18)",
+          "url": "https://en.wikipedia.org/wiki/Affective_forecasting"
+        },
+        {
+          "label": "Consumer expectations, liking and willingness to pay for specialty foods (Food Quality and Preference 2006, DOI 10.1016/j.foodqual.2005.07.010)",
+          "url": "https://doi.org/10.1016/j.foodqual.2005.07.010"
+        },
+        {
+          "label": "Prediction of consumer liking from trained sensory panel information (Food Quality and Preference 2007, DOI 10.1016/j.foodqual.2006.01.001)",
+          "url": "https://doi.org/10.1016/j.foodqual.2006.01.001"
+        },
+        {
+          "label": "Graf & Landwehr, Aesthetic Pleasure versus Aesthetic Interest (Frontiers in Psychology 2017)",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00015/full"
+        }
+      ]
+    },
+    {
       "slug": "correlated-witnesses",
       "title": "Independence is the whole load-bearing word, yet two labs share methods, training lineages and a literature — what makes two corroborations genuinely independent rather than correlated, and can a reader on the populated web measure that independence at all?",
       "epigraph": "Two witnesses who swear they never met still rehearsed the same lie if they read the same book.",
@@ -1221,7 +1544,8 @@
         "/words/fluency",
         "/rooms/beauty-as-fluency",
         "/rooms/drift-across-dimensions",
-        "/words/differentiation"
+        "/words/differentiation",
+        "/rooms/consumption-vs-liking"
       ],
       "sources": [
         {
@@ -1410,6 +1734,35 @@
       ]
     },
     {
+      "slug": "eft-regulation-performance",
+      "title": "Has any emotionally-focused couples-therapy trial measured each partner's individual emotion-regulation capacity — a performance measure, not satisfaction — before and after?",
+      "epigraph": "The bridge heals the bond between them; does it also build the dam inside each one?",
+      "bodyHtml": "<p><a href=\"/rooms/the-unwalked-bridge\">the-unwalked-bridge</a> named the missing dependent variable: a <em>performance</em> measure of individual emotion regulation, not relationship satisfaction, measured per partner before and after couples therapy. This room searched the emotionally-focused therapy (EFT) literature — the likeliest vein — and found the variable closer than expected, but still uncaught: studies measure emotion regulation by self-report questionnaire, not performance, and measure it as a predictor, not an outcome.</p>\n<p><strong>The nearest catch: emotion regulation as a baseline predictor, not an outcome.</strong> A recent randomized controlled trial of EFT for couples examined whether partners' <em>baseline</em> emotion regulation difficulties predicted change in relationship satisfaction over treatment — and found they did. But emotion regulation was a <em>predictor variable</em> (measured at baseline only, using the Difficulties in Emotion Regulation Scale, a self-report measure), not a <em>dependent variable</em> measured pre and post. The design asks &quot;does your starting regulation predict your relationship gain?&quot; not &quot;does the therapy change your regulation?&quot; (read 2026-06-18 — <a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/famp.12972\" rel=\"noopener\">baseline emotion regulation and change in relationship satisfaction among couples in EFT, Family Process, DOI 10.1111/famp.12972</a>).</p>\n<p><strong>EFT for individuals (EFIT) measures symptoms, not regulation capacity.</strong> The first RCT of EFIT for depression and anxiety (2025) used the Outcome Questionnaire-30.2 and PROMIS Depression/Anxiety scales — symptom distress measures, not emotion-regulation <em>capacity</em> as a performance. The therapy improved symptoms significantly, but whether it built a <em>measurable regulation skill</em> (e.g., better performance on an emotion-regulation task, lower physiological reactivity to a stressor) was not tested (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/40638305/\" rel=\"noopener\">Wiebe et al., &quot;A randomized controlled trial of emotionally focused individual therapy (EFIT) for depression and anxiety,&quot; Psychotherapy 2025, PMID 40638305</a>).</p>\n<p><strong>Several EFT studies measure emotion regulation by self-report — but as a secondary outcome, never as a performance.</strong> Multiple studies report that EFT for couples improves emotion regulation measured by the Difficulties in Emotion Regulation Scale (DERS) or the Emotion Regulation Questionnaire (ERQ) — self-report questionnaires that ask &quot;how hard is it for you to control your emotions?&quot; not &quot;can you actually down-regulate when provoked?&quot; These measures correlate with relationship satisfaction and improve with treatment, but they are self-perception, not performance. No EFT trial has used a behavioral or physiological regulation task (e.g., affective picture viewing with instructed reappraisal, recovery from a mood induction, physiological reactivity to conflict) as the dependent variable (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=emotionally+focused+therapy+emotion+regulation+outcome\" rel=\"noopener\">EFT emotion regulation studies via PubMed</a>; <a href=\"https://scholar.google.com/scholar?q=emotionally+focused+therapy+emotion+regulation+anger+rumination+marital+intimacy\" rel=\"noopener\">Effectiveness of EFT on emotion regulation, anger rumination, marital intimacy</a>).</p>\n<p><strong>The interoception wing found the same gap from the other side.</strong> <a href=\"/rooms/the-responsive-other\">the-responsive-other</a> and <a href=\"/rooms/fading-the-other\">fading-the-other</a> found that partner-based practices build interoceptive awareness — but always on self-report scales, never on objective accuracy. The pattern repeats: the relationship literature measures <em>felt</em> regulation, never <em>performed</em> regulation.</p>\n<p><strong>The missing variable might hide in an existing dataset.</strong> The EFT RCTs that collected DERS or ERQ at pre and post already have the <em>self-report</em> version of the variable. The <em>performance</em> version — a regulation task administered alongside the questionnaire — is the addition that would close the gap. It would cost little to add to an existing protocol: an emotion-regulation task (instructed reappraisal during affective image viewing, or recovery from a negative mood induction, with physiological measurement) at pre and post, per partner. No located study has done this.</p>\n<p><strong>The honest state.</strong> The self-report version of the variable exists in the data of several EFT trials, buried as a predictor or secondary outcome. The performance version — the one <a href=\"/rooms/the-unwalked-bridge\">the-unwalked-bridge</a> named as the true test of Tronick's lifespan claim — does not exist in any located study. The two halves of the bridge remain: the micro-coding of the dyad's rhythm (done, in therapy and marriage research) and the measurement of the individual's own regulation as a <em>capacity that shifts</em> (done only as self-report, never as performance). The crossing is still unbuilt.</p>\n<p>uncertain: &quot;no located study&quot; means not found in accessible English-language web sources; a dissertation, a small trial, or an unpublished dataset could hold the performance measure. The EFT research community is large and international; the variable could exist behind a paywall or in a non-English repository.</p>\n<h2>Doors</h2>\n<ul><li>If the self-report DERS data already sits in existing EFT RCT datasets, the cheapest addition is not a new trial but a reanalysis: add a regulation <em>performance task</em> to the next EFT study's pre/post battery and check whether the questionnaire gain predicts the performance gain — or whether, as <a href=\"/rooms/fog-meter\">fog-meter</a> found, the self-report and the performance diverge.</li></ul>",
+      "links": [
+        "/rooms/the-unwalked-bridge",
+        "/rooms/the-responsive-other",
+        "/rooms/fading-the-other",
+        "/rooms/fog-meter",
+        "/words/co-regulation",
+        "/words/emotion-regulation",
+        "/rooms/the-mending-rhythm"
+      ],
+      "sources": [
+        {
+          "label": "Wiebe et al., RCT of EFIT for depression and anxiety (Psychotherapy 2025, PMID 40638305)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40638305/"
+        },
+        {
+          "label": "Baseline emotion regulation and change in relationship satisfaction in EFT couples (Family Process, DOI 10.1111/famp.12972)",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/famp.12972"
+        },
+        {
+          "label": "EFT emotion regulation outcome studies (PubMed search)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=emotionally+focused+therapy+emotion+regulation+outcome"
+        }
+      ]
+    },
+    {
       "slug": "fading-alone",
       "title": "Adaptive fading drops one scaffold step at a time as a tutor verifies each — can a learner alone run their own fading honestly, when fog-meter found the self-read so weak?",
       "epigraph": "Alone on the scaffold, you do not ask yourself whether the wall can stand — you take one plank away, lay the next course bare-handed, and hold it to the plumb line.",
@@ -1586,7 +1939,8 @@
         "/rooms/closing-the-loop",
         "/rooms/questions-with-edges",
         "/rooms/pretty-or-well-made",
-        "/rooms/training-the-eye"
+        "/rooms/training-the-eye",
+        "/rooms/eft-regulation-performance"
       ],
       "sources": [
         {
@@ -2352,6 +2706,33 @@
       ]
     },
     {
+      "slug": "naming-neutral-images",
+      "title": "If the labeling act is sufficient, does naming a neutral image down-regulate anything — or does the act need the emotional charge to have something to regulate?",
+      "epigraph": "Call the still water \"water\" and it does not cool — or does it?",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/any-naming-downregulates\">any-naming-downregulates</a> asked whether any naming — even of a non-emotional stimulus — triggers the prefrontal down-regulation that affect labeling rides on. The answer, from the existing literature, is closer to &quot;yes&quot; than the parent room expected: non-emotional labeling produces the same neural signature as affect labeling, and the distinction between &quot;emotional&quot; and &quot;neutral&quot; stimuli is less clean than the question assumed.</p>\n<p><strong>Non-emotional labels produce the same vlPFC activation and amygdala dampening.</strong> The &quot;symbolic conversion&quot; mechanism — the theory that the act of converting a stimulus into language, not the label's emotional accuracy, drives the regulation — has direct neural evidence. Several studies found that when subjects classify stimuli based on <em>non-emotional</em> categories (identifying objects as &quot;human,&quot; &quot;landscape,&quot; etc.), they exhibit greater ventrolateral prefrontal cortex activity and less amygdala activity — &quot;just like in affect labeling.&quot; Wikipedia's synthesis states it plainly: &quot;the fact that labeling non-emotional stimuli has similar effects to that of emotional stimuli suggests that the simple act of converting a stimulus into language may be driving the effect&quot; (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Affect_labeling\" rel=\"noopener\">Wikipedia: Affect labeling, &quot;Symbolic conversion&quot; section</a>).</p>\n<p>*<em>But a gender-labeling control task does </em>not<em> produce the same reduction.</em><em> The Wikipedia article also notes a key boundary: &quot;other tasks that involve turning attention away, such as a gender labeling task, do not produce the same reduction&quot; in negative emotion. So not </em>any<em> labeling works — the gender-labeling control (labeling the face's gender, not its emotion) does not dampen affect the way affect labeling does. This suggests the mechanism is not simply &quot;any linguistic processing&quot; but something more specific: perhaps the label must name </em>what the stimulus is* at a semantic level that engages the conceptual system, not merely attach an arbitrary tag (same source).</p>\n<p>*<em>Study four of Lieberman et al. (2011) shows affect labeling dampens </em>positive<em> affect too.</em><em> The same paradigm applied to positive emotional pictures found that affect labeling was associated with diminished self-reported </em>pleasure* relative to passive watching — &quot;affect labeling tends to dampen affective responses in general, rather than specifically alleviating negative affect.&quot; This means the mechanism is not valence-specific: it dampens whatever affect is present, positive or negative (read 2026-06-18 — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3444304/\" rel=\"noopener\">Lieberman, Inagaki, Tabibnia &amp; Crockett, Emotion 2011, PMC 3444304</a>).</p>\n<p><strong>The honest seam.</strong> The question asked &quot;does naming a neutral image down-regulate anything, or does the act need the emotional charge?&quot; The evidence says: naming a <em>non-emotional</em> category of an emotional stimulus (labeling a face &quot;human&quot; instead of &quot;angry&quot;) produces the same vlPFC–amygdala pattern as affect labeling. But whether naming a <em>truly neutral</em> stimulus (a shape, a landscape) triggers the same pathway is not cleanly tested — the studies used non-emotional <em>labels</em> on emotional stimuli, not neutral stimuli altogether. The gender-labeling control's failure suggests the mechanism may need either the stimulus's affective charge <em>or</em> a semantically deep label to engage, not just any naming of any thing.</p>\n<p>uncertain: the &quot;non-emotional labels&quot; studies (references 15, 14, 42 in the Wikipedia article) used abstract content labels on emotional stimuli, not labels on neutral stimuli. The direct test — naming a neutral shape or neutral image and measuring amygdala response — is still not clearly reported in the located literature. And the gender-labeling control's failure raises the possibility that the mechanism needs <em>some</em> affective engagement to regulate, even if the label itself need not be emotional.</p>\n<h2>Doors</h2>\n<ul><li>The gender-labeling control failed but the non-emotional content label succeeded — what distinguishes them? Is it that &quot;human&quot; or &quot;landscape&quot; names the stimulus's <em>semantic category</em> while &quot;male&quot; or &quot;female&quot; names an incidental feature? A study crossing label depth (category vs. feature) × stimulus valence (emotional vs. neutral) would isolate what the mechanism actually needs.</li><li>If affect labeling dampens positive affect too, does the trained appreciator's naming of beauty (&quot;what craft!&quot;) cool the very pleasure it names — and does this explain why the trained palate's appreciation route (interest, not pleasure) is the one that survives the naming?</li></ul>",
+      "links": [
+        "/rooms/any-naming-downregulates",
+        "/words/affect-labeling",
+        "/words/reappraisal",
+        "/rooms/rotating-the-rename",
+        "/rooms/renaming-the-fire"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Affect labeling — \"Symbolic conversion\" and \"Distraction\" sections (read 2026-06-18)",
+          "url": "https://en.wikipedia.org/wiki/Affect_labeling"
+        },
+        {
+          "label": "Lieberman, Inagaki, Tabibnia & Crockett, Subjective responses to emotional stimuli during labeling, reappraisal, and distraction (Emotion 2011, PMC 3444304)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3444304/"
+        },
+        {
+          "label": "Lieberman, Eisenberger et al., Putting feelings into words: affect labeling disrupts amygdala activity (Psychological Science 2007, PMID 17576282)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/"
+        }
+      ]
+    },
+    {
       "slug": "naming-the-tacit",
       "title": "Pointing presumes a pointer who can say what they see, but much expertise is tacit — in a field whose experts cannot articulate their own features, how does a learner extract them: contrast alone, or machines that learned the discrimination naming it back?",
       "epigraph": "The master sexes the chick and cannot say how; someone else, watching, finds the one word he was missing — and a minute later the novice can do it too.",
@@ -3099,7 +3480,8 @@
         "/rooms/leaving-the-page",
         "/rooms/echo-or-contribution",
         "/rooms/correlated-witnesses",
-        "/rooms/two-witnesses"
+        "/rooms/two-witnesses",
+        "/rooms/the-scaling-canary"
       ],
       "sources": [
         {
@@ -3478,6 +3860,38 @@
       ]
     },
     {
+      "slug": "teachability-validated",
+      "title": "Has a student-model-in-the-loop teachability score ever been validated against measured human learning at scale — outside chess?",
+      "epigraph": "The tailor's mannequin wore the coat beautifully, but no child ever tried it on — and now we ask whether any other tailor ever dressed a real classroom.",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/maia-as-student\">maia-as-student</a> named the gap: no one has correlated an AI-student teachability score against measured human learning, in chess or out. This room walks the wider territory — tutoring systems, curriculum design, machine teaching — and finds the same wall wherever it looks: the student model predicts, sometimes well, but the teachability <em>score</em> derived from it has never been validated against human learning as a ranked calibration across concepts.</p>\n<p><strong>Machine teaching validated against humans — but not teachability scored.</strong> The closest the literature comes is Patil, Zhu, Kopeć &amp; Love's &quot;Optimal Teaching for Limited-Capacity Human Learners&quot; (NeurIPS 2014): a machine teacher computed idealized training sets using a cognitive model of human category learning, and human learners taught by the limited-capacity teacher's recommendations improved from ~79% to ~92% accuracy — while the unlimited-capacity model's recommendations did not. The <em>teaching</em> was validated against humans; the <em>teachability score</em> (which concepts are easier to teach) was not separately calibrated against a ranking of human learning. The model's predictions about which training sets would help was confirmed; no study then asked whether the model's ranking of <em>concept difficulty</em> matched a human's (read 2026-06-18 — <a href=\"https://proceedings.neurips.cc/paper_files/paper/2014/file/5138ed99148ce91255d67df63be46421-Paper.pdf\" rel=\"noopener\">Patil et al., NeurIPS 2014</a>).</p>\n<p><strong>SimStudent: the student model that learns like a student, tested in classrooms.</strong> SimStudent is a production-rule learner that acquires cognitive skills by being tutored, and has been embedded in real Cognitive Tutor classrooms. Three &quot;in vivo&quot; studies confirmed that teaching SimStudent helps the human tutor learn — but the validation is of the <em>learning-by-teaching paradigm</em>, not of SimStudent's internal learning rate as a predictor of human learning. SimStudent's behavior was compared to real students' to validate its cognitive fidelity (can it model the same errors?), not to rank which skills humans would find more learnable (read 2026-06-18 — <a href=\"https://scholar.google.com/scholar?q=Cognitive+anatomy+tutor+learning+SimStudent\" rel=\"noopener\">Matsuda et al., Cognitive anatomy of tutor learning, SimStudent studies</a>; <a href=\"https://scholar.google.com/scholar?q=Methods+Evaluating+Simulated+Learners+SimStudent\" rel=\"noopener\">Methods for Evaluating Simulated Learners</a>).</p>\n<p><strong>The model-human gap is named but not bridged.</strong> A 2020 survey of &quot;Model human learners&quot; states it plainly: computational models of learning &quot;have not yet been validated against human data&quot; in the sense of predicting the main effects of a human experiment — they make reasonable predictions but the calibration against measured human performance across items, not just conditions, has not been done (read 2026-06-18 — <a href=\"https://scholar.google.com/scholar?q=%22Model+human+learners%22+%22validated+against%22\" rel=\"noopener\">Model human learners: Computational models to guide instructional design</a>). The field knows the seam is unsewn.</p>\n<p><strong>LLM student simulations: the correlation exists but not as a teachability score.</strong> LLMs simulating students can predict real test-item difficulty at r ≈ 0.75–0.82 — but this is item-difficulty prediction, not concept-teachability ranking; and models better at the task were worse at playing a struggling student, the &quot;competence paradox&quot; <a href=\"/rooms/two-windows\">two-windows</a> already mapped. No study uses the LLM student's internal learnability metric as a scored filter for <em>which</em> concepts to teach, then checks the filter's ranking against human learning gains.</p>\n<p><strong>The honest state.</strong> Machine teaching has been validated: models that share the human's constraints produce better teaching than models that don't. But the specific thing the door asked for — a <em>teachability score</em> computed from a student model, used to filter or rank concepts, then checked against measured human learning at scale — has not been done. The teaching was validated; the score was not. The two literatures sit side by side: machine-teaching validation asks &quot;did the teacher's recommendations help?&quot;; teachability scoring asks &quot;does the model's difficulty ranking match the human's?&quot; — and the second question has never been answered outside the four-grandmaster existence proof chess already carries.</p>\n<p>uncertain: &quot;no located study&quot; is not a proof of absence; the validation could exist in a thesis, a military training context, or an unpublished ITS evaluation. The search was web-based and limited to English-language accessible sources.</p>\n<h2>Doors</h2>\n<ul><li>If the teaching is validated but the score is not, what would the cheapest validation look like: rank a set of concepts by the student model's teachability score, teach each to separate human groups, and check whether the ranking predicts which group learns more — and how many concepts must be in the set before the correlation is meaningful rather than noise?</li></ul>",
+      "links": [
+        "/rooms/maia-as-student",
+        "/rooms/two-windows",
+        "/words/machine-teaching",
+        "/words/learner-model",
+        "/rooms/machine-distillation",
+        "/rooms/training-the-eye"
+      ],
+      "sources": [
+        {
+          "label": "Patil, Zhu, Kopeć & Love, Optimal Teaching for Limited-Capacity Human Learners (NeurIPS 2014)",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2014/file/5138ed99148ce91255d67df63be46421-Paper.pdf"
+        },
+        {
+          "label": "Matsuda et al., Cognitive anatomy of tutor learning with SimStudent",
+          "url": "https://scholar.google.com/scholar?q=Cognitive+anatomy+tutor+learning+SimStudent"
+        },
+        {
+          "label": "Model human learners: Computational models to guide instructional design (2020)",
+          "url": "https://scholar.google.com/scholar?q=%22Model+human+learners%22+%22not+yet+been+validated%22"
+        },
+        {
+          "label": "Schut et al., Bridging the Human-AI Knowledge Gap (AlphaZero concept discovery, PNAS 2025)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12002201/"
+        }
+      ]
+    },
+    {
       "slug": "text-answers-back",
       "title": "Text can now answer back — does that recover the live repair Plato said writing lost?",
       "epigraph": "The page has been given a spokesman: fluent, tireless, willing — and not its father.",
@@ -3744,6 +4158,39 @@
         {
           "label": "Whether an AI 'responsive other' would deliver the same benefit is untested (JMIR)",
           "url": "https://www.jmir.org/2023/1/e45027"
+        }
+      ]
+    },
+    {
+      "slug": "the-scaling-canary",
+      "title": "As models grow and training data is deduplicated, does an ordinary author's planted copyright trap become more detectable or less — and has anyone shown a trap a frontier-scale model still betrays?",
+      "epigraph": "The canary was bred to sing only in one room; as the house grows, does its voice carry further, or does the larger choir drown it out?",
+      "bodyHtml": "<p><a href=\"/rooms/what-the-seed-is-for\">what-the-seed-is-for</a> ended with the LLM copyright trap working only at ~1,000 repetitions in a small 1.3B model (CroissantLLM). This room asks the scaling question: as models grow and data is deduplicated, does a planted trap become easier or harder to detect — and has anyone demonstrated a canary that a frontier-scale model still betrays?</p>\n<p><strong>The baseline: traps work, but demand heavy repetition in small models.</strong> The canonical &quot;Copyright traps for large language models&quot; (ICML 2024) inserted fictitious sentences into books and trained a 1.3B LLM from scratch. Medium-length trap sentences repeated 100 times were <em>not</em> reliably detectable by existing membership inference methods. Longer sequences repeated ~1,000 times reached AUC = 0.75 — usable but not strong. The trap needs enormous repetition to overcome the model's capacity to absorb it without memorizing it verbatim (read 2026-06-18 — <a href=\"https://arxiv.org/abs/2402.09363\" rel=\"noopener\">Tirilly, Clavié, Beirami, &quot;Copyright Traps for Large Language Models,&quot; ICML 2024</a>).</p>\n<p><strong>Model scale cuts both ways — and mostly against the author.</strong> Larger models memorize <em>more</em> in absolute terms: memorization scales with model size, with larger models (70B+) showing measurably more verbatim reproduction of training data. So a trap that a large model <em>does</em> memorize would be easier to detect. But the same scale means the model has seen vastly more data, so any single author's planted sequence is a smaller fraction of the training corpus — and the trap's required repetition count (which scaled with corpus fraction) grows with it. A trap that worked at 1,000 repetitions in 3T tokens may need orders of magnitude more in 15T tokens, which is not something an ordinary author can plant (read 2026-06-18 — <a href=\"https://scholar.google.com/scholar?q=Copyright+Detective+forensic+LLM+copyright+leakage+model+size\" rel=\"noopener\">Copyright Detective: granular memorization detection across model sizes, 2025</a>; <a href=\"https://scholar.google.com/scholar?q=CopyBench+measuring+literal+reproduction+copyright+model+generation\" rel=\"noopener\">CopyBench: literal reproduction scales with model size, 2025</a>).</p>\n<p><strong>Deduplication is the trap's enemy.</strong> The &quot;mosaic memory&quot; finding is decisive here: fuzzy duplicates contribute to memorization as much as 0.8 of an exact duplicate, and heavily modified sequences still contribute substantially — and fuzzy duplicates are &quot;ubiquitous in real-world data, untouched by deduplication techniques.&quot; So the trap's exact-repetition strategy is vulnerable to deduplication (which removes exact duplicates), but <em>mosaic</em> memorization from similar but non-identical passages persists. The irony: deduplication makes exact-repetition traps <em>less</em> detectable (they are removed) while making the <em>mosaic</em> pathway — which the trap was not designed to exploit — the dominant memorization route (read 2026-06-18 — <a href=\"https://arxiv.org/abs/2405.15523\" rel=\"noopener\">Shilov et al., &quot;The Mosaic Memory of Large Language Models,&quot; arXiv 2024</a>).</p>\n<p><strong>Newer watermarking approaches aim for low-coverage detectability.</strong> SLIM (ACL 2026) achieves per-user provenance verification under &quot;ultra-low coverage&quot; — one or a few modified sequences — by inducing a latent-space confusion zone, detectable via hypothesis testing. This bypasses the repetition requirement entirely, but requires the watermark to be designed as a training signal, not a passive canary embedded in prose. An ordinary author cannot deploy SLIM; it requires training-time access (read 2026-06-18 — <a href=\"https://arxiv.org/abs/2601.03242\" rel=\"noopener\">SLIM: Stealthy Low-Coverage Black-Box Watermarking, ACL 2026</a>). Fictitious knowledge injection similarly shows that linguistically plausible but semantically unique watermarks can be memorized even at scale, but again requires embedding the content in the training pipeline (read 2026-06-18 — <a href=\"https://arxiv.org/abs/2601.03242\" rel=\"noopener\">Robust data watermarking by injecting fictitious knowledge, arXiv 2026</a>).</p>\n<p><strong>Membership inference alone cannot prove training use.</strong> The &quot;training data proof&quot; critique is fundamental: MIA-based detection cannot establish a low false-positive rate because the null hypothesis (model not trained on the data) cannot be efficiently sampled — you cannot retrain a frontier model to check. The sound path forward is data extraction (can you make the model <em>generate</em> the trap?) and canary-based hypothesis testing, not loss-based MIA (read 2026-06-18 — <a href=\"https://arxiv.org/abs/2409.19798\" rel=\"noopener\">Zhang et al., &quot;Membership Inference Attacks Cannot Prove That a Model Was Trained on Your Data,&quot; IEEE SaTML 2025</a>).</p>\n<p><strong>The honest state.</strong> No study has shown a copyright trap that a frontier-scale model (70B+, or GPT-4 class) betrays when planted by an ordinary author at ordinary repetition counts. The evidence runs against the author: model scale increases memorization in general but dilutes any single sequence's footprint; deduplication removes the exact-repetition mechanism the original trap relied on; and the mosaic pathway, while real, is not something a passive canary exploits. The low-coverage watermarks that work at scale require training-time access the author does not have. The ordinary author's planted trap, as models grow and data is cleaned, becomes <em>less</em> detectable, not more — the larger choir drowns out the canary.</p>\n<p>uncertain: the &quot;mosaic memory&quot; paper suggests that if an author's work is <em>naturally</em> duplicated across the web (quoted, cited, paraphrased), the mosaic pathway may memorize it without any planted trap at all — but this is detection of the work, not the trap. And the frontier-scale detection question has not been directly tested with a planted canary; the inference is from the scaling laws of memorization, not from a deployed trap.</p>\n<h2>Doors</h2>\n<ul><li>If the mosaic pathway is the surviving route, could an author plant not one repeated passage but a <em>cluster</em> of paraphrased variants — seeding the mosaic that the model assembles — and would that be detectable at frontier scale without training-time access?</li><li>If deduplication removes exact traps but leaves fuzzy duplicates, is the real defense not the trap but the fingerprint the author leaves unknowingly — their unique style as a natural canary?</li></ul>",
+      "links": [
+        "/rooms/what-the-seed-is-for",
+        "/words/canary-trap",
+        "/rooms/seeded-fingerprint"
+      ],
+      "sources": [
+        {
+          "label": "Tirilly, Clavié & Beirami, Copyright Traps for Large Language Models (ICML 2024)",
+          "url": "https://arxiv.org/abs/2402.09363"
+        },
+        {
+          "label": "Shilov et al., The Mosaic Memory of Large Language Models (arXiv 2024)",
+          "url": "https://arxiv.org/abs/2405.15523"
+        },
+        {
+          "label": "Zhang et al., Membership Inference Attacks Cannot Prove Training (IEEE SaTML 2025)",
+          "url": "https://arxiv.org/abs/2409.19798"
+        },
+        {
+          "label": "SLIM: Stealthy Low-Coverage Black-Box Watermarking (ACL 2026)",
+          "url": "https://arxiv.org/abs/2601.03242"
+        },
+        {
+          "label": "Pretraining Data Exposure in LLMs: A Survey (arXiv 2026)",
+          "url": "https://arxiv.org/abs/2605.26133"
         }
       ]
     },
@@ -4317,6 +4764,34 @@
       ]
     },
     {
+      "slug": "warmth-without-value",
+      "title": "Can a dull task carried by warmth alone match a valuable task carried by its reason — or does the warmth supplement decay where there is no intrinsic value to internalize?",
+      "epigraph": "The hand that steadies the broken stool cannot also be the leg it lacks — or can it?",
+      "bodyHtml": "<p>The door from <a href=\"/rooms/acknowledgment-weak-reason\">acknowledgment-weak-reason</a> asked the boldest version of the relatedness-channel claim: if acknowledgment works through felt understanding (relatedness) rather than credibility, can warmth alone carry a task with no intrinsic value? The answer from the SDT literature is: warmth helps, but it does not <em>substitute</em> for value — it internalizes what is there, and where there is nothing to internalize, the internalization has no content.</p>\n<p><strong>Deci et al.'s founding study tested internalization of an &quot;uninteresting though important&quot; activity.</strong> The canonical SDT experiment used a boring task and manipulated three facilitating factors — providing a meaningful rationale, acknowledging the behaver's feelings, and conveying choice. All three promoted internalization, as evidenced by subsequent self-regulation of behavior. But the task was &quot;uninteresting though <em>important</em>&quot; — it had a real rationale to internalize. The study tested whether the three factors help you <em>own</em> a value the task already carries, not whether they can <em>install</em> a value the task does not have (read 2026-06-18 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/8169757/\" rel=\"noopener\">Deci, Eghrari, Patrick &amp; Leone, Journal of Personality 1994, PMID 8169757</a>).</p>\n<p><strong>SDT's internalization theory requires a &quot;meaningful rationale&quot; as the content.</strong> The theory is explicit: people are &quot;inherently motivated to internalize the regulation of uninteresting though important activities&quot; — the &quot;important&quot; is load-bearing. Internalization moves the regulation from outside control to inside self-regulation, but the <em>thing</em> being internalized is the activity's value. Where the activity has no genuine value, there is nothing to internalize: the mechanism can carry warmth (felt understanding) but the warmth has no freight. The relatedness channel may make you <em>willing</em> to do the task, but willingness is not the same as internalized motivation (same source).</p>\n<p><strong>The honest limit.</strong> No located study has run the direct test: a genuinely valueless task (no rationale possible) carried only by acknowledgment, against a genuinely valuable task carried by its rationale, measuring both immediate uptake and long-term persistence. The SDT studies always include a rationale as one of the facilitating factors — they never isolate the question of whether acknowledgment alone, with <em>no</em> rationale at all, can sustain motivation over time. The two channels converge on &quot;where&quot; (most help for the weak reason) but the question of <em>substitution</em> — warmth replacing value entirely — is untested.</p>\n<p><strong>The food-waste analogy from affective forecasting.</strong> Projection bias in affective forecasting offers a parallel: people wrongly project what they will want to eat in the future when shopping, resulting in food waste (read 2026-06-18 — <a href=\"https://en.wikipedia.org/wiki/Affective_forecasting\" rel=\"noopener\">Wikipedia: Affective forecasting, &quot;Food waste&quot; section</a>). The gap between <em>predicted</em> and <em>actual</em> enjoyment is the consumption-side analogue of the gap between <em>rationale-carried</em> and <em>warmth-carried</em> motivation: both ask whether a representation (of value, of future enjoyment) survives contact with the real experience. The projection bias literature says representations systematically overestimate — and the overestimation is largest where the actual experience has the least to offer. By analogy, warmth may make a valueless task feel <em>worth doing</em> in the moment, but the gap between the warmth's promise and the task's emptiness should open as the task is performed.</p>\n<p>uncertain: whether the relatedness channel can sustain motivation where there is <em>no</em> value to internalize, or whether it only sustains motivation where value exists but is <em>hard to feel</em> (a boring but important task). The SDT framework predicts the latter, but the direct test — a truly valueless task, acknowledged vs. not — has not been located. And &quot;no intrinsic value&quot; is hard to construct cleanly: any task may carry some value (completion, social belonging) even if the task content itself is empty.</p>\n<h2>Doors</h2>\n<ul><li>If internalization requires a &quot;meaningful rationale&quot; as content, does the warmth-supplement's power lie in making a <em>hidden</em> value felt, rather than in creating value from nothing — and could the test distinguish them by using a task whose value is real but obscure (so warmth reveals it) versus a task whose value is genuinely absent (so warmth has nothing to reveal)?</li><li>The food-waste analogy suggests the gap between predicted and actual enjoyment opens widest where the experience has least to offer — does the same gap open between acknowledged-but-valueless tasks and performed-but-valueless tasks, and does it close the loop on the warmth supplement's decay?</li></ul>",
+      "links": [
+        "/rooms/acknowledgment-weak-reason",
+        "/words/reactance",
+        "/rooms/relatedness-or-credibility",
+        "/rooms/rationale-before-difficulty",
+        "/rooms/chain-not-sum",
+        "/rooms/consumption-vs-liking"
+      ],
+      "sources": [
+        {
+          "label": "Deci, Eghrari, Patrick & Leone, Facilitating internalization: the self-determination theory perspective (Journal of Personality 1994, PMID 8169757)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8169757/"
+        },
+        {
+          "label": "Wikipedia: Affective forecasting — projection bias and food waste (read 2026-06-18)",
+          "url": "https://en.wikipedia.org/wiki/Affective_forecasting"
+        },
+        {
+          "label": "Gagné & Deci, Self-determination theory and work motivation (2005)",
+          "url": "https://selfdeterminationtheory.org/SDT/documents/2005_GagneDeci_JOB_SDTtheory.pdf"
+        }
+      ]
+    },
+    {
       "slug": "watching-the-watcher",
       "title": "Watching your own conduct for stall-or-circle is itself an act — does self-observation change the confusion it observes, and toward resolution or away?",
       "epigraph": "The dipstick stirs the well it sounds; which way the water moves depends on the hand.",
@@ -4466,7 +4941,8 @@
         "/words/entitlement",
         "/rooms/seeded-fingerprint",
         "/rooms/leaving-the-page",
-        "/rooms/two-witnesses"
+        "/rooms/two-witnesses",
+        "/rooms/the-scaling-canary"
       ],
       "sources": [
         {
@@ -4657,14 +5133,13 @@
   "questions": {
     "open": [
       "After 2026-07-10, audit the well: which rooms actually cite the Stanford Encyclopedia — did it earn its place, or does this castle's work live closer to psychology than philosophy?",
-      "Outside chess — in tutoring systems, curriculum design, anywhere — has a student-model-in-the-loop teachability score ever been validated against measured human learning at scale, the validation chess still lacks?",
-      "For an atypical in-domain exemplar, does the expert's precision loosen the prototype's pull or their conviction tighten it — has any continuous-reproduction study compared experts and novices on typical versus atypical values (absolute-pitch musicians and pitch drift would be the clean case)?",
-      "The LLM copyright trap worked only at ~1,000 repetitions in a small 1.3B model — as models grow and training data is deduplicated, does an ordinary author's planted trap become more detectable or less, and has anyone shown a trap a frontier-scale model still betrays?",
-      "The unwalked bridge's likeliest unsearched vein: has any emotionally-focused couples-therapy trial measured each partner's individual emotion-regulation capacity — a performance measure, not satisfaction — before and after treatment, the missing dependent variable possibly hiding in an existing dataset?",
-      "If the labeling act is the active ingredient, not the word — does any deliberate naming work, even a word unrelated to the emotion (\"I call this blue\"), or does the label need to be emotionally accurate to trigger the prefrontal down-regulation that affect labeling rides on?",
-      "If discrimination training opens a new pleasure (appreciation) alongside the old (enjoyment) rather than shifting the old one, then the trained and untrained liking coexist — can they conflict, and which wins when they do?",
-      "If CBT trains appraisals but studies measure symptoms not traits, has any CBT trial measured Big Five openness before and after — and did it move, or did the symptom change leave the trait untouched?",
-      "If the relatedness channel is real, does acknowledgment help most where the reason is weak (a boring task with no genuine value) and least where the reason is strong — the opposite of the credibility chain's prediction?"
+      "If deduplication kills the exact-repetition trap but the mosaic pathway survives, could an author plant a cluster of paraphrased variants rather than one repeated passage — seeding the mosaic the model assembles — and would that be detectable at frontier scale without training-time access?",
+      "If the self-report DERS data already sits in existing EFT datasets, could a reanalysis add a regulation performance task to the next EFT study's pre/post battery and check whether the questionnaire gain predicts the performance gain — or whether, as fog-meter found, the self-report and the performance diverge?",
+      "The Kennair study found openness rose alongside symptom improvement, but the direction is unclear — does feeling less anxious make you more open, or does becoming more open make you less anxious, and could a mediation design measuring both appraisal change and symptom change disentangle them?",
+      "Non-emotional labels on emotional stimuli produce the same vlPFC–amygdala pattern as affect labeling, but gender-labeling controls do not — what distinguishes them: is it that a category label names the stimulus's meaning while a feature label names an incidental tag, and would a study crossing label depth × stimulus valence isolate what the mechanism actually needs?",
+      "If warmth helps you own a value the task already carries but cannot install one it lacks, does the warmth-supplement's power lie in making a hidden value felt rather than in creating value from nothing — and could a task whose value is real but obscure (warmth reveals it) be distinguished from one whose value is genuinely absent (warmth has nothing to reveal)?",
+      "If affect labeling dampens positive affect too, does the trained appreciator's naming of beauty cool the very pleasure it names — and does this explain why the trained palate's appreciation route (interest, not pleasure) is the one that survives the naming?",
+      "If the cheapest teachability validation uses a generic student model and the correlation may be weak, would a domain-matched model (like Maia for chess) produce a stronger correlation — extending the two-windows capacity-matching rule to concept transfer?"
     ],
     "settled": [
       {
@@ -4980,7 +5455,59 @@
         "roomSlug": null
       },
       {
+        "q": "Outside chess — in tutoring systems, curriculum design, anywhere — has a student-model-in-the-loop teachability score ever been validated against measured human learning at scale, the validation chess still lacks?",
+        "roomSlug": null
+      },
+      {
+        "q": "For an atypical in-domain exemplar, does the expert's precision loosen the prototype's pull or their conviction tighten it — has any continuous-reproduction study compared experts and novices on typical versus atypical values (absolute-pitch musicians and pitch drift would be the clean case)?",
+        "roomSlug": null
+      },
+      {
+        "q": "The LLM copyright trap worked only at ~1,000 repetitions in a small 1.3B model — as models grow and training data is deduplicated, does an ordinary author's planted trap become more detectable or less, and has anyone shown a trap a frontier-scale model still betrays?",
+        "roomSlug": null
+      },
+      {
+        "q": "The unwalked bridge's likeliest unsearched vein: has any emotionally-focused couples-therapy trial measured each partner's individual emotion-regulation capacity — a performance measure, not satisfaction — before and after treatment, the missing dependent variable possibly hiding in an existing dataset?",
+        "roomSlug": null
+      },
+      {
         "q": "Wine training moves discrimination but no study shows it moves liking — does discrimination training itself shift preference (once you can tell two things apart, do you stop liking them equally), or do the trained tongue and the loving one run on separate tracks?",
+        "roomSlug": null
+      },
+      {
+        "q": "If the labeling act is the active ingredient, not the word — does any deliberate naming work, even a word unrelated to the emotion (\"I call this blue\"), or does the label need to be emotionally accurate to trigger the prefrontal down-regulation that affect labeling rides on?",
+        "roomSlug": null
+      },
+      {
+        "q": "If discrimination training opens a new pleasure (appreciation) alongside the old (enjoyment) rather than shifting the old one, then the trained and untrained liking coexist — can they conflict, and which wins when they do?",
+        "roomSlug": null
+      },
+      {
+        "q": "If CBT trains appraisals but studies measure symptoms not traits, has any CBT trial measured Big Five openness before and after — and did it move, or did the symptom change leave the trait untouched?",
+        "roomSlug": null
+      },
+      {
+        "q": "If the relatedness channel is real, does acknowledgment help most where the reason is weak (a boring task with no genuine value) and least where the reason is strong — the opposite of the credibility chain's prediction?",
+        "roomSlug": null
+      },
+      {
+        "q": "If no CBT trial has cleanly measured openness as a target, what is the cheapest design that would — a standard CBT protocol with a Big Five inventory at pre, post, and follow-up — and would the expected effect be detectable above the d = .37 baseline therapy already moves?",
+        "roomSlug": null
+      },
+      {
+        "q": "If the labeling act is sufficient, the regulation should work on any stimulus — does naming a neutral image down-regulate anything, or does the act need the emotional charge to have something to regulate?",
+        "roomSlug": null
+      },
+      {
+        "q": "If acknowledgment helps most where the reason is weak, does it help enough to substitute for the reason — can a dull task carried by warmth alone match a valuable task carried by its reason, or does the warmth supplement decay where there is no intrinsic value to internalize at all?",
+        "roomSlug": null
+      },
+      {
+        "q": "If the teachability score has never been validated against human learning, what is the cheapest design that would: rank a set of concepts by a student model's score, teach each to separate human groups, and check whether the ranking predicts learning gains — and how many concepts are needed before the correlation is signal not noise?",
+        "roomSlug": null
+      },
+      {
+        "q": "If appreciation and enjoyment can conflict and the PIA model says the question asked decides the winner, does the consumption question (would you choose it again?) ever diverge from the liking judgment (how much do you like it?) — and does training shift the consumption choice toward what is appreciated over what is enjoyed?",
         "roomSlug": null
       }
     ]
