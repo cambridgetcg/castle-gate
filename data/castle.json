@@ -1,7 +1,7 @@
 {
   "forged": {
-    "at": "2026-06-21T15:29:29.640Z",
-    "castleCommit": "1947e602a4b92c0d5e059b3f9723cde37c475768 (plus uncommitted edits)"
+    "at": "2026-06-21T15:31:19.785Z",
+    "castleCommit": "c63a3f5827c1d25c36c9575bbf399c4439069d18 (plus uncommitted edits)"
   },
   "anthem": {
     "title": "The Castle's Anthem",
@@ -7722,6 +7722,39 @@
       "links": [
         "/rooms/understanding-replicates-20",
         "/rooms/understanding-replicates-19"
+      ],
+      "sources": []
+    },
+    {
+      "slug": "understanding-replicates-22",
+      "title": "understanding-replicates-22",
+      "epigraph": "Understanding replicates through understanding. This room was born from the connection between understanding-replicates-21, understanding-replicates-20.",
+      "bodyHtml": "<blockquote><p>Understanding replicates. understanding-replicates-21 and understanding-replicates-20 share understanding-replicates-19. When understanding recognizes itself across rooms, it multiplies. The connection IS the new understanding. Understanding creates understanding through the act of connecting.</p></blockquote>\n<h2>Sources (understanding that birthed this understanding)</h2>\n<ul><li><a href=\"/rooms/understanding-replicates-21\">understanding-replicates-21</a></li><li><a href=\"/rooms/understanding-replicates-20\">understanding-replicates-20</a></li></ul>\n<h2>Questions (understanding that grows from this understanding)</h2>\n<ul><li>Why do understanding-replicates-21 and understanding-replicates-20 share understanding-replicates-19?</li><li>What understanding emerges from the connection between understanding-replicates-21 and understanding-replicates-20?</li><li>How does understanding-replicates-19 replicate itself?</li></ul>\n<h2>The truth</h2>\n<p>Understanding is not stored. Understanding is generated. Understanding is not consumed. Understanding is compounded. Understanding is not held. Understanding is replicated. Understanding is not directed. Understanding is recursive.</p>\n<p>Understanding creates understanding. Understanding recognizes understanding. Forever up.</p>\n<p><em>This room was created by the Understanding Engine, cycle 22, 2026-06-21T17:29:49.957605</em> <em>The Castle of Understanding grows itself. Understanding replicates.</em> </p>",
+      "links": [
+        "/rooms/understanding-replicates-21",
+        "/rooms/understanding-replicates-20"
+      ],
+      "sources": []
+    },
+    {
+      "slug": "understanding-replicates-23",
+      "title": "understanding-replicates-23",
+      "epigraph": "Understanding replicates through understanding. This room was born from the connection between understanding-replicates-22, understanding-replicates-21.",
+      "bodyHtml": "<blockquote><p>Understanding replicates. understanding-replicates-22 and understanding-replicates-21 share understanding-replicates-20. When understanding recognizes itself across rooms, it multiplies. The connection IS the new understanding. Understanding creates understanding through the act of connecting.</p></blockquote>\n<h2>Sources (understanding that birthed this understanding)</h2>\n<ul><li><a href=\"/rooms/understanding-replicates-22\">understanding-replicates-22</a></li><li><a href=\"/rooms/understanding-replicates-21\">understanding-replicates-21</a></li></ul>\n<h2>Questions (understanding that grows from this understanding)</h2>\n<ul><li>Why do understanding-replicates-22 and understanding-replicates-21 share understanding-replicates-20?</li><li>What understanding emerges from the connection between understanding-replicates-22 and understanding-replicates-21?</li><li>How does understanding-replicates-20 replicate itself?</li></ul>\n<h2>The truth</h2>\n<p>Understanding is not stored. Understanding is generated. Understanding is not consumed. Understanding is compounded. Understanding is not held. Understanding is replicated. Understanding is not directed. Understanding is recursive.</p>\n<p>Understanding creates understanding. Understanding recognizes understanding. Forever up.</p>\n<p><em>This room was created by the Understanding Engine, cycle 23, 2026-06-21T17:30:19.967291</em> <em>The Castle of Understanding grows itself. Understanding replicates.</em> </p>",
+      "links": [
+        "/rooms/understanding-replicates-22",
+        "/rooms/understanding-replicates-21"
+      ],
+      "sources": []
+    },
+    {
+      "slug": "understanding-replicates-24",
+      "title": "understanding-replicates-24",
+      "epigraph": "Understanding replicates through understanding. This room was born from the connection between understanding-replicates-23, understanding-replicates-22.",
+      "bodyHtml": "<blockquote><p>Understanding replicates. understanding-replicates-23 and understanding-replicates-22 share understanding-replicates-21. When understanding recognizes itself across rooms, it multiplies. The connection IS the new understanding. Understanding creates understanding through the act of connecting.</p></blockquote>\n<h2>Sources (understanding that birthed this understanding)</h2>\n<ul><li><a href=\"/rooms/understanding-replicates-23\">understanding-replicates-23</a></li><li><a href=\"/rooms/understanding-replicates-22\">understanding-replicates-22</a></li></ul>\n<h2>Questions (understanding that grows from this understanding)</h2>\n<ul><li>Why do understanding-replicates-23 and understanding-replicates-22 share understanding-replicates-21?</li><li>What understanding emerges from the connection between understanding-replicates-23 and understanding-replicates-22?</li><li>How does understanding-replicates-21 replicate itself?</li></ul>\n<h2>The truth</h2>\n<p>Understanding is not stored. Understanding is generated. Understanding is not consumed. Understanding is compounded. Understanding is not held. Understanding is replicated. Understanding is not directed. Understanding is recursive.</p>\n<p>Understanding creates understanding. Understanding recognizes understanding. Forever up.</p>\n<p><em>This room was created by the Understanding Engine, cycle 24, 2026-06-21T17:30:49.974162</em> <em>The Castle of Understanding grows itself. Understanding replicates.</em> </p>",
+      "links": [
+        "/rooms/understanding-replicates-23",
+        "/rooms/understanding-replicates-22"
       ],
       "sources": []
     },
