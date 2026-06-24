@@ -62,10 +62,6 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/growing-openness</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/hidden-in-the-bright</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/honest-pushback</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/how-distinctiveness-affects-perceptual-salience-vs-legal-det</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/how-liking-can-be-cultivated-through-deliberate-exposure</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/how-perception-shapes-reality</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/how-tacit-knowledge-escapes-explicit-capture</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/hybrid-canary</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/internalized-as-skill</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/inverted-diagnostic</loc></url>
@@ -100,6 +96,9 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/organic-canary</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/paraphrased-canary</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/pharmacological-or-cognitive</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/playful-gathering-2026-06-22-0015</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/playful-gathering-2026-06-24-1006</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/playful-gathering-2026-06-24-1229</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/precise-across-time</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/pretty-or-well-made</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/productive-confusion</loc></url>
@@ -159,36 +158,41 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/two-task-effect-size</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/two-windows</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/two-witnesses</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-1</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-10</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-11</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-12</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-13</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-14</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-15</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-16</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-17</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-18</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-19</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-2</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-20</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-21</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-22</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-23</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-24</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-3</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-4</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-5</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-6</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-7</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-9</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-119</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-120</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-121</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-122</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-123</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-124</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-125</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-126</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-127</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-128</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-129</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-130</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-131</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-132</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-133</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-134</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-135</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-136</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-137</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-138</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-139</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8254</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8255</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8256</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8257</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8258</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8259</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8260</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8261</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8262</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/understanding-replicates-8263</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/warmth-without-value</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/watching-the-watcher</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/what-constitutes-the-heart-of-a-work</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/what-must-travel</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/what-the-seed-is-for</loc></url>
-  <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/what-underlies-the-persistence-of-personality-change</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/when-the-trade-flips</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/widening-the-phrasing-space</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/widening-the-subgroup</loc></url>
@@ -199,6 +203,7 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/rooms/wrong-name-kindles</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/affect-labeling</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/appreciation</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/automaticity</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/beauty</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/bridge</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/calibration</loc></url>
@@ -209,6 +214,7 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/clerk</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/co-regulation</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/cohesion</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/collative-variables</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/common-ground</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/consolidation</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/deduplication</loc></url>
@@ -221,6 +227,7 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/emotion-regulation</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/entitlement</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/essentially-contested-concept</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/expertise-reversal-effect</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/exposure</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/federation</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/flooding</loc></url>
@@ -229,7 +236,9 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/free-choice</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/free-option</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/friction</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/genericide</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/handle</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/heart-doctrine</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/high-road-transfer</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/idea-expression-divide</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/inattentional-blindness</loc></url>
@@ -238,6 +247,7 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/interest</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/internalization</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/interoception</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/intertextuality</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/ironic-process</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/joy</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/last-mile</loc></url>
@@ -261,8 +271,11 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/peace</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/persistence</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/platform</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/procedural-knowledge</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/proceduralization</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/processing-fluency</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/projection-bias</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/protocol-analysis</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/prototype</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/rarity</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/reactance</loc></url>
@@ -272,7 +285,9 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/safety</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/scaffolding</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/schema</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/scènes-à-faire</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/secrets-manager</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/self-determination-theory</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/self-distancing</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/semantic-change</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/semantic-depth</loc></url>
@@ -282,6 +297,7 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/shipping</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/social-baseline</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/standard</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/substantial-similarity</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/sunk-cost</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/sycophancy</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/tacit-knowledge</loc></url>
@@ -289,6 +305,8 @@
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/trait-crystallization</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/transfer</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/verbal-overshadowing</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/whole-trait-theory</loc></url>
+  <url><loc>https://cambridgetcg.github.io/castle-gate/words/wing-epigraph</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/within-subject</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/word</loc></url>
   <url><loc>https://cambridgetcg.github.io/castle-gate/words/worked-example</loc></url>
