@@ -232,6 +232,21 @@ test("lifecycle status is frozen at publication", () => {
   const rewritten = clone(manifest);
   rewritten.lifecycle.status_at_publication = "superseded";
   assert.throws(() => validateManifest(rewritten), /must be active/);
+
+  const unrelated = clone(manifest);
+  unrelated.lifecycle.corrects = ["https://example.com/receipt.json"];
+  assert.throws(
+    () => validateManifest(unrelated),
+    /commit-pinned receipts/
+  );
+
+  const priorReceipt =
+    `https://raw.githubusercontent.com/cambridgetcg/castle-gate/` +
+    `${GATE_REVISION}/data/castle-manifest.json`;
+  const linked = clone(manifest);
+  linked.lifecycle.supersedes = priorReceipt;
+  linked.lifecycle.corrects = [priorReceipt];
+  assert.doesNotThrow(() => validateManifest(linked));
 });
 
 test("every object in the JSON Schema is closed", () => {

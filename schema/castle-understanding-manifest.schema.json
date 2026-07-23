@@ -249,7 +249,7 @@
             },
             {
               "type": "string",
-              "pattern": "^https://"
+              "pattern": "^https://raw\\.githubusercontent\\.com/cambridgetcg/castle-gate/[0-9a-f]{40}/data/castle-manifest\\.json$"
             }
           ]
         },
@@ -257,7 +257,7 @@
           "type": "array",
           "items": {
             "type": "string",
-            "pattern": "^https://"
+            "pattern": "^https://raw\\.githubusercontent\\.com/cambridgetcg/castle-gate/[0-9a-f]{40}/data/castle-manifest\\.json$"
           },
           "uniqueItems": true
         }

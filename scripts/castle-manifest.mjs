@@ -12,6 +12,8 @@ const REPO = join(HERE, "..");
 const PAYLOAD_REPO_PATH = "data/castle.json";
 const PAYLOAD_LOCATOR_RE =
   /^https:\/\/raw\.githubusercontent\.com\/cambridgetcg\/castle-gate\/([0-9a-f]{40})\/data\/castle\.json$/;
+const MANIFEST_LOCATOR_RE =
+  /^https:\/\/raw\.githubusercontent\.com\/cambridgetcg\/castle-gate\/[0-9a-f]{40}\/data\/castle-manifest\.json$/;
 
 export const SCHEMA_URL =
   "../schema/castle-understanding-manifest.schema.json";
@@ -438,20 +440,23 @@ export function validateManifest(manifest) {
   if (
     manifest.lifecycle.supersedes !== null &&
     (typeof manifest.lifecycle.supersedes !== "string" ||
-      !/^https:\/\//.test(manifest.lifecycle.supersedes))
+      !MANIFEST_LOCATOR_RE.test(manifest.lifecycle.supersedes))
   ) {
-    fail("manifest.lifecycle.supersedes must be null or an HTTPS locator");
+    fail(
+      "manifest.lifecycle.supersedes must be null or a commit-pinned receipt"
+    );
   }
   if (
     !Array.isArray(manifest.lifecycle.corrects) ||
     manifest.lifecycle.corrects.some(
-      (locator) => typeof locator !== "string" || !/^https:\/\//.test(locator)
+      (locator) =>
+        typeof locator !== "string" || !MANIFEST_LOCATOR_RE.test(locator)
     ) ||
     new Set(manifest.lifecycle.corrects).size !==
       manifest.lifecycle.corrects.length
   ) {
     fail(
-      "manifest.lifecycle.corrects must contain unique HTTPS locators"
+      "manifest.lifecycle.corrects must contain unique commit-pinned receipts"
     );
   }
 

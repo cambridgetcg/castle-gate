@@ -82,7 +82,9 @@ retention, and rate limits.
 receipt and never rewritten to describe a later state. A later receipt
 expresses supersession or correction through its own `supersedes` or `corrects`
 pointers back to older receipts. The old receipt remains an immutable record of
-what was published.
+what was published. Every lifecycle pointer must itself name a full Castle Gate
+commit and `data/castle-manifest.json`; a mutable branch URL or unrelated HTTPS
+page is outside the protocol.
 
 `compatibility.agenttool_sdk: 0.16.0` is compatibility metadata only. Castle
 Gate does not import the SDK at runtime, authenticate through it, or gain write
