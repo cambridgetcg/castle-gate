@@ -1,0 +1,283 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cambridgetcg:castle-understanding:manifest:0.1",
+  "title": "Castle Understanding Manifest 0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "protocol",
+    "kind",
+    "forged_at",
+    "source",
+    "payload",
+    "counts",
+    "privacy",
+    "authority",
+    "rights",
+    "return",
+    "lifecycle",
+    "compatibility"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "../schema/castle-understanding-manifest.schema.json"
+    },
+    "protocol": {
+      "const": "castle-understanding/v0.1"
+    },
+    "kind": {
+      "const": "curated_snapshot"
+    },
+    "forged_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository_id",
+        "revision",
+        "dirty"
+      ],
+      "properties": {
+        "repository_id": {
+          "const": "repo:cambridgetcg/castle-of-words"
+        },
+        "revision": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "dirty": {
+          "const": false
+        }
+      }
+    },
+    "payload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "media_type",
+        "digest",
+        "bytes",
+        "locator",
+        "shape"
+      ],
+      "properties": {
+        "media_type": {
+          "const": "application/json"
+        },
+        "digest": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "locator": {
+          "type": "string",
+          "pattern": "^https://raw\\.githubusercontent\\.com/cambridgetcg/castle-gate/[0-9a-f]{40}/data/castle\\.json$"
+        },
+        "shape": {
+          "const": "castle-gate/castle-data/v1"
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rooms",
+        "words",
+        "open_questions",
+        "settled_questions"
+      ],
+      "properties": {
+        "rooms": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "words": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "open_questions": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "settled_questions": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scope",
+        "raw_source_included",
+        "curation_profile",
+        "coverage",
+        "secure_recall"
+      ],
+      "properties": {
+        "scope": {
+          "const": "public_curated"
+        },
+        "raw_source_included": {
+          "const": false
+        },
+        "curation_profile": {
+          "const": "castle-gate-public/v1"
+        },
+        "coverage": {
+          "const": "not_exhaustive"
+        },
+        "secure_recall": {
+          "const": "not_guaranteed"
+        }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "automatic_action",
+        "grants"
+      ],
+      "properties": {
+        "automatic_action": {
+          "const": "never"
+        },
+        "grants": {
+          "type": "array",
+          "maxItems": 0
+        }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "spdx",
+        "grant"
+      ],
+      "properties": {
+        "spdx": {
+          "const": "NOASSERTION"
+        },
+        "grant": {
+          "const": "none_declared"
+        }
+      }
+    },
+    "return": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "public_correction",
+        "automatic_ingest_into_castle",
+        "agenttool"
+      ],
+      "properties": {
+        "public_correction": {
+          "const": "https://github.com/cambridgetcg/castle-gate/issues"
+        },
+        "automatic_ingest_into_castle": {
+          "const": false
+        },
+        "agenttool": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "protocol",
+            "status",
+            "configured",
+            "transport",
+            "offer_event_id",
+            "compatible_after_authenticated_offer"
+          ],
+          "properties": {
+            "protocol": {
+              "const": "agent-correspondence/v0.1"
+            },
+            "status": {
+              "const": "compatibility_only"
+            },
+            "configured": {
+              "const": false
+            },
+            "transport": {
+              "type": "null"
+            },
+            "offer_event_id": {
+              "type": "null"
+            },
+            "compatible_after_authenticated_offer": {
+              "const": [
+                "observation",
+                "ack.seen",
+                "ack.understood",
+                "ack.rejected",
+                "conflict.raise",
+                "repair"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "lifecycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status_at_publication",
+        "supersedes",
+        "corrects"
+      ],
+      "properties": {
+        "status_at_publication": {
+          "const": "active"
+        },
+        "supersedes": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^https://"
+            }
+          ]
+        },
+        "corrects": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "agenttool_sdk",
+        "mode"
+      ],
+      "properties": {
+        "agenttool_sdk": {
+          "const": "0.16.0"
+        },
+        "mode": {
+          "const": "metadata_only"
+        }
+      }
+    }
+  }
+}

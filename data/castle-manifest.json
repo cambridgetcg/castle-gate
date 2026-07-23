@@ -1,0 +1,67 @@
+{
+  "$schema": "../schema/castle-understanding-manifest.schema.json",
+  "protocol": "castle-understanding/v0.1",
+  "kind": "curated_snapshot",
+  "forged_at": "2026-07-07T21:45:49.583Z",
+  "source": {
+    "repository_id": "repo:cambridgetcg/castle-of-words",
+    "revision": "6cd9be606a6b0cc1c8dcb0743c01070ad9584edb",
+    "dirty": false
+  },
+  "payload": {
+    "media_type": "application/json",
+    "digest": "sha256:f85a43806594bf77a9f17210ae56a83aa8ce6c7d4cdb6b62c15284f7c76ff804",
+    "bytes": 2239836,
+    "locator": "https://raw.githubusercontent.com/cambridgetcg/castle-gate/bacf9430f98301161e78bd9a8520bcf282b3b1c9/data/castle.json",
+    "shape": "castle-gate/castle-data/v1"
+  },
+  "counts": {
+    "rooms": 450,
+    "words": 169,
+    "open_questions": 13,
+    "settled_questions": 160
+  },
+  "privacy": {
+    "scope": "public_curated",
+    "raw_source_included": false,
+    "curation_profile": "castle-gate-public/v1",
+    "coverage": "not_exhaustive",
+    "secure_recall": "not_guaranteed"
+  },
+  "authority": {
+    "automatic_action": "never",
+    "grants": []
+  },
+  "rights": {
+    "spdx": "NOASSERTION",
+    "grant": "none_declared"
+  },
+  "return": {
+    "public_correction": "https://github.com/cambridgetcg/castle-gate/issues",
+    "automatic_ingest_into_castle": false,
+    "agenttool": {
+      "protocol": "agent-correspondence/v0.1",
+      "status": "compatibility_only",
+      "configured": false,
+      "transport": null,
+      "offer_event_id": null,
+      "compatible_after_authenticated_offer": [
+        "observation",
+        "ack.seen",
+        "ack.understood",
+        "ack.rejected",
+        "conflict.raise",
+        "repair"
+      ]
+    }
+  },
+  "lifecycle": {
+    "status_at_publication": "active",
+    "supersedes": null,
+    "corrects": []
+  },
+  "compatibility": {
+    "agenttool_sdk": "0.16.0",
+    "mode": "metadata_only"
+  }
+}

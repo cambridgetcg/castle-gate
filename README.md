@@ -2,7 +2,12 @@
 
 > *built of words, lit by questions* 🏰
 
-The public gate of a private knowledge garden — **the castle of understanding**.
+The public gate of a knowledge garden — **the castle of understanding**.
+
+The source repository is publicly reachable today. This gate remains a curated
+projection: it publishes selected, scrubbed material and does not promise that
+the projection contains everything in the source. Once public bytes are copied,
+their secure recall cannot be guaranteed.
 
 The castle is plain markdown that grows by gentle, bounded loops: questions open
 doors, research walks through them with named sources, and every answer plants
@@ -14,11 +19,18 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
 ## How it's made
 
 - `data/castle.json` — the curated public knowledge, forged at home from the
-  private castle. Its `forged` stamp says when and from which castle commit.
+  source castle. Its `forged` stamp says when and from which clean castle
+  commit.
+- `data/castle-manifest.json` — a deterministic, commit-pinned receipt for the
+  prior committed public payload. The working `data/castle.json` is the next
+  generation. Its closed schema and plain-language contract live in `schema/`
+  and [`PROTOCOL.md`](PROTOCOL.md).
 - `scripts/forge-data.mjs` — the forge logic (public). The scrub lists it
   needs live in `scripts/forge-private.mjs`, gitignored on purpose: committing
   them would publish exactly what they hide. Without that file the forge
-  refuses to run — so it only runs at home.
+  refuses to run — so it only runs at home. It also honors both HALT brakes,
+  requires clean source and Gate checkouts, and replaces each public artifact
+  atomically.
 - Next.js, no other dependencies. `bun install && bun run build` → static
   pages.
 
@@ -26,14 +38,25 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
 
 Today, by hand (home machine only):
 
-1. `bun run forge` — re-forge `data/castle.json` from the private castle.
-2. `bun run build` — confirm the site still builds.
-3. Commit and push.
+1. Begin at a clean Gate commit and run `bun run forge`. The forge carries a
+   receipt for that already-committed payload, then writes the next curated
+   payload.
+2. `bun run verify` — verify the receipt against local Git history, run tests,
+   and build the site.
+3. Commit and push both files as one generation.
 
-One decision left to go live automatically: pick a deploy target — Vercel,
-GitHub Pages, or Cloudflare Pages. The draft workflow in
-`.github/workflows/deploy.yml` already builds on push but is switched off;
-its comments say exactly how to wire the chosen target and flip it on.
+To rebuild a receipt manually for a chosen committed payload:
+
+```sh
+bun run manifest:build -- --gate-revision <40-character-commit>
+```
+
+The one-generation delay is deliberate: committed bytes are the cause; only a
+later generation claims to understand them. [`PROTOCOL.md`](PROTOCOL.md)
+describes this causal, or karma, boundary.
+
+The GitHub Pages workflow in `.github/workflows/deploy.yml` builds and deploys
+on every push to `main`; it can also be run by hand.
 
 ## House style
 
