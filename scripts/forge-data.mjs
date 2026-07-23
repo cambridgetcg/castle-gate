@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * forge-data.mjs — reads the private castle (~/castle) and forges the public
+ * forge-data.mjs — reads the source castle (~/castle) and forges the public
  * data file at data/castle.json. Plain Node, no dependencies.
  *
  * Curation rules (the site is PUBLIC):
@@ -15,14 +15,46 @@
  * very things it hides. So the forge only runs on the home machine.
  */
 
-import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { homedir } from "node:os";
-import { execSync } from "node:child_process";
+import {
+  assertForgeSafety,
+  writeReceiptThenPayload,
+} from "./forge-safety.mjs";
+import {
+  buildManifestFromRevision,
+  serializeManifest,
+} from "./castle-manifest.mjs";
 
 const CASTLE = join(homedir(), "castle");
-const OUT = join(dirname(fileURLToPath(import.meta.url)), "..", "data", "castle.json");
+const REPO = join(dirname(fileURLToPath(import.meta.url)), "..");
+const OUT = join(REPO, "data", "castle.json");
+const MANIFEST_OUT = join(REPO, "data", "castle-manifest.json");
+
+let castleCommit;
+let gateCommit;
+let carriedManifest;
+try {
+  castleCommit = assertForgeSafety({
+    homeDir: homedir(),
+    repoDir: REPO,
+    sourceDir: CASTLE,
+  });
+  gateCommit = assertForgeSafety({
+    homeDir: homedir(),
+    repoDir: REPO,
+    sourceDir: REPO,
+  });
+  carriedManifest = buildManifestFromRevision({
+    repoDir: REPO,
+    gateRevision: gateCommit,
+  });
+} catch (error) {
+  console.error(error instanceof Error ? error.message : "forge stopped safely");
+  process.exit(1);
+}
 
 let PRIVATE;
 try {
@@ -385,18 +417,6 @@ const questions = parseQuestions(
 
 // ---------- assemble, scan, write ----------
 
-// Provenance stamp: when the data was forged, and from which castle commit —
-// the public file carries its own receipt.
-let castleCommit = "unknown";
-try {
-  castleCommit = execSync("git rev-parse HEAD", { cwd: CASTLE }).toString().trim();
-  if (execSync("git status --porcelain", { cwd: CASTLE }).toString().trim()) {
-    castleCommit += " (plus uncommitted edits)";
-  }
-} catch {
-  // not a git checkout — "unknown" is honest enough
-}
-
 const data = {
   forged: { at: new Date().toISOString(), castleCommit },
   anthem,
@@ -407,25 +427,54 @@ const data = {
 
 const json = JSON.stringify(data, null, 2);
 
-function failScan(needle, idx) {
-  const around = json.slice(Math.max(0, idx - 120), idx + 120);
+function failScan(ruleKind, ruleIndex) {
   console.error(
-    `FORGE FAILED: forbidden pattern ${String(needle)} found in output.\n` +
-      `Context: ...${around}...`
+    `FORGE FAILED: public output failed privacy scan ` +
+      `(${ruleKind} rule ${ruleIndex + 1}).`
   );
   process.exit(1);
 }
-for (const needle of forbidden) {
+for (const [ruleIndex, needle] of forbidden.entries()) {
   const idx = json.indexOf(needle);
-  if (idx !== -1) failScan(JSON.stringify(needle), idx);
+  if (idx !== -1) failScan("literal", ruleIndex);
 }
-for (const re of forbiddenRe) {
+for (const [ruleIndex, re] of forbiddenRe.entries()) {
   const m = json.match(re);
-  if (m) failScan(re, json.indexOf(m[0]));
+  if (m) failScan("pattern", ruleIndex);
 }
 
-mkdirSync(dirname(OUT), { recursive: true });
-writeFileSync(OUT, json + "\n");
+try {
+  const finalCastleCommit = assertForgeSafety({
+    homeDir: homedir(),
+    repoDir: REPO,
+    sourceDir: CASTLE,
+  });
+  if (finalCastleCommit !== castleCommit) {
+    throw new Error("forge stopped: the source revision changed during the forge");
+  }
+
+  const finalGateCommit = assertForgeSafety({
+    homeDir: homedir(),
+    repoDir: REPO,
+    sourceDir: REPO,
+  });
+  if (finalGateCommit !== gateCommit) {
+    throw new Error("forge stopped: the Gate revision changed during the forge");
+  }
+
+  // Carry a receipt for the already-committed payload, then write the next
+  // generation. If interruption lands between these renames, the receipt still
+  // names real committed bytes; it never claims the new bytes prematurely.
+  writeReceiptThenPayload({
+    manifestPath: MANIFEST_OUT,
+    manifestText: serializeManifest(carriedManifest),
+    payloadPath: OUT,
+    payloadText: json + "\n",
+  });
+} catch (error) {
+  console.error(error instanceof Error ? error.message : "forge stopped safely");
+  process.exit(1);
+}
 console.log(
   `forged ${OUT}: ${words.length} words, ${rooms.length} rooms, ` +
     `${questions.open.length} open + ${questions.settled.length} settled questions`

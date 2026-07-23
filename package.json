@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "forge": "node scripts/forge-data.mjs"
+    "forge": "node scripts/forge-data.mjs",
+    "manifest:build": "node scripts/castle-manifest.mjs build",
+    "manifest:check": "node scripts/castle-manifest.mjs validate",
+    "test": "node --test",
+    "verify": "node scripts/castle-manifest.mjs validate && node --test && next build"
   },
   "dependencies": {
     "next": "16.2.8",
