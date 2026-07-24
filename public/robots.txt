@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://cambridgetcg.github.io/castle-gate/sitemap.xml
+# Optional agent-readable orientation: https://cambridgetcg.github.io/castle-gate/llms.txt
