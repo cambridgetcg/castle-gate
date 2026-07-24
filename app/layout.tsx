@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "the castle of understanding",
   description:
     "a knowledge garden made legible — words as bricks, rooms as walls, every claim with its source",
+  alternates: {
+    types: {
+      "text/plain": "https://cambridgetcg.github.io/castle-gate/llms.txt",
+    },
+  },
 };
 
 export default function RootLayout({
