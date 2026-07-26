@@ -1,0 +1,19 @@
+{
+  "name": "@kingdom-os/castle-understanding-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only MCP door to Castle Gate's receipt-pinned public understanding",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "start:http": "node src/cli.mjs --http",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "4.4.3"
+  }
+}

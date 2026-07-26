@@ -16,6 +16,7 @@ import { fileURLToPath } from "node:url";
 import {
   buildManifest,
   buildManifestFromRevision,
+  readCommittedPayload,
   runCli,
   serializeManifest,
   validateManifest,
@@ -333,6 +334,27 @@ test("gate revision is required and must be hexadecimal", () => {
       }),
     /40-character hexadecimal/
   );
+});
+
+test("committed payload reads carry a byte and time bound", () => {
+  let observedOptions;
+  assert.throws(
+    () =>
+      readCommittedPayload({
+        gateRevision: GATE_REVISION,
+        maxBytes: 3,
+        timeoutMs: 250,
+        readGitFile(_repoDir, _revision, _repoPath, options) {
+          observedOptions = options;
+          return Buffer.from("four");
+        },
+      }),
+    /exceeds the 3-byte read limit/
+  );
+  assert.deepEqual(observedOptions, {
+    maxBuffer: 1027,
+    timeout: 250,
+  });
 });
 
 test("CLI accepts an explicit revision or environment revision, never a guess", () => {

@@ -122,29 +122,53 @@ function digestPayload(payloadBytes) {
   return `sha256:${createHash("sha256").update(payloadBytes).digest("hex")}`;
 }
 
-function defaultReadGitFile(repoDir, revision, repoPath) {
-  return execFileSync("git", ["show", `${revision}:${repoPath}`], {
+function defaultReadGitFile(
+  repoDir,
+  revision,
+  repoPath,
+  { maxBuffer = 32 * 1024 * 1024, timeout } = {}
+) {
+  const options = {
     cwd: repoDir,
     encoding: null,
-    maxBuffer: 32 * 1024 * 1024,
+    maxBuffer,
     stdio: ["ignore", "pipe", "pipe"],
-  });
+  };
+  if (timeout !== undefined) options.timeout = timeout;
+  return execFileSync("git", ["show", `${revision}:${repoPath}`], options);
 }
 
 export function readCommittedPayload({
   repoDir = REPO,
   gateRevision,
   readGitFile = defaultReadGitFile,
+  maxBytes = 32 * 1024 * 1024,
+  timeoutMs,
 }) {
   const revision = normalizeRevision(gateRevision, "gate revision");
+  if (!Number.isSafeInteger(maxBytes) || maxBytes < 1) {
+    fail("maxBytes must be a positive safe integer");
+  }
+  if (
+    timeoutMs !== undefined &&
+    (!Number.isSafeInteger(timeoutMs) || timeoutMs < 1)
+  ) {
+    fail("timeoutMs must be a positive safe integer");
+  }
   let payloadBytes;
   try {
-    payloadBytes = readGitFile(repoDir, revision, PAYLOAD_REPO_PATH);
+    payloadBytes = readGitFile(repoDir, revision, PAYLOAD_REPO_PATH, {
+      maxBuffer: maxBytes + 1024,
+      timeout: timeoutMs,
+    });
   } catch {
     fail("the chosen Gate commit does not contain data/castle.json");
   }
   if (!Buffer.isBuffer(payloadBytes)) {
     payloadBytes = Buffer.from(payloadBytes);
+  }
+  if (payloadBytes.length > maxBytes) {
+    fail(`committed payload exceeds the ${maxBytes}-byte read limit`);
   }
   return payloadBytes;
 }

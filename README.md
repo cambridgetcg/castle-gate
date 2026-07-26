@@ -25,14 +25,17 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
   prior committed public payload. The working `data/castle.json` is the next
   generation. Its closed schema and plain-language contract live in `schema/`
   and [`PROTOCOL.md`](PROTOCOL.md).
+- [`mcp/`](mcp/) — an optional, independent read-only MCP door. Its bounded
+  `search` and `fetch` tools serve only the receipt-pinned public payload; no
+  endpoint, client configuration, service, or schedule is installed here.
 - `scripts/forge-data.mjs` — the forge logic (public). The scrub lists it
   needs live in `scripts/forge-private.mjs`, gitignored on purpose: committing
   them would publish exactly what they hide. Without that file the forge
   refuses to run — so it only runs at home. It also honors both HALT brakes,
   requires clean source and Gate checkouts, and replaces each public artifact
   atomically.
-- Next.js, no other dependencies. `bun install && bun run build` → static
-  pages.
+- The static site uses Next.js. The optional `mcp/` workspace carries its own
+  small runtime dependencies. `bun install && bun run build` → static pages.
 
 ## To publish
 
