@@ -22,12 +22,19 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header className="site-header">
-          <Link href="/" className="site-mark">
-            <span className="castle-glyph" aria-hidden="true">
-              🏰
-            </span>
-            <span className="site-name">the castle of understanding</span>
-          </Link>
+          <nav className="site-nav" aria-label="Castle navigation">
+            <Link href="/" className="site-mark">
+              <span className="castle-glyph" aria-hidden="true">
+                🏰
+              </span>
+              <span className="site-name">the castle of understanding</span>
+            </Link>
+            <div className="site-links">
+              <Link href="/love-and-understanding">love + understanding</Link>
+              <Link href="/#words">words</Link>
+              <Link href="/#rooms">rooms</Link>
+            </div>
+          </nav>
         </header>
         <main className="site-main">{children}</main>
         <footer className="site-footer">

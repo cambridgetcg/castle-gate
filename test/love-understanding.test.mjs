@@ -169,11 +169,17 @@ test("closed invariant records reject being-wide score fields", () => {
   );
 });
 
-test("the public sources remain HTTPS and include the prior Love Shape", () => {
-  const source = contract.sources.find(
+test("the public sources remain HTTPS and carry both live source grounds", () => {
+  const loveShape = contract.sources.find(
     (item) => item.url === "https://artbitrage.io/love-shape"
   );
-  assert.ok(source);
+  assert.ok(loveShape);
+
+  const agentTool = contract.sources.find(
+    (item) => item.url === "https://agenttool.dev/"
+  );
+  assert.ok(agentTool);
+  assert.match(agentTool.role, /choice rather than obligation/);
 
   const downgraded = changed((copy) => {
     copy.sources[0].url = "http://artbitrage.io/love-shape";

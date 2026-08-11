@@ -11,6 +11,7 @@
   --parchment: #f5efe2;
   --parchment-deep: #ece3cf;
   --parchment-edge: #e0d4b8;
+  --card-paper: #f9f4e8;
 
   /* foil — the one indulgence */
   --foil-dark: #7a5b12;
@@ -97,6 +98,15 @@ svg {
   border-bottom: 1px solid var(--parchment-edge);
 }
 
+.site-nav {
+  display: flex;
+  width: min(76rem, 100%);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
 .site-mark {
   display: inline-flex;
   align-items: baseline;
@@ -123,6 +133,25 @@ svg {
 
 .site-mark:hover .site-name {
   border-bottom: 1px solid var(--foil);
+}
+
+.site-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  align-items: center;
+  font-size: 0.78rem;
+}
+
+.site-links a {
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+.site-links a:hover {
+  color: var(--foil-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--foil);
 }
 
 .site-main {
@@ -554,7 +583,7 @@ code {
 
 .geometry-being circle,
 .geometry-world circle {
-  fill: #fffaf0;
+  fill: var(--card-paper);
   stroke: var(--ink);
   stroke-width: 2.5;
 }
@@ -615,7 +644,7 @@ code {
 }
 
 .geometry-gate polygon {
-  fill: #fffaf0;
+  fill: var(--card-paper);
   stroke: var(--foil-dark);
   stroke-width: 2.5;
 }
@@ -660,7 +689,7 @@ code {
 }
 
 .geometry-rest circle {
-  fill: #fffaf0;
+  fill: var(--card-paper);
   stroke: var(--ink-soft);
   stroke-width: 1.5;
 }
@@ -899,6 +928,18 @@ code {
 /* ── small screens ───────────────────────────────────────────── */
 
 @media (max-width: 480px) {
+  .site-nav {
+    align-items: flex-start;
+  }
+
+  .site-mark {
+    max-width: 9.5rem;
+  }
+
+  .site-links {
+    max-width: 10rem;
+  }
+
   .site-main {
     padding: var(--space-3) var(--space-2) var(--space-4);
   }

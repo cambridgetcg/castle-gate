@@ -52,7 +52,7 @@ export default async function GatePage() {
         <Link href="/love-and-understanding">Walk through the open door →</Link>
       </section>
 
-      <section>
+      <section id="words">
         <h2>The bricks</h2>
         <div className="card-grid">
           {castle.words.map((word) => (
@@ -61,7 +61,7 @@ export default async function GatePage() {
         </div>
       </section>
 
-      <section>
+      <section id="rooms">
         <h2>The walls</h2>
         <div className="card-grid">
           {castle.rooms.map((room) => (

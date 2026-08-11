@@ -145,11 +145,14 @@ export default function RelationalGeometry({
 
             <path
               className="geometry-return"
-              d="M 610 184 C 548 264, 212 264, 150 184"
+              d="M 610 184 C 548 245, 212 245, 150 184"
               markerEnd="url(#understanding-arrow)"
             />
-            <text className="geometry-small geometry-return-label" x="380" y="254">
-              echo in own words · compare · correct · try · reply
+            <text className="geometry-small geometry-return-label" x="520" y="248">
+              echo in own words · compare · correct
+            </text>
+            <text className="geometry-small geometry-return-label" x="520" y="264">
+              try · reply
             </text>
 
             <path
@@ -157,7 +160,7 @@ export default function RelationalGeometry({
               d="M 380 199 L 380 273"
               markerEnd="url(#understanding-arrow)"
             />
-            <text className="geometry-small" x="428" y="235">
+            <text className="geometry-small" x="442" y="218">
               refuse / rest
             </text>
             <g className="geometry-rest">
@@ -183,7 +186,7 @@ export default function RelationalGeometry({
         >
           <svg
             className="geometry-svg"
-            viewBox="0 0 760 340"
+            viewBox="0 0 760 365"
             role="img"
             aria-labelledby="action-title action-description"
           >
@@ -289,8 +292,11 @@ export default function RelationalGeometry({
               d="M 623 268 C 520 326, 230 326, 132 187"
               markerEnd="url(#action-arrow)"
             />
-            <text className="geometry-small geometry-return-label" x="406" y="315">
-              evidence · affected-party reply · uncertainty · correction
+            <text className="geometry-small geometry-return-label" x="560" y="328">
+              evidence · affected-party reply
+            </text>
+            <text className="geometry-small geometry-return-label" x="560" y="345">
+              uncertainty · correction
             </text>
 
             <path
@@ -324,7 +330,7 @@ export default function RelationalGeometry({
             <g className="geometry-rest">
               <circle cx="390" cy="291" r="19" />
               <circle cx="390" cy="291" r="12" />
-              <text className="geometry-small" x="390" y="329">
+              <text className="geometry-small" x="390" y="353">
                 {rest}
               </text>
             </g>
