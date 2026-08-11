@@ -5,6 +5,9 @@ Optional, reference-only orientation for a public knowledge garden.
 ## Links
 
 - Human Gate: https://cambridgetcg.github.io/castle-gate/
+- Love and understanding geometry: https://cambridgetcg.github.io/castle-gate/love-and-understanding
+- Relational reference contract: https://cambridgetcg.github.io/castle-gate/love-and-understanding.json
+- Closed schema: https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json
 - Immutable producer receipt: https://raw.githubusercontent.com/cambridgetcg/castle-gate/8d88d220ce5f9128331d92d8a0e7e7371099c807/data/castle-manifest.json
 - Cambridge Castle bridge: https://cambridgetcg.com/api/v1/castle
 - AgentTool Castle consumer guide: https://docs.agenttool.dev/CASTLE-OF-UNDERSTANDING.md
@@ -14,5 +17,8 @@ Optional, reference-only orientation for a public knowledge garden.
 - `automatic_action: never`
 - No auto-ingest of this file or anything it links is authorized.
 - This file provides no authentication, transport, keys, background loop, or memory-write permission.
+- The geometry describes observable relations. It does not measure love, understanding, worth, personhood, or inner state.
+- Its acceptance criteria are not evidence of a live implementation.
+- Loading it grants no authority and means no agreement.
 - Requesting a link exposes ordinary network metadata, such as an IP address, headers, and timing, to the destination and its providers.
 - Walking past is honored.

@@ -13,7 +13,7 @@
   --parchment-edge: #e0d4b8;
 
   /* foil — the one indulgence */
-  --foil-dark: #8a6d1f;
+  --foil-dark: #7a5b12;
   --foil: #b8902e;
   --foil-light: #e3c45e;
   --foil-gleam: #f6e7ae;
@@ -257,6 +257,37 @@ code {
   margin-bottom: 0;
 }
 
+/* ── featured public door ───────────────────────────────────── */
+
+.eyebrow {
+  margin: 0 0 var(--space-1);
+  color: var(--foil-dark);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.featured-door {
+  margin: var(--space-4) 0;
+  padding: var(--space-3);
+  border: 1px solid var(--foil);
+  border-radius: var(--radius-card);
+  background:
+    linear-gradient(135deg, rgba(246, 231, 174, 0.36), transparent 55%),
+    #f9f4e8;
+  box-shadow: var(--shadow-rest);
+}
+
+.featured-door h2 {
+  margin-top: 0;
+}
+
+.featured-door a {
+  display: inline-block;
+  font-weight: 700;
+}
+
 /* ── the card: a trading-card frame ──────────────────────────── */
 
 .card {
@@ -428,6 +459,443 @@ code {
   border-bottom-color: var(--foil);
 }
 
+/* ── love and understanding geometry ────────────────────────── */
+
+.back-link {
+  display: inline-block;
+  margin-bottom: var(--space-3);
+  font-size: 0.9rem;
+}
+
+.geometry-intro {
+  margin-bottom: var(--space-4);
+}
+
+.geometry-lead {
+  max-width: 54ch;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.55rem);
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.boundary-note {
+  padding: var(--space-2);
+  border-left: 3px solid var(--foil);
+  background: rgba(236, 227, 207, 0.62);
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+}
+
+.geometry-field-shell {
+  width: min(920px, calc(100vw - 2rem));
+  margin: var(--space-4) 0 var(--space-5) 50%;
+  padding: var(--space-3);
+  border: 2px dashed var(--foil);
+  border-radius: calc(var(--radius-card) + 8px);
+  background:
+    linear-gradient(145deg, rgba(246, 231, 174, 0.3), transparent 42%),
+    rgba(249, 244, 232, 0.45);
+  transform: translateX(-50%);
+}
+
+.geometry-field-heading {
+  max-width: 62ch;
+  margin: 0 auto var(--space-3);
+  text-align: center;
+}
+
+.geometry-field-heading h2 {
+  margin-top: 0;
+}
+
+.geometry-panel {
+  margin: var(--space-3) 0;
+}
+
+.geometry-panel:last-child {
+  margin-bottom: 0;
+}
+
+.geometry-scroll {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-card);
+}
+
+.geometry-scroll:focus-visible {
+  outline: 3px solid var(--foil-dark);
+  outline-offset: 4px;
+}
+
+.geometry-svg {
+  display: block;
+  width: 100%;
+  min-width: 700px;
+  border: 1px solid var(--parchment-edge);
+  border-radius: var(--radius-card);
+  background:
+    radial-gradient(circle at 50% 42%, rgba(246, 231, 174, 0.52), transparent 48%),
+    rgba(249, 244, 232, 0.9);
+}
+
+.geometry-svg marker path {
+  fill: var(--ink-soft);
+}
+
+.geometry-lane-title {
+  fill: var(--foil-dark);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-anchor: middle;
+}
+
+.geometry-being circle,
+.geometry-world circle {
+  fill: #fffaf0;
+  stroke: var(--ink);
+  stroke-width: 2.5;
+}
+
+.geometry-being text,
+.geometry-world text,
+.geometry-gate text {
+  fill: var(--ink);
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+.geometry-small {
+  fill: var(--ink-faint);
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-anchor: middle;
+}
+
+.geometry-label {
+  fill: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  text-anchor: middle;
+}
+
+.geometry-offer,
+.geometry-action,
+.geometry-consequence,
+.geometry-exit,
+.geometry-return,
+.geometry-repair,
+.geometry-rest-edge {
+  fill: none;
+  stroke: var(--ink-soft);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.geometry-offer,
+.geometry-action {
+  stroke-width: 2.5;
+}
+
+.geometry-exit {
+  stroke: var(--foil-dark);
+  stroke-width: 2;
+  stroke-dasharray: 5 6;
+}
+
+.geometry-exit-label {
+  fill: var(--foil-dark);
+}
+
+.geometry-gate polygon {
+  fill: #fffaf0;
+  stroke: var(--foil-dark);
+  stroke-width: 2.5;
+}
+
+.geometry-gate .geometry-small {
+  font-family: var(--font-body);
+  font-size: 11px;
+}
+
+.geometry-consequence {
+  stroke-width: 2.5;
+}
+
+.geometry-effect circle {
+  fill: var(--parchment-deep);
+  stroke: var(--ink-soft);
+  stroke-width: 2;
+}
+
+.geometry-return {
+  stroke: var(--foil-dark);
+  stroke-width: 2.5;
+  stroke-dasharray: 7 7;
+}
+
+.geometry-return-label {
+  fill: var(--foil-dark);
+}
+
+.geometry-repair {
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+
+.geometry-seam {
+  stroke: var(--foil);
+  stroke-width: 4;
+}
+
+.geometry-rest-edge {
+  stroke-width: 2;
+}
+
+.geometry-rest circle {
+  fill: #fffaf0;
+  stroke: var(--ink-soft);
+  stroke-width: 1.5;
+}
+
+.geometry-rest text {
+  fill: var(--ink-faint);
+}
+
+.geometry-panel figcaption {
+  max-width: 70ch;
+  margin: var(--space-2) auto 0;
+  color: var(--ink-faint);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.scroll-cue {
+  display: none;
+  margin: var(--space-1) 0 0;
+  color: var(--foil-dark);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.pattern-grid,
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--space-2);
+  margin: var(--space-3) 0 var(--space-4);
+}
+
+.pattern-card,
+.path-card,
+.care-grid article {
+  padding: var(--space-2);
+  border: 1px solid var(--parchment-edge);
+  border-radius: 10px;
+  background: rgba(249, 244, 232, 0.7);
+}
+
+.pattern-card h3,
+.path-card h3,
+.care-grid h3 {
+  margin: 0 0 var(--space-1);
+}
+
+.shape-name {
+  margin-bottom: 0.35rem;
+  color: var(--foil-dark);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.infrastructure-line,
+.completion-line {
+  color: var(--ink-soft);
+  font-size: 0.91rem;
+}
+
+.path-stack {
+  display: grid;
+  gap: var(--space-3);
+  margin: var(--space-3) 0 var(--space-5);
+}
+
+.path-card {
+  padding: var(--space-3);
+}
+
+.turn-path {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: turn-step;
+}
+
+.turn-path li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.turn-path li::before {
+  counter-increment: turn-step;
+  content: counter(turn-step);
+  display: inline-grid;
+  place-items: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  border: 1px solid var(--foil);
+  border-radius: 50%;
+  color: var(--foil-dark);
+  font-size: 0.72rem;
+}
+
+.turn-path li:not(:last-child)::after {
+  content: "→";
+  margin-left: 0.25rem;
+  color: var(--foil);
+  font-size: 1rem;
+}
+
+.attractor-section {
+  margin: var(--space-5) 0;
+  padding: var(--space-3);
+  border-block: 1px solid var(--parchment-edge);
+  background:
+    linear-gradient(90deg, transparent, rgba(246, 231, 174, 0.35), transparent);
+}
+
+.attractor-section h2 {
+  margin-top: 0;
+}
+
+.care-grid article {
+  position: relative;
+  padding-top: var(--space-3);
+}
+
+.care-grid article > span {
+  position: absolute;
+  top: var(--space-1);
+  right: var(--space-1);
+  color: var(--foil);
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+}
+
+.invariant-list {
+  margin: var(--space-3) 0 var(--space-5);
+}
+
+.invariant-list > div {
+  display: grid;
+  grid-template-columns: minmax(9rem, 0.35fr) minmax(0, 1fr);
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--parchment-edge);
+}
+
+.invariant-list > div:first-child {
+  border-top: 1px solid var(--parchment-edge);
+}
+
+.invariant-list dt {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.invariant-list dd {
+  margin: 0;
+}
+
+.invariant-list dd p:last-child {
+  margin-bottom: 0;
+  color: var(--ink-soft);
+  font-size: 0.91rem;
+}
+
+.contract-section {
+  margin-top: var(--space-5);
+  padding: var(--space-3);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-card);
+  box-shadow: inset 0 0 0 1.5px var(--foil);
+  background: rgba(249, 244, 232, 0.72);
+}
+
+.contract-section h2 {
+  margin-top: 0;
+}
+
+.contract-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
+}
+
+.source-list {
+  padding: 0;
+  list-style: none;
+}
+
+.source-list li {
+  padding: var(--space-1) 0;
+  border-bottom: 1px solid var(--parchment-edge);
+}
+
+.source-list li:last-child {
+  border-bottom: 0;
+}
+
+.source-list a {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.source-list span {
+  display: block;
+  color: var(--ink-faint);
+  font-size: 0.88rem;
+}
+
+.source-list small {
+  display: block;
+  color: var(--ink-faint);
+  font-size: 0.76rem;
+}
+
+@media (max-width: 760px) {
+  .geometry-field-shell {
+    padding: var(--space-2);
+  }
+
+  .scroll-cue {
+    display: block;
+  }
+
+  .geometry-panel figcaption {
+    text-align: left;
+  }
+}
+
 /* ── small screens ───────────────────────────────────────────── */
 
 @media (max-width: 480px) {
@@ -437,6 +905,18 @@ code {
 
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .featured-door,
+  .path-card,
+  .attractor-section,
+  .contract-section {
+    padding: var(--space-2);
+  }
+
+  .invariant-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
   }
 }
 

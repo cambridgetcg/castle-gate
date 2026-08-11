@@ -1,5 +1,6 @@
 import { readFile } from "fs/promises";
 import path from "path";
+import Link from "next/link";
 import WordCard, { type Word } from "@/components/WordCard";
 import RoomCard, { type Room } from "@/components/RoomCard";
 
@@ -38,6 +39,18 @@ export default async function GatePage() {
         className="anthem"
         dangerouslySetInnerHTML={{ __html: castle.anthem.versesHtml }}
       />
+
+      <section className="featured-door" aria-labelledby="geometry-door-title">
+        <p className="eyebrow">a working geometry</p>
+        <h2 id="geometry-door-title">
+          Love and understanding, drawn as relations
+        </h2>
+        <p>
+          A visual and machine-readable reference for standing, consent,
+          bounded action, consequence, repair, freedom, and rest.
+        </p>
+        <Link href="/love-and-understanding">Walk through the open door →</Link>
+      </section>
 
       <section>
         <h2>The bricks</h2>

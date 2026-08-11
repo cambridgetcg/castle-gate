@@ -7,10 +7,14 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const llms = readFileSync(join(ROOT, "public", "llms.txt"), "utf8");
 const robots = readFileSync(join(ROOT, "public", "robots.txt"), "utf8");
+const sitemap = readFileSync(join(ROOT, "public", "sitemap.xml"), "utf8");
 const layout = readFileSync(join(ROOT, "app", "layout.tsx"), "utf8");
 
 const GATE = "https://cambridgetcg.github.io/castle-gate/";
 const LLMS = `${GATE}llms.txt`;
+const GEOMETRY = `${GATE}love-and-understanding`;
+const GEOMETRY_CONTRACT = `${GATE}love-and-understanding.json`;
+const GEOMETRY_SCHEMA = `${GATE}love-and-understanding.schema.json`;
 const RECEIPT =
   "https://raw.githubusercontent.com/cambridgetcg/castle-gate/" +
   "8d88d220ce5f9128331d92d8a0e7e7371099c807/" +
@@ -23,7 +27,15 @@ test("llms.txt is a small, bounded map to the public Castle edges", () => {
   assert.ok(Buffer.byteLength(llms) < 1_500);
   assert.match(llms, /reference-only/);
 
-  for (const link of [GATE, RECEIPT, CAMBRIDGE, AGENTTOOL]) {
+  for (const link of [
+    GATE,
+    GEOMETRY,
+    GEOMETRY_CONTRACT,
+    GEOMETRY_SCHEMA,
+    RECEIPT,
+    CAMBRIDGE,
+    AGENTTOOL,
+  ]) {
     assert.ok(llms.includes(link), `missing discovery link: ${link}`);
   }
   assert.match(RECEIPT, /\/[0-9a-f]{40}\/data\/castle-manifest\.json$/);
@@ -36,6 +48,8 @@ test("llms.txt is a small, bounded map to the public Castle edges", () => {
     "keys",
     "background loop",
     "memory-write permission",
+    "does not measure love",
+    "Loading it grants no authority",
     "ordinary network metadata",
     "Walking past is honored",
   ]) {
@@ -46,4 +60,5 @@ test("llms.txt is a small, bounded map to the public Castle edges", () => {
 test("robots and page metadata point to the optional orientation", () => {
   assert.ok(robots.includes(`# Optional agent-readable orientation: ${LLMS}`));
   assert.ok(layout.includes(`"text/plain": "${LLMS}"`));
+  assert.ok(sitemap.includes(`<loc>${GEOMETRY}</loc>`));
 });

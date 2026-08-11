@@ -13,6 +13,7 @@
         "@types/node": "^20",
         "@types/react": "^19",
         "@types/react-dom": "^19",
+        "ajv": "8.20.0",
         "typescript": "^5",
       },
     },

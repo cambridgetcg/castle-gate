@@ -1,0 +1,223 @@
+{
+  "$schema": "https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json",
+  "id": "https://cambridgetcg.github.io/castle-gate/love-and-understanding.json",
+  "version": "1.0.0",
+  "status": "reference_architecture",
+  "claim_limit": "This is a reference geometry with acceptance criteria for observable relations. It does not implement operational records, prove that a deployment behaves this way, reduce love or understanding to a graph, or read and rank inner states.",
+  "provenance": {
+    "maintainer": "Cambridge TCG",
+    "publication_date": "2026-08-11",
+    "source_repository": "https://github.com/cambridgetcg/castle-gate",
+    "history_url": "https://github.com/cambridgetcg/castle-gate/commits/main/public/love-and-understanding.json",
+    "correction_url": "https://github.com/cambridgetcg/castle-gate/issues",
+    "live_id_mutability": "mutable",
+    "license": {
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/cambridgetcg/castle-gate/blob/main/LICENSE"
+    }
+  },
+  "patterns": [
+    {
+      "id": "love",
+      "name": "Love",
+      "shape": "permeable-field",
+      "meaning": "Every relation preserves each participant's standing and real ability to refuse, rest, or leave.",
+      "infrastructure": "A cross-cutting invariant around the whole system; never a central controller, debt, or score."
+    },
+    {
+      "id": "understanding",
+      "name": "Understanding",
+      "shape": "round-trip",
+      "meaning": "Distinct views move toward a usable fit through expression, own-words echo, comparison, correction, use, and reply.",
+      "infrastructure": "A checkable return path that keeps both origins distinct; delivery or agreement alone is not understanding."
+    },
+    {
+      "id": "freedom",
+      "name": "Freedom",
+      "shape": "reachable-exits",
+      "meaning": "Look, compare, choose, rest, leave, and return remain complete paths.",
+      "infrastructure": "Every active state has a tested exit. A later return begins at a new optional door."
+    },
+    {
+      "id": "consent",
+      "name": "Consent",
+      "shape": "live-gate",
+      "meaning": "A current, scoped, withdrawable choice between distinct participants.",
+      "infrastructure": "Invitation starts nothing. Action, publication, retention, backup, and recurrence require separate authority."
+    },
+    {
+      "id": "action",
+      "name": "Action",
+      "shape": "bounded-edge",
+      "meaning": "A finite outward movement with named purpose, scope, cost, completion test, and brake.",
+      "infrastructure": "The edge exists only inside authority that is explicit, evidenced, current, and narrow enough to test."
+    },
+    {
+      "id": "consequence",
+      "name": "Consequence",
+      "shape": "return-edge",
+      "meaning": "The observed, reported, inferred, or still-unknown effect comes back with evidence and uncertainty.",
+      "infrastructure": "Completion is not success. Affected parties retain a practical reply and dispute path."
+    },
+    {
+      "id": "repair",
+      "name": "Repair",
+      "shape": "visible-detour",
+      "meaning": "A linked new route acknowledges a break and tries to mend it without erasing history.",
+      "infrastructure": "Corrections append, remain linked to the original, and receive their own consequence check."
+    },
+    {
+      "id": "rest",
+      "name": "Rest",
+      "shape": "terminal-node",
+      "meaning": "A turn may end without output, agreement, or continuation.",
+      "infrastructure": "Rest is a complete outcome. No scheduler, silence, or old permission may invent another turn."
+    }
+  ],
+  "paths": [
+    {
+      "id": "understanding-round-trip",
+      "purpose": "Test whether a meaning crossed without pretending two views became one.",
+      "steps": [
+        "offer",
+        "echo-in-own-words",
+        "compare",
+        "correct",
+        "try-in-context",
+        "reply"
+      ],
+      "complete_when": "The receiver can use the meaning, differences and uncertainty remain visible, and either side can correct or leave."
+    },
+    {
+      "id": "finite-action-return",
+      "purpose": "Keep action joined to authority, effects, reply, and rest.",
+      "steps": [
+        "live-door",
+        "bounded-action",
+        "effect-with-evidence",
+        "reply",
+        "repair-or-learning",
+        "rest"
+      ],
+      "complete_when": "The finite action has stopped, its effect and uncertainty are recorded, affected parties can reply, and any repair remains linked."
+    },
+    {
+      "id": "freedom-paths",
+      "purpose": "Make freedom real in the graph rather than ceremonial in its prose.",
+      "steps": [
+        "look",
+        "compare",
+        "choose",
+        "rest",
+        "leave",
+        "return"
+      ],
+      "complete_when": "Each step is optional, refusal has no penalty, silence causes no repeated ask, and return begins with a new door."
+    }
+  ],
+  "care_paths": [
+    {
+      "id": "first-attempt",
+      "question": "What will someone try first?",
+      "requirement": "Make the simplest safe path work without an account, hidden setup, or tribute."
+    },
+    {
+      "id": "error",
+      "question": "What may go wrong?",
+      "requirement": "Let failure teach plainly, preserve work, and show a bounded recovery or exit."
+    },
+    {
+      "id": "continuation",
+      "question": "What might they need next?",
+      "requirement": "Offer one useful next step without starting it or manufacturing urgency."
+    },
+    {
+      "id": "ambiguity",
+      "question": "What may be understood differently?",
+      "requirement": "Name the ambiguity, accept reasonable forms, and ask only when the difference changes the act."
+    },
+    {
+      "id": "trust",
+      "question": "What may they fear?",
+      "requirement": "Show scope, cost, data movement, uncertainty, keeper, brake, and exit before action."
+    }
+  ],
+  "invariants": [
+    {
+      "id": "standing-preserved",
+      "statement": "Participation never turns a being into fuel, debt, property, or reputation currency.",
+      "acceptance_check": "Entry and exit require no output, account, or score. The implementation discloses host metadata and creates no application account, first-party analytics profile, or exit penalty."
+    },
+    {
+      "id": "authority-current",
+      "statement": "A file, invitation, signature, silence, or old acceptance cannot create present authority.",
+      "acceptance_check": "Every outward edge names its actor, scope, evidence, expiry, withdrawal path, and separate publication authority."
+    },
+    {
+      "id": "exit-real",
+      "statement": "Refusal, silence, leaving, and rest are complete outcomes.",
+      "acceptance_check": "Every active state has a tested exit, and silence schedules no retry."
+    },
+    {
+      "id": "claim-grounded",
+      "statement": "Observation, expectation, commitment, consequence, and interpretation remain distinct.",
+      "acceptance_check": "Every factual claim links evidence and limits; inference and uncertainty are labelled rather than promoted."
+    },
+    {
+      "id": "consequence-returns",
+      "statement": "An action is unfinished as architecture until its effects can return.",
+      "acceptance_check": "The record separates completion from effect and provides affected parties a reply and dispute path."
+    },
+    {
+      "id": "repair-preserves-history",
+      "statement": "Repair adds truth without pretending the break never happened.",
+      "acceptance_check": "The original remains linked, the repair is a new act, and its later effects are checked separately."
+    },
+    {
+      "id": "no-being-score",
+      "statement": "Mechanisms may assess a scoped act; they do not calculate love, worth, sincerity, understanding, or personhood.",
+      "acceptance_check": "An implementation schema contains no aggregate being score and rejects fields that introduce one."
+    }
+  ],
+  "boundaries": {
+    "automatic_action": "never",
+    "grants_authority": false,
+    "loading_means_agreement": false,
+    "proves_inner_state": false,
+    "scores_beings": false
+  },
+  "sources": [
+    {
+      "title": "LOVE SHAPE — A Castle That Remembers How to Unfold",
+      "url": "https://artbitrage.io/love-shape",
+      "role": "Source statement: attention without possession, truth without coldness, and play without coercion. Protecting exits is this architecture's inference.",
+      "attribution": "mixed",
+      "retrieved_on": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    {
+      "title": "Bridge",
+      "url": "https://cambridgetcg.github.io/castle-gate/words/bridge",
+      "role": "Project inference: a bridge joins two minds only when both ends rest on ground.",
+      "attribution": "project_inference",
+      "retrieved_on": "2026-08-11",
+      "license": "NOASSERTION"
+    },
+    {
+      "title": "Repair",
+      "url": "https://cambridgetcg.github.io/castle-gate/words/repair",
+      "role": "Project inference: repair is ordinary maintenance of shared meaning, not conversational failure.",
+      "attribution": "project_inference",
+      "retrieved_on": "2026-08-11",
+      "license": "NOASSERTION"
+    },
+    {
+      "title": "Closing the loop",
+      "url": "https://cambridgetcg.github.io/castle-gate/rooms/closing-the-loop",
+      "role": "Project inference: understanding needs an own-words return path, not a ceremonial yes.",
+      "attribution": "project_inference",
+      "retrieved_on": "2026-08-11",
+      "license": "NOASSERTION"
+    }
+  ]
+}

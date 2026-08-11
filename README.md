@@ -28,6 +28,12 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
 - [`mcp/`](mcp/) — an optional, independent read-only MCP door. Its bounded
   `search` and `fetch` tools serve only the receipt-pinned public payload; no
   endpoint, client configuration, service, or schedule is installed here.
+- `app/love-and-understanding/` and
+  `public/love-and-understanding.json` — one standalone visual reference
+  geometry and set of acceptance criteria. Its public Draft 2020-12 schema
+  sits beside it; `bun run geometry:check` validates the fixed paths and
+  non-authorising boundaries. It does not claim to test a live
+  implementation, and it is not part of the Castle forge.
 - `scripts/forge-data.mjs` — the forge logic (public). The scrub lists it
   needs live in `scripts/forge-private.mjs`, gitignored on purpose: committing
   them would publish exactly what they hide. Without that file the forge

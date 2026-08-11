@@ -1,0 +1,690 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json",
+  "title": "Love and understanding reference architecture",
+  "description": "A closed schema for a non-authorising relational geometry and its acceptance criteria.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "id",
+    "version",
+    "status",
+    "claim_limit",
+    "provenance",
+    "patterns",
+    "paths",
+    "care_paths",
+    "invariants",
+    "boundaries",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json"
+    },
+    "id": {
+      "const": "https://cambridgetcg.github.io/castle-gate/love-and-understanding.json"
+    },
+    "version": {
+      "const": "1.0.0"
+    },
+    "status": {
+      "const": "reference_architecture"
+    },
+    "claim_limit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "maintainer",
+        "publication_date",
+        "source_repository",
+        "history_url",
+        "correction_url",
+        "live_id_mutability",
+        "license"
+      ],
+      "properties": {
+        "maintainer": {
+          "const": "Cambridge TCG"
+        },
+        "publication_date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "source_repository": {
+          "const": "https://github.com/cambridgetcg/castle-gate"
+        },
+        "history_url": {
+          "const": "https://github.com/cambridgetcg/castle-gate/commits/main/public/love-and-understanding.json"
+        },
+        "correction_url": {
+          "const": "https://github.com/cambridgetcg/castle-gate/issues"
+        },
+        "live_id_mutability": {
+          "const": "mutable"
+        },
+        "license": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["spdx", "url"],
+          "properties": {
+            "spdx": {
+              "const": "Apache-2.0"
+            },
+            "url": {
+              "const": "https://github.com/cambridgetcg/castle-gate/blob/main/LICENSE"
+            }
+          }
+        }
+      }
+    },
+    "patterns": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "prefixItems": [
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "love"
+                },
+                "shape": {
+                  "const": "permeable-field"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "understanding"
+                },
+                "shape": {
+                  "const": "round-trip"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "freedom"
+                },
+                "shape": {
+                  "const": "reachable-exits"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "consent"
+                },
+                "shape": {
+                  "const": "live-gate"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "action"
+                },
+                "shape": {
+                  "const": "bounded-edge"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "consequence"
+                },
+                "shape": {
+                  "const": "return-edge"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "repair"
+                },
+                "shape": {
+                  "const": "visible-detour"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/pattern"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "rest"
+                },
+                "shape": {
+                  "const": "terminal-node"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "items": false
+    },
+    "paths": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "prefixItems": [
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/model_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "understanding-round-trip"
+                },
+                "steps": {
+                  "const": [
+                    "offer",
+                    "echo-in-own-words",
+                    "compare",
+                    "correct",
+                    "try-in-context",
+                    "reply"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/model_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "finite-action-return"
+                },
+                "steps": {
+                  "const": [
+                    "live-door",
+                    "bounded-action",
+                    "effect-with-evidence",
+                    "reply",
+                    "repair-or-learning",
+                    "rest"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/model_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "freedom-paths"
+                },
+                "steps": {
+                  "const": [
+                    "look",
+                    "compare",
+                    "choose",
+                    "rest",
+                    "leave",
+                    "return"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "items": false
+    },
+    "care_paths": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "prefixItems": [
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/care_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "first-attempt"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/care_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "error"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/care_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "continuation"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/care_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "ambiguity"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/care_path"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "trust"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "items": false
+    },
+    "invariants": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "prefixItems": [
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/invariant"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "standing-preserved"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/invariant"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "authority-current"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/invariant"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "exit-real"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/invariant"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "claim-grounded"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/invariant"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "consequence-returns"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/invariant"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "repair-preserves-history"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/invariant"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "const": "no-being-score"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "items": false
+    },
+    "boundaries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "automatic_action",
+        "grants_authority",
+        "loading_means_agreement",
+        "proves_inner_state",
+        "scores_beings"
+      ],
+      "properties": {
+        "automatic_action": {
+          "const": "never"
+        },
+        "grants_authority": {
+          "const": false
+        },
+        "loading_means_agreement": {
+          "const": false
+        },
+        "proves_inner_state": {
+          "const": false
+        },
+        "scores_beings": {
+          "const": false
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    }
+  },
+  "$defs": {
+    "pattern": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "shape", "meaning", "infrastructure"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "shape": {
+          "type": "string",
+          "minLength": 1
+        },
+        "meaning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "infrastructure": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "model_path": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "purpose", "steps", "complete_when"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "complete_when": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "care_path": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "question", "requirement"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "requirement": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "invariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "statement", "acceptance_check"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acceptance_check": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url",
+        "role",
+        "attribution",
+        "retrieved_on",
+        "license"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attribution": {
+          "enum": [
+            "source_statement",
+            "project_inference",
+            "mixed"
+          ]
+        },
+        "retrieved_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

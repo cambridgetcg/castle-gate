@@ -12,8 +12,9 @@
     "forge": "node scripts/forge-data.mjs",
     "manifest:build": "node scripts/castle-manifest.mjs build",
     "manifest:check": "node scripts/castle-manifest.mjs validate",
+    "geometry:check": "node scripts/love-understanding.mjs validate",
     "test": "node --test",
-    "verify": "node scripts/castle-manifest.mjs validate && node --test && next build"
+    "verify": "node scripts/castle-manifest.mjs validate && node scripts/love-understanding.mjs validate && node --test && next build"
   },
   "dependencies": {
     "next": "16.2.12",
@@ -24,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "ajv": "8.20.0",
     "typescript": "^5"
   },
   "overrides": {
