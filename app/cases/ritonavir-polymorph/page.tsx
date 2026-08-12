@@ -277,7 +277,7 @@ export default function RitonavirPolymorphPage() {
             standalone SVG
           </a>
           <a href="/castle-gate/cases/ritonavir-polymorph/provenance.txt">
-            provenance + reuse
+            provenance + rights
           </a>
           <a href="https://github.com/cambridgetcg/kingdom-meaning-practice/blob/main/RIGHTS.md">
             structured-case rights

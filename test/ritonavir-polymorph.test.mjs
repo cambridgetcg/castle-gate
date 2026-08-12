@@ -35,6 +35,8 @@ const factualCorrection =
   "https://github.com/cambridgetcg/kingdom-meaning-practice/issues";
 const projectionCorrection =
   "https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20projection%20correction";
+const structuredRights =
+  "https://github.com/cambridgetcg/kingdom-meaning-practice/blob/main/RIGHTS.md";
 const castleRoomCommit = "10d243bb9d30506c893530f03977e8c733f8b42c";
 
 test("the public reading aid pins the reviewed source case", () => {
@@ -113,12 +115,13 @@ test("the public projection names its hand, rights, and separate correction path
   assert.match(page, /Apache-2\.0\s+licence/);
   assert.match(page, /grants no reuse\s+licence/);
   assert.match(page, /No\s+third-party article text, figure, or\s+dataset is/);
-  assert.match(page, /provenance\.txt/);
+  assert.match(page, /provenance \+ rights/);
   for (const url of [
     publicCase,
     immutableCase,
     factualCorrection,
     projectionCorrection,
+    structuredRights,
   ]) {
     assert.ok(page.includes(url), `page is missing ${url}`);
     assert.ok(provenance.includes(url), `provenance is missing ${url}`);
