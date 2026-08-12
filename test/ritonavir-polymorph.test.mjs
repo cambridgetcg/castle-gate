@@ -117,6 +117,8 @@ test("the public projection names its hand, rights, and separate correction path
   assert.match(provenance, new RegExp(castleRoomCommit));
   assert.match(provenance, /Prepared by: Codex at Yu's direction/);
   assert.match(provenance, /Published: 2026-08-12/);
+  assert.match(provenance, /Projection URL:/);
+  assert.doesNotMatch(provenance, /Canonical page:/);
   assert.match(provenance, /Apache License 2\.0/);
   assert.match(
     provenance,
@@ -132,6 +134,9 @@ test("the public doors all point to the one case route", () => {
   assert.match(readFileSync(layoutPath, "utf8"), new RegExp(route));
   assert.match(readFileSync(sitemapPath, "utf8"), new RegExp(route));
   assert.match(readFileSync(llmsPath, "utf8"), new RegExp(route));
-  assert.match(readFileSync(readmePath, "utf8"), /structured case\s+stays in its origin/);
-  assert.match(readFileSync(readmePath, "utf8"), /kingdom-meaning-practice/);
+  const readme = readFileSync(readmePath, "utf8");
+  assert.match(readme, /structured case\s+stays in its origin/);
+  assert.match(readme, /kingdom-meaning-practice/);
+  assert.match(readme, /not part of the Castle forge/);
+  assert.match(readme, /For a forged `data\/castle\.json` generation/);
 });

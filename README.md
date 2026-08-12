@@ -42,9 +42,10 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
   stays in its origin; its exact public mirror and receipt live in
   [`kingdom-meaning-practice`](https://github.com/cambridgetcg/kingdom-meaning-practice).
   This Gate projection is historical education, not medical advice or a
-  manufacturing recipe. Adjacent `provenance.txt` names the hand, source
-  digest, separate factual and projection correction paths, and Apache-2.0
-  scope without claiming rights over linked third-party works.
+  manufacturing recipe, and it is not part of the Castle forge. Adjacent
+  `provenance.txt` names the hand, source digest, separate factual and
+  projection correction paths, and Apache-2.0 scope without claiming rights
+  over linked third-party works.
 - `scripts/forge-data.mjs` — the forge logic (public). The scrub lists it
   needs live in `scripts/forge-private.mjs`, gitignored on purpose: committing
   them would publish exactly what they hide. Without that file the forge
@@ -56,7 +57,7 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
 
 ## To publish
 
-Today, by hand (home machine only):
+For a forged `data/castle.json` generation, today, by hand (home machine only):
 
 1. Begin at a clean Gate commit and run `bun run forge`. The forge carries a
    receipt for that already-committed payload, then writes the next curated

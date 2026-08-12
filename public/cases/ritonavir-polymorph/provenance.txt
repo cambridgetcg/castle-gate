@@ -6,7 +6,7 @@ Maintained by: Cambridge TCG
 Created: 2026-08-11
 Published: 2026-08-12
 Projection revision: 1
-Canonical page: https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph
+Projection URL: https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph
 Gate projection correction: https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20projection%20correction
 
 Structured source:
