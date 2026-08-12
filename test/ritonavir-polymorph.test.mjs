@@ -17,6 +17,7 @@ const provenancePath = new URL(
 );
 const homePath = new URL("../app/page.tsx", import.meta.url);
 const layoutPath = new URL("../app/layout.tsx", import.meta.url);
+const stylesPath = new URL("../app/globals.css", import.meta.url);
 const sitemapPath = new URL("../public/sitemap.xml", import.meta.url);
 const llmsPath = new URL("../public/llms.txt", import.meta.url);
 const readmePath = new URL("../README.md", import.meta.url);
@@ -25,6 +26,7 @@ const page = readFileSync(pagePath, "utf8");
 const svg = readFileSync(svgPath);
 const svgText = svg.toString("utf8");
 const provenance = readFileSync(provenancePath, "utf8");
+const styles = readFileSync(stylesPath, "utf8");
 const publicCase =
   "https://cambridgetcg.github.io/kingdom-meaning-practice/";
 const immutableCase =
@@ -75,8 +77,15 @@ test("the five levels retain their plain boundaries", () => {
   assert.match(page, /not a new KINGDOM law/);
   assert.match(page, /not medical advice/);
   assert.match(page, /not current medical guidance/);
+  assert.match(page, /EMA said oral solution could bridge supply/);
   assert.match(page, /crystal-structure determination/);
   assert.match(page, /manufacturing recipe/);
+  assert.match(page, /className="geometry-scroll"/);
+  assert.match(page, /role="region"/);
+  assert.match(page, /tabIndex=\{0\}/);
+  assert.match(page, /scroll horizontally on a narrow screen/);
+  assert.match(styles, /\.ritonavir-figure img[\s\S]*min-width: 1100px/);
+  assert.match(styles, /\.ritonavir-figure \.scroll-cue[\s\S]*display: block/);
 });
 
 test("the exact reviewed SVG is inert and accessible", () => {
@@ -101,8 +110,9 @@ test("the exact reviewed SVG is inert and accessible", () => {
 test("the public projection names its hand, rights, and separate correction paths", () => {
   assert.match(page, /prepared by Codex at Yu&(?:apos|#39);s direction/);
   assert.match(page, /Cambridge TCG maintains it/);
-  assert.match(page, /Apache-2\.0 licence/);
-  assert.match(page, /No third-party article text, figure, or dataset is/);
+  assert.match(page, /Apache-2\.0\s+licence/);
+  assert.match(page, /grants no reuse\s+licence/);
+  assert.match(page, /No\s+third-party article text, figure, or\s+dataset is/);
   assert.match(page, /provenance\.txt/);
   for (const url of [
     publicCase,
@@ -120,6 +130,7 @@ test("the public projection names its hand, rights, and separate correction path
   assert.match(provenance, /Projection URL:/);
   assert.doesNotMatch(provenance, /Canonical page:/);
   assert.match(provenance, /Apache License 2\.0/);
+  assert.match(provenance, /No reuse licence is granted there/);
   assert.match(
     provenance,
     /a2a0ae7d599d733dffc5b89502a10983c483a9ac174a952581fbea372179f1d1/

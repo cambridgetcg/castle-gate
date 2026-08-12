@@ -45,7 +45,7 @@ const levels = [
     name: "Supply",
     question: "What happened beyond the vessel?",
     reading:
-      "Capsule production and supply were disrupted. Oral solution served as a bridge, and FDA approved a reformulated soft-gel capsule on 29 June 1999.",
+      "Capsule production and supply were disrupted. EMA said oral solution could bridge supply, and FDA approved a reformulated soft-gel capsule on 29 June 1999.",
     boundary:
       "EMA said failed recent batches had not been released and told current users not to stop treatment. This historical record is not current medical guidance.",
   },
@@ -157,10 +157,18 @@ export default function RitonavirPolymorphPage() {
       </header>
 
       <figure className="ritonavir-figure">
-        <img
-          src="/castle-gate/cases/ritonavir-polymorph/ritonavir-polymorph.svg"
-          alt="A source-labelled map separating the unknown first Form-II nucleus, a tested possible trigger, later Form-II seeding, the 1998 dissolution failure, and later Form-I recovery routes."
-        />
+        <div
+          className="geometry-scroll"
+          role="region"
+          aria-label="Ritonavir polymorph evidence map; scroll horizontally on a narrow screen"
+          tabIndex={0}
+        >
+          <img
+            src="/castle-gate/cases/ritonavir-polymorph/ritonavir-polymorph.svg"
+            alt="A source-labelled map separating the unknown first Form-II nucleus, a tested possible trigger, later Form-II seeding, the 1998 dissolution failure, and later Form-I recovery routes."
+          />
+        </div>
+        <p className="scroll-cue">↔ focus and scroll the diagram if needed</p>
         <figcaption>
           Solid blue paths are reported observations, dashed amber paths are
           proposed or unsettled, and double green paths are later reported
@@ -248,10 +256,12 @@ export default function RitonavirPolymorphPage() {
         <p>
           Projection revision 1 was prepared by Codex at Yu&apos;s direction and
           published on 12 August 2026. Cambridge TCG maintains it. This
-          original page and diagram are contributed under Castle Gate&apos;s
-          Apache-2.0 licence; linked papers and official records remain their
-          authors&apos; work. No third-party article text, figure, or dataset is
-          bundled here.
+          original Gate page and its site code follow Castle Gate&apos;s Apache-2.0
+          licence. The exact SVG is republished from the structured case home
+          and follows its separate rights notice, which grants no reuse licence
+          unless a file says otherwise. Linked papers and official records
+          remain their authors&apos; work. No third-party article text, figure, or
+          dataset is bundled here.
         </p>
         <p className="boundary-note">
           Source links are locators, not proof of their exact bytes. A factual
@@ -268,6 +278,9 @@ export default function RitonavirPolymorphPage() {
           </a>
           <a href="/castle-gate/cases/ritonavir-polymorph/provenance.txt">
             provenance + reuse
+          </a>
+          <a href="https://github.com/cambridgetcg/kingdom-meaning-practice/blob/main/RIGHTS.md">
+            structured-case rights
           </a>
           <a href={castleInterpretation}>
             Castle interpretation source

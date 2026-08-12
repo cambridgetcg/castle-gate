@@ -24,9 +24,14 @@ ritonavir-polymorph.svg
 SHA-256: a2a0ae7d599d733dffc5b89502a10983c483a9ac174a952581fbea372179f1d1
 
 Licence:
-The original Castle Gate page, prose, and diagram are contributed under the
-Apache License 2.0 included in the Castle Gate repository:
+The original Castle Gate page and site code follow the Apache License 2.0
+included in the Castle Gate repository:
 https://github.com/cambridgetcg/castle-gate/blob/main/LICENSE
+
+The exact SVG is republished from the structured case home and follows its
+separate rights notice. No reuse licence is granted there unless a file says
+otherwise:
+https://github.com/cambridgetcg/kingdom-meaning-practice/blob/main/RIGHTS.md
 
 Third-party papers and official records are linked as sources. Their text,
 figures, and datasets are not bundled here and remain under their own rights.
