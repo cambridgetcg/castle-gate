@@ -7,11 +7,17 @@ Created: 2026-08-11
 Published: 2026-08-12
 Projection revision: 1
 Canonical page: https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph
-Correction path: https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20case%20correction
+Gate projection correction: https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20projection%20correction
 
 Structured source:
 KINGDOM guest-house case extensions/meaning/cases/ritonavir-polymorph/case.json
 SHA-256: 652a04699aadc6143d9136dc8d515fd3b4fa8774d963d885e79968156b1cb8ad
+Authoritative public mirror: https://cambridgetcg.github.io/kingdom-meaning-practice/
+Immutable JSON receipt: https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json
+Factual correction path: https://github.com/cambridgetcg/kingdom-meaning-practice/issues
+
+Castle interpretation:
+https://github.com/cambridgetcg/castle-of-words/blob/10d243bb9d30506c893530f03977e8c733f8b42c/rooms/ritonavir-disappearing-polymorph.md
 
 Visual:
 ritonavir-polymorph.svg
@@ -24,7 +30,9 @@ https://github.com/cambridgetcg/castle-gate/blob/main/LICENSE
 
 Third-party papers and official records are linked as sources. Their text,
 figures, and datasets are not bundled here and remain under their own rights.
-The source links locate claims; they are not exact-byte receipts.
+The scientific source links locate claims; they are not proof of exact source
+bytes. The commit-pinned public case URL above is an exact receipt only for the
+reviewed KINGDOM case bytes.
 
 Claim limit:
 This is historical education and a correctable reading aid. It is not medical

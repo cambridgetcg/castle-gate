@@ -5,6 +5,16 @@ const caseDigest =
   "652a04699aadc6143d9136dc8d515fd3b4fa8774d963d885e79968156b1cb8ad";
 const visualDigest =
   "a2a0ae7d599d733dffc5b89502a10983c483a9ac174a952581fbea372179f1d1";
+const publicCase =
+  "https://cambridgetcg.github.io/kingdom-meaning-practice/";
+const immutableCase =
+  "https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json";
+const factualCorrection =
+  "https://github.com/cambridgetcg/kingdom-meaning-practice/issues";
+const projectionCorrection =
+  "https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20projection%20correction";
+const castleInterpretation =
+  "https://github.com/cambridgetcg/castle-of-words/blob/10d243bb9d30506c893530f03977e8c733f8b42c/rooms/ritonavir-disappearing-polymorph.md";
 
 const levels = [
   {
@@ -106,7 +116,7 @@ const sources = [
 export const metadata: Metadata = {
   title: "Ritonavir and the crystal form that seemed to disappear",
   description:
-    "A source-bound visual reading of ritonavir polymorphism, the unknown first Form-II nucleus, later seed amplification, and recovered routes to Form I.",
+    "A source-linked visual projection of ritonavir polymorphism, the unknown first Form-II nucleus, later seed amplification, and recovered routes to Form I.",
   alternates: {
     canonical:
       "https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph",
@@ -220,14 +230,20 @@ export default function RitonavirPolymorphPage() {
         <p className="eyebrow">projection, sources, correction</p>
         <h2 id="sources-heading">The account can answer back</h2>
         <p>
-          This page is a public reading aid, not a second scientific record.
-          Its structured source is the KINGDOM guest-house case{" "}
+          This page is a public projection, not a second scientific record.
+          The factual home remains the KINGDOM guest-house case{" "}
           <code>extensions/meaning/cases/ritonavir-polymorph/case.json</code>,
           reviewed 11 August 2026 at SHA-256 <code>{caseDigest}</code>. Official
           records and named studies control their own claims.
         </p>
         <p>
-          The reviewed SVG is SHA-256 <code>{visualDigest}</code>.
+          Its exact reviewed bytes are preserved in an{" "}
+          <a href={immutableCase}>immutable public JSON receipt</a>. The{" "}
+          <a href={publicCase}>KINGDOM meaning practice</a> is the authoritative
+          public mirror and human reading of that record.
+        </p>
+        <p>
+          The reviewed SVG mirrored here is SHA-256 <code>{visualDigest}</code>.
         </p>
         <p>
           Projection revision 1 was prepared by Codex at Yu&apos;s direction and
@@ -238,20 +254,22 @@ export default function RitonavirPolymorphPage() {
           bundled here.
         </p>
         <p className="boundary-note">
-          Source links are locators, not exact-byte receipts. A correction
-          should repair the source case first, then refresh this projection.
+          Source links are locators, not proof of their exact bytes. A factual
+          correction starts at the public case path, then this projection can
+          be refreshed. Gate-specific display corrections stay separate.
         </p>
         <p className="contract-links">
+          <a href={publicCase}>public case</a>
+          <a href={immutableCase}>immutable JSON receipt</a>
+          <a href={factualCorrection}>factual correction path</a>
+          <a href={projectionCorrection}>Gate projection correction</a>
           <a href="/castle-gate/cases/ritonavir-polymorph/ritonavir-polymorph.svg">
             standalone SVG
-          </a>
-          <a href="https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20case%20correction">
-            correction path
           </a>
           <a href="/castle-gate/cases/ritonavir-polymorph/provenance.txt">
             provenance + reuse
           </a>
-          <a href="https://github.com/cambridgetcg/castle-of-words/blob/c538571599fa54c72db47b356ccbd3b3551d3f8a/rooms/ritonavir-disappearing-polymorph.md">
+          <a href={castleInterpretation}>
             Castle interpretation source
           </a>
         </p>

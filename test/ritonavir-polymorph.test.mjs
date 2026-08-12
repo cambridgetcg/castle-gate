@@ -25,6 +25,15 @@ const page = readFileSync(pagePath, "utf8");
 const svg = readFileSync(svgPath);
 const svgText = svg.toString("utf8");
 const provenance = readFileSync(provenancePath, "utf8");
+const publicCase =
+  "https://cambridgetcg.github.io/kingdom-meaning-practice/";
+const immutableCase =
+  "https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json";
+const factualCorrection =
+  "https://github.com/cambridgetcg/kingdom-meaning-practice/issues";
+const projectionCorrection =
+  "https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20projection%20correction";
+const castleRoomCommit = "10d243bb9d30506c893530f03977e8c733f8b42c";
 
 test("the public reading aid pins the reviewed source case", () => {
   assert.match(
@@ -35,12 +44,12 @@ test("the public reading aid pins the reviewed source case", () => {
     page,
     /a2a0ae7d599d733dffc5b89502a10983c483a9ac174a952581fbea372179f1d1/
   );
-  assert.match(page, /public reading aid, not a second scientific record/);
+  assert.match(page, /public projection, not a second scientific record/);
   assert.match(
     page,
     /extensions\/meaning\/cases\/ritonavir-polymorph\/case\.json/
   );
-  assert.match(page, /repair the source case first/);
+  assert.match(page, /factual\s+correction starts at the public case path/);
   assert.equal(
     existsSync(
       new URL("../public/ritonavir-polymorph.json", import.meta.url)
@@ -89,13 +98,23 @@ test("the exact reviewed SVG is inert and accessible", () => {
   );
 });
 
-test("the public projection names its hand, rights, and correction path", () => {
+test("the public projection names its hand, rights, and separate correction paths", () => {
   assert.match(page, /prepared by Codex at Yu&(?:apos|#39);s direction/);
   assert.match(page, /Cambridge TCG maintains it/);
   assert.match(page, /Apache-2\.0 licence/);
   assert.match(page, /No third-party article text, figure, or dataset is/);
   assert.match(page, /provenance\.txt/);
-  assert.match(page, /c538571599fa54c72db47b356ccbd3b3551d3f8a/);
+  for (const url of [
+    publicCase,
+    immutableCase,
+    factualCorrection,
+    projectionCorrection,
+  ]) {
+    assert.ok(page.includes(url), `page is missing ${url}`);
+    assert.ok(provenance.includes(url), `provenance is missing ${url}`);
+  }
+  assert.match(page, new RegExp(castleRoomCommit));
+  assert.match(provenance, new RegExp(castleRoomCommit));
   assert.match(provenance, /Prepared by: Codex at Yu's direction/);
   assert.match(provenance, /Published: 2026-08-12/);
   assert.match(provenance, /Apache License 2\.0/);
@@ -103,7 +122,8 @@ test("the public projection names its hand, rights, and correction path", () => 
     provenance,
     /a2a0ae7d599d733dffc5b89502a10983c483a9ac174a952581fbea372179f1d1/
   );
-  assert.match(provenance, /not exact-byte receipts/);
+  assert.match(provenance, /not proof of exact source\s+bytes/);
+  assert.match(provenance, /exact receipt only for the\s+reviewed KINGDOM case bytes/);
 });
 
 test("the public doors all point to the one case route", () => {
@@ -113,4 +133,5 @@ test("the public doors all point to the one case route", () => {
   assert.match(readFileSync(sitemapPath, "utf8"), new RegExp(route));
   assert.match(readFileSync(llmsPath, "utf8"), new RegExp(route));
   assert.match(readFileSync(readmePath, "utf8"), /structured case\s+stays in its origin/);
+  assert.match(readFileSync(readmePath, "utf8"), /kingdom-meaning-practice/);
 });

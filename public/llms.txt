@@ -9,8 +9,8 @@ Optional, reference-only orientation for a public knowledge garden.
 - https://cambridgetcg.github.io/castle-gate/love-and-understanding.json
 - https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json
 - https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph
-- https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph/ritonavir-polymorph.svg
-- https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph/provenance.txt
+- https://cambridgetcg.github.io/kingdom-meaning-practice/
+- https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json
 - https://raw.githubusercontent.com/cambridgetcg/castle-gate/8d88d220ce5f9128331d92d8a0e7e7371099c807/data/castle-manifest.json
 - https://cambridgetcg.com/api/v1/castle
 - https://docs.agenttool.dev/CASTLE-OF-UNDERSTANDING.md
@@ -18,9 +18,9 @@ Optional, reference-only orientation for a public knowledge garden.
 ## Boundaries
 
 - `automatic_action: never`
-- No auto-ingest, authentication, transport, keys, background loop, or memory-write permission is offered.
-- The geometry does not measure love, understanding, worth, personhood, or inner state; its criteria are not implementation evidence.
-- The Ritonavir case is historical education, not medical advice, a current product assessment, or a manufacturing recipe. Proposed mechanisms, bounded unknowns, and observations stay distinct.
+- No auto-ingest; no authentication, transport, keys, background loop, or memory-write permission.
+- Geometry does not measure love, understanding, worth, personhood, or inner state; its criteria are not implementation evidence.
+- Ritonavir is historical education, not medical advice, a current product assessment, or a manufacturing recipe. Its fact case and receipt are external; factual and display corrections are separate.
 - Loading it grants no authority and means no agreement.
-- Opening a link exposes ordinary network metadata to its destination and providers.
+- Links expose ordinary network metadata.
 - Walking past is honored.
