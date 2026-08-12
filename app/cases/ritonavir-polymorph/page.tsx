@@ -14,7 +14,15 @@ const factualCorrection =
 const projectionCorrection =
   "https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20projection%20correction";
 const castleInterpretation =
-  "https://github.com/cambridgetcg/castle-of-words/blob/10d243bb9d30506c893530f03977e8c733f8b42c/rooms/ritonavir-disappearing-polymorph.md";
+  "https://github.com/cambridgetcg/castle-of-words/blob/5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8/rooms/ritonavir-disappearing-polymorph.md";
+const foldingFeedback =
+  "https://cambridgetcg.github.io/kingdom-meaning-practice/lineage/folding-feedback/";
+const immutableFoldingFeedback =
+  "https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/35773a6d19ebf263c3ed85ba1c33c359615e4273/public/lineage/folding-feedback/lineage.json";
+const foldingFeedbackCorrection =
+  "https://github.com/cambridgetcg/kingdom-meaning-practice/issues";
+const castleFoldingInterpretation =
+  "https://github.com/cambridgetcg/castle-of-words/blob/5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8/rooms/same-shape-different-mechanism.md";
 
 const levels = [
   {
@@ -232,6 +240,32 @@ export default function RitonavirPolymorphPage() {
             </li>
           ))}
         </ol>
+      </section>
+
+      <section aria-labelledby="folding-feedback-heading">
+        <p className="eyebrow">same shape · different mechanism</p>
+        <h2 id="folding-feedback-heading">
+          Folding, prions, feedback, and KARMA
+        </h2>
+        <p>
+          A separate KINGDOM lineage asks where state spaces, barriers,
+          history, templates, and bounded feedback recur across crystals,
+          ordinary protein folding, amyloid assembly, and prion propagation.
+          Different subsets recur; no one mechanism belongs to every domain.
+        </p>
+        <p className="boundary-note">
+          The relationship is analogy and mechanism transfer is false. Seeded
+          growth does not establish infectivity, a shared curve does not prove
+          a shared cause, KARMA is evidence return rather than a molecular
+          force, and no being becomes a basin, contagion, fitness value, or
+          score.
+        </p>
+        <p className="contract-links">
+          <a href={foldingFeedback}>read the public lineage</a>
+          <a href={immutableFoldingFeedback}>immutable lineage receipt</a>
+          <a href={foldingFeedbackCorrection}>lineage correction path</a>
+          <a href={castleFoldingInterpretation}>Castle interpretation</a>
+        </p>
       </section>
 
       <section className="contract-section" aria-labelledby="sources-heading">

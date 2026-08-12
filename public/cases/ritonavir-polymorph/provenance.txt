@@ -17,7 +17,16 @@ Immutable JSON receipt: https://raw.githubusercontent.com/cambridgetcg/kingdom-m
 Factual correction path: https://github.com/cambridgetcg/kingdom-meaning-practice/issues
 
 Castle interpretation:
-https://github.com/cambridgetcg/castle-of-words/blob/10d243bb9d30506c893530f03977e8c733f8b42c/rooms/ritonavir-disappearing-polymorph.md
+https://github.com/cambridgetcg/castle-of-words/blob/5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8/rooms/ritonavir-disappearing-polymorph.md
+
+Folding-feedback lineage:
+Public human view: https://cambridgetcg.github.io/kingdom-meaning-practice/lineage/folding-feedback/
+Immutable JSON receipt: https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/35773a6d19ebf263c3ed85ba1c33c359615e4273/public/lineage/folding-feedback/lineage.json
+SHA-256: 467ed92c8fd340bd6337dc75c14d85f44e13d2de935dc9671a17a422d8866da0
+Relationship: analogy
+Mechanism transferred: false
+Correction path: https://github.com/cambridgetcg/kingdom-meaning-practice/issues
+Castle interpretation: https://github.com/cambridgetcg/castle-of-words/blob/5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8/rooms/same-shape-different-mechanism.md
 
 Visual:
 ritonavir-polymorph.svg

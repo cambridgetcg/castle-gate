@@ -37,7 +37,7 @@ const projectionCorrection =
   "https://github.com/cambridgetcg/castle-gate/issues/new?title=Ritonavir%20projection%20correction";
 const structuredRights =
   "https://github.com/cambridgetcg/kingdom-meaning-practice/blob/main/RIGHTS.md";
-const castleRoomCommit = "10d243bb9d30506c893530f03977e8c733f8b42c";
+const castleRoomCommit = "5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8";
 
 test("the public reading aid pins the reviewed source case", () => {
   assert.match(
