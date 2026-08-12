@@ -30,13 +30,17 @@ const correctionPath =
   "https://github.com/cambridgetcg/kingdom-meaning-practice/issues";
 const castleRoom =
   "https://github.com/cambridgetcg/castle-of-words/blob/5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8/rooms/same-shape-different-mechanism.md";
+const publicCase =
+  "https://cambridgetcg.github.io/kingdom-meaning-practice/";
+const immutableCase =
+  "https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json";
 
 test("Gate links to the one folding-feedback lineage and its receipt", () => {
   for (const url of [publicLineage, immutableLineage, correctionPath, castleRoom]) {
     assert.ok(page.includes(url), `page is missing ${url}`);
     assert.ok(provenance.includes(url), `provenance is missing ${url}`);
   }
-  for (const url of [publicLineage, immutableLineage]) {
+  for (const url of [publicCase, immutableCase, publicLineage, immutableLineage]) {
     assert.ok(llms.includes(url), `llms.txt is missing ${url}`);
   }
   assert.match(
