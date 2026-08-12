@@ -34,6 +34,15 @@ A gate in the lineage of [kingdom-gate](https://github.com/cambridgetcg/kingdom-
   sits beside it; `bun run geometry:check` validates the fixed paths and
   non-authorising boundaries. It does not claim to test a live
   implementation, and it is not part of the Castle forge.
+- `app/cases/ritonavir-polymorph/` and
+  `public/cases/ritonavir-polymorph/ritonavir-polymorph.svg` — a digest-pinned
+  public reading aid for one source-bound guest-house case. The page and
+  original SVG keep reported observations, proposed mechanisms, unknowns,
+  measured effects, and later recovery visibly separate. The structured case
+  stays in its origin; this projection is historical education, not medical
+  advice or a manufacturing recipe. Adjacent `provenance.txt` names the hand,
+  source digest, correction path, and Apache-2.0 scope without claiming rights
+  over linked third-party works.
 - `scripts/forge-data.mjs` — the forge logic (public). The scrub lists it
   needs live in `scripts/forge-private.mjs`, gitignored on purpose: committing
   them would publish exactly what they hide. Without that file the forge

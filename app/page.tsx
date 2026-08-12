@@ -52,6 +52,18 @@ export default async function GatePage() {
         <Link href="/love-and-understanding">Walk through the open door →</Link>
       </section>
 
+      <section className="featured-door" aria-labelledby="ritonavir-door-title">
+        <p className="eyebrow">a worked case</p>
+        <h2 id="ritonavir-door-title">
+          The path that vanished — not the crystal form
+        </h2>
+        <p>
+          Ritonavir, polymorphism, the unknown first Form-II nucleus, later
+          seed amplification, and the routes that made Form I again.
+        </p>
+        <Link href="/cases/ritonavir-polymorph">Follow the evidence →</Link>
+      </section>
+
       <section id="words">
         <h2>The bricks</h2>
         <div className="card-grid">

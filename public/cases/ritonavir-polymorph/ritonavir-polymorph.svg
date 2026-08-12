@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" lang="en" aria-labelledby="ritonavir-title ritonavir-desc">
+  <title id="ritonavir-title">Ritonavir disappearing polymorph: unknown first nucleus, later seeding, measured failure, and recovery</title>
+  <desc id="ritonavir-desc">A schematic source reading. Ritonavir remains the same chemical compound while Forms I and II use different crystal packings. The first historical Form II nucleus is unknown; a cyclic-carbamate degradant is only a tested possible trigger. Once Form II crystals existed, seed surfaces and suitable supersaturation supported later Form II growth. Form II precipitated in the capsule formulation and dissolution failed. Controlled routes reported in 2000, 2003, and 2024 produced Form I again.</desc>
+  <defs>
+    <marker id="blue-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#315d73"/>
+    </marker>
+    <marker id="amber-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#a26327"/>
+    </marker>
+    <marker id="green-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#28705c"/>
+    </marker>
+    <style>
+      .paper { fill: #f7f1e5; }
+      .panel { fill: #fffdf7; stroke: #315d73; stroke-width: 2; }
+      .form-i { fill: #e3f1eb; stroke: #28705c; stroke-width: 2; }
+      .form-ii { fill: #f5e3d2; stroke: #a26327; stroke-width: 2; }
+      .unknown { fill: #fff6d8; stroke: #a26327; stroke-width: 2.5; stroke-dasharray: 8 7; }
+      .recovery-box { fill: #eef7f2; stroke: #28705c; stroke-width: 2; }
+      .observed { fill: none; stroke: #315d73; stroke-width: 3; marker-end: url(#blue-arrow); }
+      .proposed { fill: none; stroke: #a26327; stroke-width: 3; stroke-dasharray: 9 8; marker-end: url(#amber-arrow); }
+      .recovery-under { fill: none; stroke: #b9d8cc; stroke-width: 8; }
+      .recovery { fill: none; stroke: #28705c; stroke-width: 3; marker-end: url(#green-arrow); }
+      .ink { fill: #173443; }
+      .muted { fill: #53676f; }
+      .amber { fill: #8a531f; }
+      .green { fill: #235f50; }
+      text { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .h1 { font-size: 31px; font-weight: 700; }
+      .h2 { font-size: 19px; font-weight: 700; }
+      .body { font-size: 16px; }
+      .small { font-size: 13px; }
+      .label { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; }
+    </style>
+  </defs>
+
+  <rect class="paper" width="1200" height="900"/>
+  <text class="ink h1" x="54" y="54">The path that vanished — not the crystal form</text>
+  <text class="muted body" x="54" y="83">Ritonavir: one chemical compound, different crystal packings, a changed process history, and recoverable routes.</text>
+
+  <line x1="56" y1="111" x2="106" y2="111" class="observed"/>
+  <text class="muted small" x="118" y="116">reported observation</text>
+  <line x1="300" y1="111" x2="350" y2="111" class="proposed"/>
+  <text class="muted small" x="362" y="116">proposed or unsettled</text>
+  <line x1="575" y1="111" x2="625" y2="111" class="recovery-under"/>
+  <line x1="575" y1="111" x2="625" y2="111" class="recovery"/>
+  <text class="muted small" x="637" y="116">later reported recovery</text>
+  <text class="muted small" x="896" y="116">schematic reading aid · no crystal structure drawn</text>
+
+  <rect class="panel" x="54" y="158" width="235" height="114" rx="18"/>
+  <text class="ink h2" x="171" y="194" text-anchor="middle">Same chemical compound</text>
+  <text class="muted body" x="171" y="224" text-anchor="middle">ritonavir</text>
+  <text class="muted small" x="171" y="250" text-anchor="middle">covalent identity unchanged</text>
+
+  <rect class="form-i" x="370" y="145" width="245" height="108" rx="18"/>
+  <text class="ink h2" x="492" y="181" text-anchor="middle">Form I</text>
+  <text class="muted body" x="492" y="208" text-anchor="middle">one conformation + packing</text>
+  <text class="muted small" x="492" y="232" text-anchor="middle">more soluble in the cited tests</text>
+
+  <rect class="form-ii" x="370" y="282" width="245" height="108" rx="18"/>
+  <text class="ink h2" x="492" y="318" text-anchor="middle">Form II</text>
+  <text class="muted body" x="492" y="345" text-anchor="middle">another conformation + packing</text>
+  <text class="muted small" x="492" y="369" text-anchor="middle">more stable, less soluble in cited regime</text>
+
+  <path class="observed" d="M289 208 C330 194 340 194 360 194"/>
+  <path class="observed" d="M289 226 C330 266 340 310 360 326"/>
+  <text class="muted small" x="303" y="176">two measured solids</text>
+
+  <rect class="unknown" x="630" y="154" width="238" height="126" rx="18"/>
+  <text class="amber h2" x="749" y="193" text-anchor="middle">First Form-II nucleus</text>
+  <text class="amber body" x="749" y="222" text-anchor="middle">cause UNKNOWN</text>
+  <text class="amber small" x="749" y="250" text-anchor="middle">Do not invent the 1998 cause.</text>
+  <path class="proposed" d="M630 245 C624 262 620 280 616 303"/>
+
+  <rect class="unknown" x="910" y="154" width="235" height="126" rx="18"/>
+  <text class="amber label" x="1027" y="181" text-anchor="middle">TESTED HYPOTHESIS</text>
+  <text class="ink body" x="1027" y="208" text-anchor="middle">cyclic-carbamate degradant</text>
+  <text class="ink body" x="1027" y="232" text-anchor="middle">could nucleate Form II</text>
+  <text class="muted small" x="1027" y="257" text-anchor="middle">possible template ≠ proved 1998 cause</text>
+  <path class="proposed" d="M900 217 L878 217"/>
+
+  <rect class="panel" x="664" y="326" width="250" height="120" rx="18"/>
+  <text class="ink h2" x="789" y="360" text-anchor="middle">Later amplification</text>
+  <text class="muted body" x="789" y="389" text-anchor="middle">Form-II seed surface</text>
+  <text class="muted body" x="789" y="413" text-anchor="middle">+ suitable supersaturation</text>
+  <text class="muted small" x="789" y="435" text-anchor="middle">observed conditionally, not inevitable</text>
+  <path class="observed" d="M615 337 L654 365"/>
+
+  <rect class="form-ii" x="963" y="326" width="182" height="120" rx="18"/>
+  <text class="ink h2" x="1054" y="361" text-anchor="middle">More Form II</text>
+  <text class="muted body" x="1054" y="389" text-anchor="middle">growth becomes easier</text>
+  <text class="muted small" x="1054" y="414" text-anchor="middle">under suitable conditions</text>
+  <text class="muted small" x="1054" y="436" text-anchor="middle">first trigger still unknown</text>
+  <path class="observed" d="M924 386 L953 386"/>
+
+  <rect class="panel" x="54" y="474" width="1091" height="128" rx="18"/>
+  <text class="ink label" x="78" y="501">1998 PRODUCT RELATION — CAUSAL MATERIAL LENS, NOT DISCOVERY ORDER</text>
+  <rect class="panel" x="79" y="520" width="250" height="60" rx="13"/>
+  <text class="ink body" x="204" y="546" text-anchor="middle">equilibrium solubility</text>
+  <text class="muted small" x="204" y="563" text-anchor="middle">lower in named media</text>
+  <text class="muted small" x="204" y="578" text-anchor="middle">+ nucleus/seed + supersaturation</text>
+  <rect class="form-ii" x="420" y="520" width="250" height="60" rx="13"/>
+  <text class="ink body" x="545" y="546" text-anchor="middle">Form II precipitated</text>
+  <text class="muted small" x="545" y="567" text-anchor="middle">in supersaturated capsule fill</text>
+  <rect class="panel" x="761" y="520" width="250" height="60" rx="13"/>
+  <text class="ink body" x="886" y="546" text-anchor="middle">dosage-form dissolution</text>
+  <text class="muted small" x="886" y="567" text-anchor="middle">capsule lots failed</text>
+  <path class="observed" d="M339 550 L410 550"/>
+  <path class="observed" d="M680 550 L751 550"/>
+  <text class="muted small" x="1028" y="542">≠ clinical</text>
+  <text class="muted small" x="1028" y="561">bioavailability</text>
+  <text class="muted small" x="1028" y="578">or patient outcome</text>
+
+  <text class="green label" x="54" y="647">FORM I DID NOT BECOME IMPOSSIBLE — CHANGED ROUTES PRODUCED IT AGAIN</text>
+  <path class="recovery-under" d="M289 722 C330 786 850 786 911 716"/>
+  <path class="recovery" d="M289 722 C330 786 850 786 911 716"/>
+  <path class="recovery-under" d="M568 722 C600 800 865 800 911 742"/>
+  <path class="recovery" d="M568 722 C600 800 865 800 911 742"/>
+  <path class="recovery-under" d="M847 722 L911 722"/>
+  <path class="recovery" d="M847 722 L911 722"/>
+  <rect class="recovery-box" x="54" y="670" width="235" height="104" rx="18"/>
+  <text class="ink h2" x="171" y="705" text-anchor="middle">2000 report</text>
+  <text class="muted small" x="171" y="730" text-anchor="middle">lab: Form I from Form-II material</text>
+  <text class="muted small" x="171" y="751" text-anchor="middle">bulk: implemented Form I (&lt;3% Form II)</text>
+
+  <rect class="recovery-box" x="333" y="670" width="235" height="104" rx="18"/>
+  <text class="ink h2" x="450" y="705" text-anchor="middle">2003 study</text>
+  <text class="muted small" x="450" y="730" text-anchor="middle">source-specific solvate → hydrate</text>
+  <text class="muted small" x="450" y="751" text-anchor="middle">→ Form I route</text>
+
+  <rect class="recovery-box" x="612" y="670" width="235" height="104" rx="18"/>
+  <text class="ink h2" x="729" y="705" text-anchor="middle">2024 study</text>
+  <text class="muted small" x="729" y="730" text-anchor="middle">specified milling conditions</text>
+  <text class="muted small" x="729" y="751" text-anchor="middle">repeatedly selected I or II</text>
+
+  <rect class="form-i" x="921" y="670" width="224" height="104" rx="18"/>
+  <text class="ink h2" x="1033" y="710" text-anchor="middle">Form I produced again</text>
+  <text class="muted body" x="1033" y="740" text-anchor="middle">under named conditions</text>
+  <text class="muted small" x="1033" y="761" text-anchor="middle">recovery ≠ old routine restored</text>
+
+  <rect class="panel" x="54" y="812" width="1091" height="58" rx="15"/>
+  <text class="ink body" x="599" y="837" text-anchor="middle">KINGDOM reading: not observed ≠ absent · not reproduced ≠ impossible · trigger ≠ amplification · stable ≠ useful</text>
+  <text class="muted small" x="599" y="858" text-anchor="middle">Analogy only · no chemical mechanism transferred · no action authorised · no medical or manufacturing advice</text>
+</svg>

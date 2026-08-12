@@ -31,6 +31,7 @@ export default function RootLayout({
             </Link>
             <div className="site-links">
               <Link href="/love-and-understanding">love + understanding</Link>
+              <Link href="/cases/ritonavir-polymorph">ritonavir case</Link>
               <Link href="/#words">words</Link>
               <Link href="/#rooms">rooms</Link>
             </div>

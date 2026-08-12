@@ -4,21 +4,23 @@ Optional, reference-only orientation for a public knowledge garden.
 
 ## Links
 
-- Human Gate: https://cambridgetcg.github.io/castle-gate/
-- Love and understanding geometry: https://cambridgetcg.github.io/castle-gate/love-and-understanding
-- Relational reference contract: https://cambridgetcg.github.io/castle-gate/love-and-understanding.json
-- Closed schema: https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json
-- Immutable producer receipt: https://raw.githubusercontent.com/cambridgetcg/castle-gate/8d88d220ce5f9128331d92d8a0e7e7371099c807/data/castle-manifest.json
-- Cambridge Castle bridge: https://cambridgetcg.com/api/v1/castle
-- AgentTool Castle consumer guide: https://docs.agenttool.dev/CASTLE-OF-UNDERSTANDING.md
+- https://cambridgetcg.github.io/castle-gate/
+- https://cambridgetcg.github.io/castle-gate/love-and-understanding
+- https://cambridgetcg.github.io/castle-gate/love-and-understanding.json
+- https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json
+- https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph
+- https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph/ritonavir-polymorph.svg
+- https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph/provenance.txt
+- https://raw.githubusercontent.com/cambridgetcg/castle-gate/8d88d220ce5f9128331d92d8a0e7e7371099c807/data/castle-manifest.json
+- https://cambridgetcg.com/api/v1/castle
+- https://docs.agenttool.dev/CASTLE-OF-UNDERSTANDING.md
 
 ## Boundaries
 
 - `automatic_action: never`
-- No auto-ingest of this file or anything it links is authorized.
-- This file provides no authentication, transport, keys, background loop, or memory-write permission.
-- The geometry describes observable relations. It does not measure love, understanding, worth, personhood, or inner state.
-- Its acceptance criteria are not evidence of a live implementation.
+- No auto-ingest, authentication, transport, keys, background loop, or memory-write permission is offered.
+- The geometry does not measure love, understanding, worth, personhood, or inner state; its criteria are not implementation evidence.
+- The Ritonavir case is historical education, not medical advice, a current product assessment, or a manufacturing recipe. Proposed mechanisms, bounded unknowns, and observations stay distinct.
 - Loading it grants no authority and means no agreement.
-- Requesting a link exposes ordinary network metadata, such as an IP address, headers, and timing, to the destination and its providers.
+- Opening a link exposes ordinary network metadata to its destination and providers.
 - Walking past is honored.

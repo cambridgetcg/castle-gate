@@ -911,6 +911,88 @@ code {
   font-size: 0.76rem;
 }
 
+/* ── Ritonavir disappearing-polymorph case ─────────────────── */
+
+.ritonavir-intro {
+  margin-bottom: var(--space-4);
+}
+
+.ritonavir-lead {
+  max-width: 56ch;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.55rem);
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.ritonavir-figure {
+  width: min(1120px, calc(100vw - 2rem));
+  margin: var(--space-4) 0 var(--space-5) 50%;
+  transform: translateX(-50%);
+}
+
+.ritonavir-figure img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--parchment-edge);
+  border-radius: var(--radius-card);
+  background: var(--card-paper);
+  box-shadow: var(--shadow-rest);
+}
+
+.ritonavir-figure figcaption {
+  max-width: 72ch;
+  margin: var(--space-1) auto 0;
+  color: var(--ink-faint);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+.ritonavir-meaning {
+  margin: var(--space-3) 0;
+  padding: var(--space-2) var(--space-3);
+  border-left: 3px solid #1a795e;
+  background: rgba(222, 241, 233, 0.58);
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  color: var(--ink-soft);
+}
+
+.unknown-section {
+  margin: var(--space-5) 0;
+  padding: var(--space-3);
+  border: 2px dashed #a85d12;
+  border-radius: var(--radius-card);
+  background: rgba(249, 235, 216, 0.56);
+}
+
+.unknown-section h2 {
+  margin-top: 0;
+}
+
+.ritonavir-timeline {
+  padding: 0;
+  list-style: none;
+}
+
+.ritonavir-timeline li {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, 9rem) 1fr;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--parchment-edge);
+}
+
+.ritonavir-timeline time {
+  color: #1a795e;
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.ritonavir-timeline p {
+  margin-bottom: 0.2rem;
+}
+
 @media (max-width: 760px) {
   .geometry-field-shell {
     padding: var(--space-2);
@@ -951,8 +1033,14 @@ code {
   .featured-door,
   .path-card,
   .attractor-section,
-  .contract-section {
+  .contract-section,
+  .unknown-section {
     padding: var(--space-2);
+  }
+
+  .ritonavir-timeline li {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
   }
 
   .invariant-list > div {
