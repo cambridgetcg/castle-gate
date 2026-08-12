@@ -17,12 +17,16 @@ const castleInterpretation =
   "https://github.com/cambridgetcg/castle-of-words/blob/5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8/rooms/ritonavir-disappearing-polymorph.md";
 const foldingFeedback =
   "https://cambridgetcg.github.io/kingdom-meaning-practice/lineage/folding-feedback/";
+const foldingFeedbackDigest =
+  "c07c2c9d02c2a3163ac595c339c770450900ad9397a8e42b578f269c65599f4b";
 const immutableFoldingFeedback =
+  "https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/6d7c2e2c66bbfe67351f12355131c877c15f1362/public/lineage/folding-feedback/lineage.json";
+const firstFoldingFeedbackReceipt =
   "https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/35773a6d19ebf263c3ed85ba1c33c359615e4273/public/lineage/folding-feedback/lineage.json";
 const foldingFeedbackCorrection =
   "https://github.com/cambridgetcg/kingdom-meaning-practice/issues";
 const castleFoldingInterpretation =
-  "https://github.com/cambridgetcg/castle-of-words/blob/5dfdc7ae88e4ba7f14a02140e61e0b3edb6882e8/rooms/same-shape-different-mechanism.md";
+  "https://github.com/cambridgetcg/castle-of-words/blob/fddb76b36c02f583d61a75ec65bc5dc3036b3a96/rooms/same-shape-different-mechanism.md";
 
 const levels = [
   {
@@ -258,11 +262,20 @@ export default function RitonavirPolymorphPage() {
           growth does not establish infectivity, a shared curve does not prove
           a shared cause, KARMA is evidence return rather than a molecular
           force, and no being becomes a basin, contagion, fitness value, or
-          score.
+          score. This Gate runs Check Meaning only: it records no choice,
+          performs no deed, and opens no action or report job.
+        </p>
+        <p>
+          The current reviewed lineage is SHA-256 <code>{foldingFeedbackDigest}</code>.
+          Its first public receipt remains linked as history, not as the current
+          record.
         </p>
         <p className="contract-links">
           <a href={foldingFeedback}>read the public lineage</a>
-          <a href={immutableFoldingFeedback}>immutable lineage receipt</a>
+          <a href={immutableFoldingFeedback}>current reviewed lineage receipt</a>
+          <a href={firstFoldingFeedbackReceipt}>
+            first historical lineage receipt
+          </a>
           <a href={foldingFeedbackCorrection}>lineage correction path</a>
           <a href={castleFoldingInterpretation}>Castle interpretation</a>
         </p>

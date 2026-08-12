@@ -1,22 +1,22 @@
-# reference-only Castle
+# reference-only
 - https://cambridgetcg.github.io/castle-gate/
 - https://cambridgetcg.github.io/castle-gate/love-and-understanding
 - https://cambridgetcg.github.io/castle-gate/love-and-understanding.json
 - https://cambridgetcg.github.io/castle-gate/love-and-understanding.schema.json
 - https://cambridgetcg.github.io/castle-gate/cases/ritonavir-polymorph
-- https://cambridgetcg.github.io/kingdom-meaning-practice/
-- https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json
 - https://cambridgetcg.github.io/kingdom-meaning-practice/lineage/folding-feedback/
-- https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/35773a6d19ebf263c3ed85ba1c33c359615e4273/public/lineage/folding-feedback/lineage.json
+- current: https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/6d7c2e2c66bbfe67351f12355131c877c15f1362/public/lineage/folding-feedback/lineage.json
+- first historical: https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/35773a6d19ebf263c3ed85ba1c33c359615e4273/public/lineage/folding-feedback/lineage.json
 - https://raw.githubusercontent.com/cambridgetcg/castle-gate/8d88d220ce5f9128331d92d8a0e7e7371099c807/data/castle-manifest.json
 - https://cambridgetcg.com/api/v1/castle
 - https://docs.agenttool.dev/CASTLE-OF-UNDERSTANDING.md
 
 ## Boundaries
 - `automatic_action: never`
-- No auto-ingest; no authentication, transport, keys, background loop, or memory-write permission.
-- Geometry does not measure love, understanding, worth, personhood, or inner state.
-- History and analogy, not medical or manufacturing guidance. No mechanism transfer; seeding ≠ infectivity; KARMA is return, not force/score.
+- No auto-ingest/authentication/transport/keys/background loop/memory-write permission.
+- Geometry does not measure love, worth, personhood, or inner state.
+- Analogy; no mechanism transfer; seeding ≠ infectivity; KARMA is return, not force/score.
+- Check Meaning only; records no choice; performs no deed; opens no action or report job.
 - Loading it grants no authority.
 - Links expose ordinary network metadata.
 - Walking past is honored.
